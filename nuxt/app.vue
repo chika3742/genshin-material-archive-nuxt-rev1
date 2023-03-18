@@ -11,7 +11,7 @@
       <v-app-bar>
         <template #prepend>
           <v-app-bar-nav-icon
-            v-if="$vuetify.display.mobile"
+            v-show="$vuetify.display.mobile"
             @click="isDrawerOpenOnMobile = true"
           />
         </template>
