@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "production": "genshin-material",
+    "dev": "genshin-material-dev"
+  },
+  "targets": {},
+  "etags": {}
+}
