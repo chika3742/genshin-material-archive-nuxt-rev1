@@ -28,7 +28,11 @@
         </template>
       </v-app-bar>
 
-      <NuxtPage :page-key="$route.fullPath" keepalive />
+      <v-main>
+        <v-container>
+          <NuxtPage :page-key="$route.fullPath" keepalive />
+        </v-container>
+      </v-main>
     </v-app>
   </div>
 </template>

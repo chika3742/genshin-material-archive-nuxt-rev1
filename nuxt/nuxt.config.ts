@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
+    pageTransition: {
+      name: "scroll-y-reverse-transition",
+      leaveActiveClass: "d-none",
+      duration: 200,
+    },
     head: {
       link: [
         {
