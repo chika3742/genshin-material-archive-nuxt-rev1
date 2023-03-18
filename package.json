@@ -1,8 +1,4 @@
 {
-  "name": "genshin-material",
-  "version": "1.0.0",
-  "repository": "https://github.com/chika3742/genshin-material.git",
-  "license": "MIT",
   "private": true,
   "scripts": {
     "emulators": "cd firebase && firebase emulators:start --import ./emulators-data --export-on-exit",
