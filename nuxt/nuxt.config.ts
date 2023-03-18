@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxtjs/i18n",
+    "@nuxtjs/google-fonts",
   ],
   i18n: {
     locales: [
@@ -42,5 +43,20 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+
+  googleFonts: {
+    families: {
+      "M PLUS 2": [400, 700],
+      "Kaisei Opti": [700],
+      Cairo: [700],
+      "Kiwi Maru": [500],
+    },
+  },
+
+  css: ["~/assets/styles/global.sass"],
+
+  nitro: {
+    preset: "node-server",
   },
 })
