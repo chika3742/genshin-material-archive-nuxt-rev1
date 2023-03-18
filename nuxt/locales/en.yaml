@@ -1,2 +1,17 @@
+common:
+  appName: Genshin Material Helper
+
 pageTitle:
   home: Home
+  about: About This App
+
+navDrawer:
+  buyMeCoffee: Buy Me a Coffee
+
+about:
+  settings:
+    heading: Settings
+  buyMeCoffee: |
+    ## Support
+    
+    If you like this app, please consider buying me a coffee!

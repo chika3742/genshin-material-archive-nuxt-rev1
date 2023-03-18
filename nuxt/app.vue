@@ -6,6 +6,8 @@
     />
 
     <v-app>
+      <AppDrawer v-model="isDrawerOpenOnMobile" />
+
       <v-app-bar>
         <template #prepend>
           <v-app-bar-nav-icon

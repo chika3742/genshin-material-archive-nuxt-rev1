@@ -1,2 +1,17 @@
+common:
+  appName: 原神素材ヘルパー
+
 pageTitle:
   home: ホーム
+  about: このアプリについて
+
+navDrawer:
+  buyMeCoffee: コーヒーをおごる
+
+about:
+  settings:
+    heading: 設定
+  buyMeCoffee: |
+    ## 支援について
+    
+    このアプリを気に入ってくれたら、ぜひコーヒーを1杯おごってくれると嬉しいです！
