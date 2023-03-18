@@ -1,0 +1,36 @@
+<template>
+  <div class="doc-container">
+    <section>
+      <h2>{{ $t("about.settings.heading") }}</h2>
+    </section>
+
+    <section>
+      <div v-html="marked.parse($t('about.buyMeCoffee'))" />
+      <a href="https://ko-fi.com/F2F26RSKD" target="_blank"><img
+        alt="Buy Me a Coffee at ko-fi.com"
+        height="36"
+        src="https://storage.ko-fi.com/cdn/kofi2.png?v=3"
+        style="border:0;height:36px;"
+      ></a>
+    </section>
+
+    <section>
+      <h2>開発者について</h2>
+      <h3>chika</h3>
+      <p>大学2年マイマイマー</p>
+      <v-row class="mt-2" no-gutters style="gap: 8px">
+        <v-btn href="https://chikach.net/about" icon="mdi-web" target="_blank" />
+        <v-btn href="https://www.youtube.com/@chikach3742" icon="mdi-youtube" target="_blank" />
+        <v-btn href="https://twitter.com/chikavoid" icon="mdi-twitter" target="_blank" />
+      </v-row>
+    </section>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import {marked} from "marked"
+
+definePageMeta({
+  title: "about",
+})
+</script>
