@@ -14,6 +14,11 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.9.0",
     "nuxt": "^3.3.1",
-    "typescript": "^5.0.2"
+    "typescript": "^4"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.1.96",
+    "sass": "^1.59.3",
+    "vuetify": "^3.1.10"
   }
 }

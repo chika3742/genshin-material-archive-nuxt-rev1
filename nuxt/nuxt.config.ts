@@ -6,8 +6,11 @@ export default defineNuxtConfig({
         {
           rel: "shortcut icon",
           href: "/favicon.webp",
-        }
-      ]
-    }
-  }
+        },
+      ],
+    },
+  },
+  build: {
+    transpile: ["vuetify"],
+  },
 })
