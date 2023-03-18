@@ -1,0 +1,25 @@
+root: true
+
+env:
+  browser: true
+  es2021: true
+
+overrides: []
+
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:vue/vue3-recommended
+  - plugin:promise/recommended
+  - "@nuxtjs/eslint-config-typescript"
+  - ../.eslintrc.yml
+
+parserOptions:
+  sourceType: module
+  ecmaVersion: latest
+
+plugins:
+  - "@typescript-eslint"
+
+ignorePatterns:
+  - .output/**
