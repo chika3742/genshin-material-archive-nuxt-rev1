@@ -4,8 +4,10 @@
       <h2>{{ $t("about.settings.heading") }}</h2>
     </section>
 
+    <section v-html="marked.parse($t('about.feedback'))" />
+
     <section>
-      <div v-html="marked.parse($t('about.buyMeCoffee'))" />
+      <div v-html="marked.parse($t('about.buyMeCoffee'), )" />
       <a href="https://ko-fi.com/F2F26RSKD" target="_blank"><img
         alt="Buy Me a Coffee at ko-fi.com"
         height="36"
@@ -29,6 +31,15 @@
 
 <script lang="ts" setup>
 import {marked} from "marked"
+
+const renderer = new marked.Renderer()
+renderer.link = (href, _, text) => {
+  return `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`
+}
+
+marked.setOptions({
+  renderer,
+})
 
 definePageMeta({
   title: "about",
