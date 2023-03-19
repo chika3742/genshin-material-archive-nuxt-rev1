@@ -17,9 +17,7 @@
     </section>
 
     <section>
-      <h2>開発者について</h2>
-      <h3>chika</h3>
-      <p>大学2年マイマイマー</p>
+      <div v-html="marked.parse($t('about.aboutDeveloper'))" />
       <v-row class="mt-2" no-gutters style="gap: 8px">
         <v-btn href="https://chikach.net/about" icon="mdi-web" target="_blank" />
         <v-btn href="https://www.youtube.com/@chikach3742" icon="mdi-youtube" target="_blank" />
