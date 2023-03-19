@@ -7,7 +7,7 @@
     <section v-html="marked.parse($t('about.feedback'))" />
 
     <section>
-      <div v-html="marked.parse($t('about.buyMeCoffee'), )" />
+      <div v-html="marked.parse($t('about.buyMeCoffee'))" />
       <a href="https://ko-fi.com/F2F26RSKD" target="_blank"><img
         alt="Buy Me a Coffee at ko-fi.com"
         height="36"
