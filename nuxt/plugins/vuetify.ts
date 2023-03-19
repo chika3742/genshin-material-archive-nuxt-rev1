@@ -9,19 +9,22 @@ export default defineNuxtPlugin((nuxtApp) => {
     components,
     directives,
     theme: {
-      // TODO: Use the store to get the current theme
       themes: {
         dark: {
           dark: true,
           colors: {
+            primary: "#ff8b00",
             star: "#ffff00",
+            footer: "#3a3a3a",
             "button-activated": "#d24700",
           },
         },
         light: {
           dark: false,
           colors: {
+            primary: "#22aefa",
             star: "#ff8c00",
+            footer: "#e1e1e1",
             "button-activated": "#ff5900",
           },
         },

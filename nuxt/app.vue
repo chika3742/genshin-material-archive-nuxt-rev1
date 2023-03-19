@@ -28,10 +28,13 @@
         </template>
       </v-app-bar>
 
-      <v-main>
+      <v-main class="d-flex flex-column">
         <v-container>
           <NuxtPage :page-key="$route.fullPath" keepalive />
         </v-container>
+
+        <v-spacer />
+        <AppFooter />
       </v-main>
 
       <v-fade-transition>
@@ -42,10 +45,14 @@
 </template>
 
 <script lang="ts" setup>
+import {useTheme} from "vuetify"
 import {computed} from "#imports"
+import {useConfigStore} from "~/store/config"
 
 const route = useRoute()
 const i18n = useI18n()
+const theme = useTheme()
+const config = useConfigStore()
 
 const isDrawerOpenOnMobile = ref(false)
 const isShowingSearchDialog = ref(false)
@@ -65,6 +72,7 @@ const title = computed(() => {
 
 onMounted(() => {
   mounted.value = true
+  theme.global.name.value = config.currentTheme
 })
 </script>
 

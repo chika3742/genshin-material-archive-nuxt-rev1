@@ -12,6 +12,14 @@ pageTitle:
 navDrawer:
   buyMeCoffee: Buy Me a Coffee
 
+footer:
+  disclaimer: This app is unofficial. All images and data belong to miHoYo/COGNOSPHERE.
+  theme: Theme
+  themeOption:
+    light: Light
+    dark: Dark
+    auto: Auto
+
 about:
   settings:
     heading: Settings

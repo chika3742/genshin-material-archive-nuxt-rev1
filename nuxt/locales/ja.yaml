@@ -12,6 +12,15 @@ pageTitle:
 navDrawer:
   buyMeCoffee: コーヒーをおごる
 
+footer:
+  disclaimer: このアプリは非公式です。画像・データの著作権はmiHoYo/COGNOSPHEREに帰属します。
+  theme: テーマ
+  themeOption:
+    light: ライト
+    dark: ダーク
+    auto: 自動
+
+
 about:
   settings:
     heading: 設定
