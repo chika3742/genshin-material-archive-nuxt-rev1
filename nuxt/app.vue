@@ -33,6 +33,10 @@
           <NuxtPage :page-key="$route.fullPath" keepalive />
         </v-container>
       </v-main>
+
+      <v-fade-transition>
+        <div v-show="!mounted" class="loading-overlay" />
+      </v-fade-transition>
     </v-app>
   </div>
 </template>
@@ -45,6 +49,7 @@ const i18n = useI18n()
 
 const isDrawerOpenOnMobile = ref(false)
 const isShowingSearchDialog = ref(false)
+const mounted = ref(false)
 
 const title = computed(() => {
   if (!route.meta.title) {
@@ -57,4 +62,41 @@ const title = computed(() => {
     return i18n.t(`pageTitle.${base}`)
   }
 })
+
+onMounted(() => {
+  mounted.value = true
+})
 </script>
+
+<style lang="sass" scoped>
+.loading-overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: #121212
+  z-index: 2000
+
+  &:after
+    // loading indicator
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 60px
+    height: 60px
+    margin-top: -50px
+    margin-left: -50px
+    border-radius: 50%
+    border: 5px solid #fff
+    border-top-color: #f75d4f
+    animation: spin 1.5s ease-in-out infinite
+
+    @keyframes spin
+      from
+        transform: rotate(0deg)
+      to
+        transform: rotate(360deg)
+
+</style>
