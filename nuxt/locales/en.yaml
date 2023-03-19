@@ -4,6 +4,10 @@ common:
 pageTitle:
   home: Home
   about: About This App
+  releaseNotes: Release Notes
+  terms: Terms of Service
+  termsSummarized: Terms of Service (Summarized)
+  privacy: Privacy Policy
 
 navDrawer:
   buyMeCoffee: Buy Me a Coffee
