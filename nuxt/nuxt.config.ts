@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import {generateSchemas} from "./scripts/generate-schemas"
+
 export default defineNuxtConfig({
   app: {
     pageTransition: {
@@ -24,6 +26,17 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
   ],
+  hooks: {
+    async "build:before"() {
+      await generateSchemas()
+    },
+    async "builder:watch"(_, path) {
+      if (path.startsWith("schemas/")) {
+        await generateSchemas()
+      }
+    },
+  },
+
   i18n: {
     locales: [
       {
