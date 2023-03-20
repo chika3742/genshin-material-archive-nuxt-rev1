@@ -3,7 +3,7 @@
     <section>
       <h2>はじめに</h2>
       <p>
-        本プライバシーポリシーは、原神素材ヘルパー (https://gms.chikach.net および、ベータ版ページ https://beta.gms.chikach.net
+        本プライバシーポリシーは、原神素材ヘルパー (https://gms.chikach.net および、アルファ版ページ https://gmnext.chikach.net
         、以下「本Webアプリ」)において、当サイトの訪問者の個人情報の取扱の方針について示したものとなります。
       </p>
       <p>また、本プライバシーポリシーは本Webアプリにのみ適用されます。</p>
@@ -64,7 +64,7 @@
     </section>
 
     <div class="data">
-      最終更新 2022/11/03
+      最終更新 2023/03/20
     </div>
   </div>
 </template>
