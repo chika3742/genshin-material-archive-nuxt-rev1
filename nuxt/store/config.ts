@@ -6,8 +6,8 @@ export const useConfigStore = defineStore("config", {
       theme: "auto" as ThemeConfig,
     }
   },
-  getters: {
-    currentTheme(): ThemeConfig {
+  actions: {
+    getCurrentTheme(): ThemeConfig {
       if (this.theme === "auto") {
         if (process.client) {
           return window.matchMedia("(prefers-color-scheme: dark)").matches

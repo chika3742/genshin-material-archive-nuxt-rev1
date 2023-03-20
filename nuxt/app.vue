@@ -72,7 +72,11 @@ const title = computed(() => {
 
 onMounted(() => {
   mounted.value = true
-  theme.global.name.value = config.currentTheme
+  theme.global.name.value = config.getCurrentTheme()
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    theme.global.name.value = config.getCurrentTheme()
+  })
 })
 </script>
 

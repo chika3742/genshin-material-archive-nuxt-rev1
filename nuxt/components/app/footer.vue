@@ -81,6 +81,6 @@ const availableLocales: {code: string, name: string}[] = [
 
 const setTheme = (theme: ThemeConfig) => {
   config.theme = theme
-  vTheme.global.name.value = config.currentTheme
+  vTheme.global.name.value = config.getCurrentTheme()
 }
 </script>
