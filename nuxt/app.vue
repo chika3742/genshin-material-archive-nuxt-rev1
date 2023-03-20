@@ -83,8 +83,9 @@ onMounted(() => {
   left: 0
   width: 100%
   height: 100%
-  background-color: #121212
   z-index: 2000
+  backdrop-filter: blur(4px) brightness(0.5)
+  --webkit-backdrop-filter: blur(4px) brightness(0.5)
 
   &:after
     // loading indicator
@@ -92,14 +93,14 @@ onMounted(() => {
     position: absolute
     top: 50%
     left: 50%
-    width: 60px
-    height: 60px
+    width: 100px
+    height: 100px
     margin-top: -50px
     margin-left: -50px
     border-radius: 50%
-    border: 5px solid #fff
-    border-top-color: #f75d4f
-    animation: spin 1.5s ease-in-out infinite
+    border: 10px solid rgba(255, 255, 255, 0.2)
+    border-top-color: #fff
+    animation: spin 1s linear infinite
 
     @keyframes spin
       from
