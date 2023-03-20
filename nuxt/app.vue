@@ -1,10 +1,5 @@
 <template>
   <div>
-    <NuxtLoadingIndicator
-      :duration="3000"
-      color="linear-gradient(to right, #4FC3F7, #D4E157, #FFA726)"
-    />
-
     <v-app>
       <AppDrawer v-model="isDrawerOpenOnMobile" />
 
@@ -17,6 +12,11 @@
         </template>
 
         <v-app-bar-title>{{ title }}</v-app-bar-title>
+
+        <NuxtLoadingIndicator
+          :duration="3000"
+          color="linear-gradient(to right, #4FC3F7, #D4E157, #FFA726)"
+        />
 
         <template #append>
           <v-btn
