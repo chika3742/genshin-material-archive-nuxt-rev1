@@ -1,0 +1,98 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+
+items:
+  $ref: "#/definitions/character"
+
+definitions:
+  character:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - nameJP
+      - element
+      - rarity
+      - weaponType
+    properties:
+      id:
+        type: string
+        description: キャラクターのID
+      nameJP:
+        type: string
+        description: キャラクターの日本語名
+      yomi:
+        type: string
+        description: キャラクターの日本語名の読み。すべてカタカナの場合は不要。
+      element:
+        type: string
+        description: キャラクターの元素
+        enum:
+          - anemo
+          - cryo
+          - dendro
+          - electro
+          - geo
+          - hydro
+          - pyro
+      rarity:
+        type: integer
+        description: キャラクターのレアリティ
+        enum:
+          - 4
+          - 5
+      weaponType:
+        type: string
+        description: キャラクターの武器種
+        enum:
+          - sword
+          - claymore
+          - polearm
+          - catalyst
+          - bow
+      materials:
+        description: キャラクターの強化素材
+        $ref: "#/definitions/characterMaterials"
+
+  characterMaterials:
+    type: object
+    additionalProperties: false
+    required:
+      - ascension
+    properties:
+      ascension:
+        type: object
+        description: キャラクターの突破素材
+        additionalProperties: false
+        required:
+          - primary
+          - local
+          - secondary
+        properties:
+          primary:
+            type: string
+            description: "キャラ突破用のプライマリ素材 (例: 炎願のアゲート) のID。"
+          elementalStone:
+            type: string
+            description: "キャラ突破用のフィールドボス素材 (例: 常燃の火種) のID。"
+          local:
+            type: string
+            description: "キャラ突破用の地域特産素材 (例: 石珀) のID。"
+          secondary:
+            type: string
+            description: "キャラ突破用のセカンダリ素材 (例: スライムの液体) のID。"
+      talent:
+        type: object
+        description: キャラクターの天賦レベルアップ素材
+        additionalProperties: false
+        required:
+          - primary
+          - boss
+        properties:
+          primary:
+            type: string
+            description: "キャラ天賦レベルアップ用のプライマリ素材 (例: 「自由」の教え) のID。"
+          boss:
+            type: string
+            description: "キャラ天賦レベルアップ用の週ボス素材 (例: 東風の羽根) のID。"
