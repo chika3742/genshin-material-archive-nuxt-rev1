@@ -72,6 +72,7 @@ export default defineNuxtConfig({
       "Kaisei Opti": [700],
       Cairo: [700],
       "Kiwi Maru": [500],
+      "Material Symbols Outlined": true,
     },
   },
 
