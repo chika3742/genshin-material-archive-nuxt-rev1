@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import yaml from "@rollup/plugin-yaml"
 import {generateSchemas} from "./scripts/generate-schemas"
 
 export default defineNuxtConfig({
@@ -88,5 +89,13 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: "node-server",
+  },
+
+  vite: {
+    plugins: [
+      yaml({
+        exclude: "locales/**",
+      }),
+    ],
   },
 })
