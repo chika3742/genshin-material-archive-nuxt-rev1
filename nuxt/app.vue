@@ -13,11 +13,6 @@
 
         <v-app-bar-title>{{ title }}</v-app-bar-title>
 
-        <NuxtLoadingIndicator
-          :duration="3000"
-          color="linear-gradient(to right, #4FC3F7, #D4E157, #FFA726)"
-        />
-
         <template #append>
           <v-btn
             icon
@@ -29,8 +24,12 @@
       </v-app-bar>
 
       <v-main class="d-flex flex-column">
+        <div class="position-sticky" style="top: 64px">
+          <v-progress-linear :active="loadingPage" indeterminate />
+        </div>
+
         <v-container>
-          <NuxtPage :page-key="$route.fullPath" keepalive />
+          <NuxtPage :page-key="$route.fullPath" />
         </v-container>
 
         <v-spacer />
@@ -46,7 +45,7 @@
 
 <script lang="ts" setup>
 import {useTheme} from "vuetify"
-import {computed} from "#imports"
+import {computed, ref} from "#imports"
 import {useConfigStore} from "~/store/config"
 
 const route = useRoute()
@@ -58,6 +57,7 @@ const config = useConfigStore()
 const isDrawerOpenOnMobile = ref(false)
 const isShowingSearchDialog = ref(false)
 const mounted = ref(false)
+const loadingPage = ref(false)
 
 const title = computed(() => {
   if (!route.meta.title) {
@@ -71,16 +71,12 @@ const title = computed(() => {
   }
 })
 
-let start: Date
-
 router.beforeEach(() => {
-  console.log("beforeEach")
-  start = new Date()
+  loadingPage.value = true
 })
 
 router.afterEach(() => {
-  console.log("afterEach")
-  console.log(new Date().getTime() - start.getTime())
+  loadingPage.value = false
 })
 
 onMounted(() => {
