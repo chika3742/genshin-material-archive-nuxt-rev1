@@ -50,10 +50,10 @@ import {computed} from "#imports"
 import {useConfigStore} from "~/store/config"
 
 const route = useRoute()
+const router = useRouter()
 const i18n = useI18n()
 const theme = useTheme()
 const config = useConfigStore()
-const {hook} = useNuxtApp()
 
 const isDrawerOpenOnMobile = ref(false)
 const isShowingSearchDialog = ref(false)
@@ -71,12 +71,16 @@ const title = computed(() => {
   }
 })
 
-hook("page:start", () => {
-  console.log("page:start")
+let start: Date
+
+router.beforeEach(() => {
+  console.log("beforeEach")
+  start = new Date()
 })
 
-hook("page:finish", () => {
-  console.log("page:finish")
+router.afterEach(() => {
+  console.log("afterEach")
+  console.log(new Date().getTime() - start.getTime())
 })
 
 onMounted(() => {
