@@ -53,6 +53,7 @@ const route = useRoute()
 const i18n = useI18n()
 const theme = useTheme()
 const config = useConfigStore()
+const {hook} = useNuxtApp()
 
 const isDrawerOpenOnMobile = ref(false)
 const isShowingSearchDialog = ref(false)
@@ -68,6 +69,14 @@ const title = computed(() => {
   } else {
     return i18n.t(`pageTitle.${base}`)
   }
+})
+
+hook("page:start", () => {
+  console.log("page:start")
+})
+
+hook("page:finish", () => {
+  console.log("page:finish")
 })
 
 onMounted(() => {
