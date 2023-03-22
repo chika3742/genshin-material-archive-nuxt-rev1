@@ -1,0 +1,1035 @@
+- id: Traveler_anemo
+  nameJP: 旅人(風)
+  yomi: タビビトカゼ
+  element: anemo
+  rarity: 5
+  weaponType: sword
+  materials:
+    ascension:
+      primary: d001
+      secondary: b002
+      local: h013
+
+- id: Traveler_geo
+  nameJP: 旅人(岩)
+  yomi: タビビトイワ
+  element: geo
+  rarity: 5
+  weaponType: sword
+  materials:
+    ascension:
+      primary: d001
+      secondary: b002
+      local: h013
+
+- id: Traveler_electro
+  nameJP: 旅人(雷)
+  yomi: タビビトカミナリ
+  element: electro
+  rarity: 5
+  weaponType: sword
+  materials:
+    ascension:
+      primary: d001
+      secondary: b002
+      local: h013
+
+- id: Traveler_dendro
+  nameJP: 旅人(草)
+  yomi: タビビトクサ
+  element: dendro
+  rarity: 5
+  weaponType: sword
+  materials:
+    ascension:
+      primary: d001
+      secondary: b002
+      local: h013
+
+- id: Jean
+  nameJP: ジン
+  element: anemo
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c005
+      local: h004
+      secondary: b002
+    talent:
+      primary: e002
+      boss: f001
+
+- id: Kaeya
+  nameJP: ガイア
+  element: cryo
+  weaponType: sword
+  rarity: 4
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c004
+      local: h001
+      secondary: b011
+    talent:
+      primary: e003
+      boss: f006
+
+- id: Amber
+  nameJP: アンバー
+  element: pyro
+  weaponType: bow
+  rarity: 4
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c001
+      local: h010
+      secondary: b004
+    talent:
+      primary: e001
+      boss: f003
+
+- id: Lisa
+  nameJP: リサ
+  element: electro
+  weaponType: catalyst
+  rarity: 4
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c003
+      local: h011
+      secondary: b001
+    talent:
+      primary: e003
+      boss: f002
+
+- id: Barbara
+  nameJP: バーバラ
+  element: hydro
+  weaponType: catalyst
+  rarity: 4
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c002
+      local: h008
+      secondary: b003
+    talent:
+      primary: e001
+      boss: f005
+
+- id: Diluc
+  nameJP: ディルック
+  element: pyro
+  weaponType: claymore
+  rarity: 5
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c001
+      local: h010
+      secondary: b010
+    talent:
+      primary: e002
+      boss: f001
+
+- id: Razor
+  nameJP: レザー
+  element: electro
+  weaponType: claymore
+  rarity: 4
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c003
+      local: h014
+      secondary: b002
+    talent:
+      primary: e002
+      boss: f002
+
+- id: Venti
+  nameJP: ウェンティ
+  element: anemo
+  weaponType: bow
+  rarity: 5
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c005
+      local: h002
+      secondary: b001
+    talent:
+      primary: e003
+      boss: f004
+
+- id: Klee
+  nameJP: クレー
+  element: pyro
+  weaponType: catalyst
+  rarity: 5
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c001
+      local: h008
+      secondary: b003
+    talent:
+      primary: e001
+      boss: f005
+
+- id: Bennett
+  nameJP: ベネット
+  element: pyro
+  weaponType: sword
+  rarity: 4
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c001
+      local: h013
+      secondary: b011
+    talent:
+      primary: e002
+      boss: f001
+
+- id: Noelle
+  nameJP: ノエル
+  element: geo
+  weaponType: claymore
+  rarity: 4
+  materials:
+    ascension:
+      primary: d007
+      elementalStone: c006
+      local: h011
+      secondary: b002
+    talent:
+      primary: e002
+      boss: f002
+
+- id: Fischl
+  nameJP: フィッシュル
+  element: electro
+  weaponType: bow
+  rarity: 4
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c003
+      local: h010
+      secondary: b004
+    talent:
+      primary: e003
+      boss: f006
+
+- id: Sucrose
+  nameJP: スクロース
+  element: anemo
+  weaponType: catalyst
+  rarity: 4
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c005
+      local: h013
+      secondary: b012
+    talent:
+      primary: e001
+      boss: f006
+
+- id: Mona
+  nameJP: モナ
+  element: hydro
+  weaponType: catalyst
+  rarity: 5
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c002
+      local: h008
+      secondary: b012
+    talent:
+      primary: e002
+      boss: f005
+
+- id: Diona
+  nameJP: ディオナ
+  element: cryo
+  weaponType: bow
+  rarity: 4
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c004
+      local: h001
+      secondary: b004
+    talent:
+      primary: e001
+      boss: f008
+
+- id: Albedo
+  nameJP: アルベド
+  element: geo
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d007
+      elementalStone: c006
+      local: h002
+      secondary: b003
+    talent:
+      primary: e003
+      boss: f007
+
+- id: Rosaria
+  nameJP: ロサリア
+  element: cryo
+  weaponType: polearm
+  rarity: 4
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c004
+      local: h011
+      secondary: b010
+    talent:
+      primary: e003
+      boss: f009
+
+- id: Eula
+  nameJP: エウルア
+  element: cryo
+  weaponType: claymore
+  rarity: 5
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c008
+      local: h004
+      secondary: b002
+    talent:
+      primary: e002
+      boss: f010
+
+- id: Xiao
+  nameJP: 魈
+  yomi: ショウ
+  element: anemo
+  weaponType: polearm
+  rarity: 5
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c007
+      local: h015
+      secondary: b001
+    talent:
+      primary: e004
+      boss: f009
+
+- id: Beidou
+  nameJP: 北斗
+  yomi: ホクト
+  element: electro
+  weaponType: claymore
+  rarity: 4
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c003
+      local: h007
+      secondary: b011
+    talent:
+      primary: e006
+      boss: f003
+
+- id: Ningguang
+  nameJP: 凝光
+  yomi: ギョウコウ
+  element: geo
+  weaponType: catalyst
+  rarity: 4
+  materials:
+    ascension:
+      primary: d007
+      elementalStone: c006
+      local: h005
+      secondary: b010
+    talent:
+      primary: e004
+      boss: f006
+
+- id: Xiangling
+  nameJP: 香菱
+  yomi: シャンリン
+  element: pyro
+  weaponType: polearm
+  rarity: 4
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c001
+      local: h006
+      secondary: b001
+    talent:
+      primary: e005
+      boss: f002
+
+- id: Xingqiu
+  nameJP: 行秋
+  yomi: ユクアキ
+  element: hydro
+  weaponType: sword
+  rarity: 4
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c002
+      local: h009
+      secondary: b002
+    talent:
+      primary: e006
+      boss: f004
+
+- id: Chongyun
+  nameJP: 重雲
+  yomi: チョウウン
+  element: cryo
+  weaponType: claymore
+  rarity: 4
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c004
+      local: h003
+      secondary: b002
+    talent:
+      primary: e005
+      boss: f003
+
+- id: Qiqi
+  nameJP: 七七
+  yomi: ナナ
+  element: cryo
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c004
+      local: h012
+      secondary: b003
+    talent:
+      primary: e004
+      boss: f004
+
+- id: Keqing
+  nameJP: 刻晴
+  yomi: コクセイ
+  element: electro
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c003
+      local: h003
+      secondary: b012
+    talent:
+      primary: e004
+      boss: f005
+
+- id: Tartaglia
+  nameJP: タルタリヤ
+  element: hydro
+  weaponType: bow
+  rarity: 5
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c002
+      local: h016
+      secondary: b010
+    talent:
+      primary: e001
+      boss: f008
+
+- id: Zhongli
+  nameJP: 鍾離
+  yomi: ショウリ
+  element: geo
+  weaponType: polearm
+  rarity: 5
+  materials:
+    ascension:
+      primary: d007
+      elementalStone: c006
+      local: h003
+      secondary: b001
+    talent:
+      primary: e006
+      boss: f007
+
+- id: Xinyan
+  nameJP: 辛炎
+  yomi: シンエン
+  element: pyro
+  weaponType: claymore
+  rarity: 4
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c001
+      local: h012
+      secondary: b011
+    talent:
+      primary: e006
+      boss: f007
+
+- id: Ganyu
+  nameJP: 甘雨
+  yomi: カンウ
+  element: cryo
+  weaponType: bow
+  rarity: 5
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c004
+      local: h015
+      secondary: b012
+    talent:
+      primary: e005
+      boss: f009
+
+- id: HuTao
+  nameJP: 胡桃
+  yomi: フータオ
+  element: pyro
+  weaponType: polearm
+  rarity: 5
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c007
+      local: h009
+      secondary: b012
+    talent:
+      primary: e005
+      boss: f008
+
+- id: Yanfei
+  nameJP: 煙緋
+  yomi: エンヒ
+  element: pyro
+  weaponType: catalyst
+  rarity: 4
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c007
+      local: h007
+      secondary: b011
+    talent:
+      primary: e006
+      boss: f011
+
+- id: KamisatoAyaka
+  nameJP: 神里綾華
+  yomi: カミサトアヤカ
+  element: cryo
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c010
+      local: h019
+      secondary: b015
+    talent:
+      primary: e008
+      boss: f011
+
+- id: KaedeharaKazuha
+  nameJP: 楓原万葉
+  yomi: カエデハラカズハ
+  element: anemo
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c009
+      local: h017
+      secondary: b011
+    talent:
+      primary: e005
+      boss: f012
+
+- id: Yoimiya
+  nameJP: 宵宮
+  yomi: ヨイミヤ
+  element: pyro
+  weaponType: bow
+  rarity: 5
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c011
+      local: h022
+      secondary: b003
+    talent:
+      primary: e007
+      boss: f010
+
+- id: Sayu
+  nameJP: 早柚
+  yomi: サユ
+  element: anemo
+  weaponType: claymore
+  rarity: 4
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c009
+      local: h020
+      secondary: b012
+    talent:
+      primary: e009
+      boss: f012
+
+- id: RaidenShogun
+  nameJP: 雷電将軍
+  yomi: ライデンショウグン
+  element: electro
+  weaponType: polearm
+  rarity: 5
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c013
+      local: h024
+      secondary: b015
+    talent:
+      primary: e009
+      boss: f013
+
+- id: SangonomiyaKokomi
+  nameJP: 珊瑚宮心海
+  yomi: サンゴノミヤココミ
+  element: hydro
+  weaponType: catalyst
+  rarity: 5
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c012
+      local: h023
+      secondary: b019
+    talent:
+      primary: e007
+      boss: f014
+
+- id: KujouSara
+  nameJP: 九条裟羅
+  yomi: クジョウサラ
+  element: electro
+  weaponType: bow
+  rarity: 4
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c013
+      local: h021
+      secondary: b002
+    talent:
+      primary: e008
+      boss: f015
+
+- id: Aloy
+  nameJP: アーロイ
+  element: cryo
+  weaponType: bow
+  rarity: 5
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c008
+      local: h020
+      secondary: b019
+    talent:
+      primary: e001
+      boss: f013
+
+- id: Thoma
+  nameJP: トーマ
+  element: pyro
+  weaponType: polearm
+  rarity: 4
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c011
+      local: h025
+      secondary: b011
+    talent:
+      primary: e007
+      boss: f014
+
+- id: Gorou
+  nameJP: ゴロー
+  element: geo
+  weaponType: bow
+  rarity: 4
+  materials:
+    ascension:
+      primary: d007
+      elementalStone: c010
+      local: h023
+      secondary: b019
+    talent:
+      primary: e009
+      boss: f013
+
+- id: AratakiItto
+  nameJP: 荒瀧一斗
+  yomi: アラタキイット
+  element: geo
+  weaponType: claymore
+  rarity: 5
+  materials:
+    ascension:
+      primary: d007
+      elementalStone: c014
+      local: h018
+      secondary: b001
+    talent:
+      primary: e008
+      boss: f015
+
+- id: Shenhe
+  nameJP: 申鶴
+  yomi: シンカク
+  element: cryo
+  weaponType: polearm
+  rarity: 5
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c015
+      local: h015
+      secondary: b012
+    talent:
+      primary: e004
+      boss: f014
+
+- id: YunJin
+  nameJP: 雲菫
+  yomi: ウンキン
+  element: geo
+  weaponType: polearm
+  rarity: 4
+  materials:
+    ascension:
+      primary: d007
+      elementalStone: c014
+      local: h005
+      secondary: b002
+    talent:
+      primary: e005
+      boss: f015
+
+- id: YaeMiko
+  nameJP: 八重神子
+  yomi: ヤエミコ
+  element: electro
+  weaponType: catalyst
+  rarity: 5
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c015
+      local: h017
+      secondary: b015
+    talent:
+      primary: e009
+      boss: f018
+
+- id: KamisatoAyato
+  nameJP: 神里綾人
+  yomi: カミサトアヤト
+  element: hydro
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c012
+      local: h019
+      secondary: b015
+    talent:
+      primary: e008
+      boss: f016
+
+- id: Yelan
+  nameJP: 夜蘭
+  yomi: イェラン
+  element: hydro
+  weaponType: bow
+  rarity: 5
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c016
+      local: h016
+      secondary: b010
+    talent:
+      primary: e004
+      boss: f012
+
+- id: KukiShinobu
+  nameJP: 久岐忍
+  yomi: クキシノブ
+  element: electro
+  weaponType: sword
+  rarity: 4
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c016
+      local: h022
+      secondary: b019
+    talent:
+      primary: e008
+      boss: f017
+
+- id: ShikanoinHeizou
+  nameJP: 鹿野院平蔵
+  yomi: シカノインヘイゾウ
+  element: anemo
+  weaponType: catalyst
+  rarity: 4
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c016
+      local: h018
+      secondary: b011
+    talent:
+      primary: e007
+      boss: f018
+
+- id: Collei
+  nameJP: コレイ
+  element: dendro
+  weaponType: bow
+  rarity: 4
+  materials:
+    ascension:
+      primary: d008
+      elementalStone: c017
+      local: h026
+      secondary: b004
+    talent:
+      primary: e012
+      boss: f017
+
+- id: Tighnari
+  nameJP: ティナリ
+  element: dendro
+  weaponType: bow
+  rarity: 5
+  materials:
+    ascension:
+      primary: d008
+      elementalStone: c017
+      local: h028
+      secondary: b021
+    talent:
+      primary: e010
+      boss: f018
+
+- id: Dori
+  nameJP: ドリー
+  element: electro
+  weaponType: claymore
+  rarity: 4
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c018
+      local: h027
+      secondary: b020
+    talent:
+      primary: e011
+      boss: f011
+
+- id: Cyno
+  nameJP: セノ
+  element: electro
+  weaponType: polearm
+  rarity: 5
+  materials:
+    ascension:
+      primary: d004
+      elementalStone: c018
+      local: h029
+      secondary: b003
+    talent:
+      primary: e010
+      boss: f016
+
+- id: Candace
+  nameJP: キャンディス
+  element: hydro
+  weaponType: polearm
+  rarity: 4
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c019
+      local: h030
+      secondary: b020
+    talent:
+      primary: e010
+      boss: f017
+
+- id: Nilou
+  nameJP: ニィロウ
+  element: hydro
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d003
+      elementalStone: c020
+      local: h031
+      secondary: b021
+    talent:
+      primary: e012
+      boss: f017
+
+- id: Nahida
+  nameJP: ナヒーダ
+  element: dendro
+  weaponType: catalyst
+  rarity: 5
+  materials:
+    ascension:
+      primary: d008
+      elementalStone: c021
+      local: h027
+      secondary: b021
+    talent:
+      primary: e011
+      boss: f019
+
+- id: Layla
+  nameJP: レイラ
+  element: cryo
+  weaponType: sword
+  rarity: 4
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c020
+      local: h028
+      secondary: b003
+    talent:
+      primary: e011
+      boss: f020
+
+- id: Wanderer
+  nameJP: 放浪者
+  element: anemo
+  weaponType: catalyst
+  rarity: 5
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c020
+      local: h026
+      secondary: b015
+    talent:
+      primary: e012
+      boss: f021
+
+- id: Faruzan
+  nameJP: ファルザン
+  element: anemo
+  weaponType: bow
+  rarity: 4
+  materials:
+    ascension:
+      primary: d006
+      elementalStone: c019
+      local: h030
+      secondary: b020
+    talent:
+      primary: e010
+      boss: f019
+
+- id: Yaoyao
+  nameJP: ヨォーヨ
+  element: dendro
+  weaponType: polearm
+  rarity: 4
+  materials:
+    ascension:
+      primary: d008
+      elementalStone: c021
+      local: h006
+      secondary: b001
+    talent:
+      primary: e005
+      boss: f021
+
+- id: Alhaitham
+  nameJP: アルハイゼン
+  element: dendro
+  weaponType: sword
+  rarity: 5
+  materials:
+    ascension:
+      primary: d008
+      elementalStone: c022
+      local: h032
+      secondary: b020
+    talent:
+      primary: e011
+      boss: f020
+
+- id: Dehya
+  nameJP: ディシア
+  element: pyro
+  weaponType: claymore
+  rarity: 5
+  materials:
+    ascension:
+      primary: d002
+      elementalStone: c019
+      local: h032
+      secondary: b020
+    talent:
+      primary: e012
+      boss: f019
+
+- id: Mika
+  nameJP: ミカ
+  element: cryo
+  weaponType: catalyst
+  rarity: 4
+  materials:
+    ascension:
+      primary: d005
+      elementalStone: c022
+      local: h014
+      secondary: b010
+    talent:
+      primary: e003
+      boss: f020
