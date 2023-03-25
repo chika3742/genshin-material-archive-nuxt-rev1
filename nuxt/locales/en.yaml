@@ -1,8 +1,11 @@
 common:
   appName: Genshin Material Helper
+  sort: Sort
+  filter: Filter
 
 pageTitle:
   home: Home
+  characters: Characters
   about: About This App
   releaseNotes: Release Notes
   terms: Terms of Service
@@ -15,10 +18,20 @@ navDrawer:
 footer:
   disclaimer: This app is unofficial. All images and data belong to miHoYo/COGNOSPHERE.
   theme: Theme
-  themeOption:
+  themeOptions:
     light: Light
     dark: Dark
     auto: Auto
+
+charactersPage:
+  sortOptions:
+      default: Default
+      name: Name
+      element: Element
+  filterOptions:
+      element: Element
+      weaponType: Weapon Type
+      rarity: Rarity
 
 about:
   settings:
@@ -37,3 +50,75 @@ about:
     ### chika
     
     2nd year university student
+
+characters:
+  Traveler_anemo: Traveler (Anemo)
+  Traveler_geo: Traveler (Geo)
+  Traveler_electro: Traveler (Electro)
+  Traveler_dendro: Traveler (Dendro)
+  Jean: Jean
+  Kaeya: Kaeya
+  Amber: Amber
+  Lisa: Lisa
+  Barbara: Barbara
+  Diluc: Diluc
+  Razor: Razor
+  Venti: Venti
+  Klee: Klee
+  Bennett: Bennett
+  Noelle: Noelle
+  Fischl: Fischl
+  Sucrose: Sucrose
+  Mona: Mona
+  Diona: Diona
+  Albedo: Albedo
+  Rosaria: Rosaria
+  Eula: Eula
+  Xiao: Xiao
+  Beidou: Beidou
+  Ningguang: Ningguang
+  Xiangling: Xiangling
+  Xingqiu: Xingqiu
+  Chongyun: Chongyun
+  Qiqi: Qiqi
+  Keqing: Keqing
+  Tartaglia: Tartaglia
+  Zhongli: Zhongli
+  Xinyan: Xinyan
+  Ganyu: Ganyu
+  HuTao: Hu Tao
+  Yanfei: Yanfei
+  KamisatoAyaka: Kamisato Ayaka
+  KaedeharaKazuha: Kaedehara Kazuha
+  Yoimiya: Yoimiya
+  Sayu: Sayu
+  RaidenShogun: Raiden Shogun
+  SangonomiyaKokomi: Sangonomiya Kokomi
+  KujouSara: Kujou Sara
+  Aloy: Aloy
+  Thoma: Thoma
+  Gorou: Gorou
+  AratakiItto: Arataki Itto
+  Shenhe: Shenhe
+  YunJin: Yun Jin
+  YaeMiko: Yae Miko
+  KamisatoAyato: Kamisato Ayato
+  Yelan: Yelan
+  KukiShinobu: Kuki Shinobu
+  ShikanoinHeizou: Shikanoin Heizou
+  Collei: Collei
+  Tighnari: Tighnari
+  Dori: Dori
+  Cyno: Cyno
+  Candace: Candace
+  Nilou: Nilou
+  Nahida: Nahida
+  Layla: Layla
+  Wanderer: Wanderer
+  Faruzan: Faruzan
+  Alhaitham: Alhaitham
+  Yaoyao: Yaoyao
+  Dehya: Dehya
+  Mika: Mika
+
+

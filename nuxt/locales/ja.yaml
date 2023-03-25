@@ -1,8 +1,11 @@
 common:
   appName: 原神素材ヘルパー
+  sort: 並べ替え
+  filter: 絞り込み
 
 pageTitle:
   home: ホーム
+  characters: キャラクター
   about: このアプリについて
   releaseNotes: 更新履歴
   terms: 利用規約
@@ -15,11 +18,20 @@ navDrawer:
 footer:
   disclaimer: このアプリは非公式です。画像・データの著作権はmiHoYo/COGNOSPHEREに帰属します。
   theme: テーマ
-  themeOption:
+  themeOptions:
     light: ライト
     dark: ダーク
     auto: 自動
 
+charactersPage:
+  sortOptions:
+    default: デフォルト
+    name: 名前順
+    element: 元素順
+  filterOptions:
+    element: 元素
+    weaponType: 武器種
+    rarity: レアリティ
 
 about:
   settings:
@@ -38,3 +50,80 @@ about:
     ### chika
     
     大学2年マイマイマー
+
+weaponTypes:
+  sword: 片手剣
+  claymore: 両手剣
+  polearm: 長柄武器
+  bow: 弓
+  catalyst: 法器
+
+characters:
+  Traveler_anemo: 旅人(風)
+  Traveler_geo: 旅人(岩)
+  Traveler_electro: 旅人(雷)
+  Traveler_dendro: 旅人(草)
+  Jean: ジン
+  Kaeya: ガイア
+  Amber: アンバー
+  Lisa: リサ
+  Barbara: バーバラ
+  Diluc: ディルック
+  Razor: レザー
+  Venti: ウェンティ
+  Klee: クレー
+  Bennett: ベネット
+  Noelle: ノエル
+  Fischl: フィッシュル
+  Sucrose: スクロース
+  Mona: モナ
+  Diona: ディオナ
+  Albedo: アルベド
+  Rosaria: ロサリア
+  Eula: エウルア
+  Xiao: 魈
+  Beidou: 北斗
+  Ningguang: 凝光
+  Xiangling: 香菱
+  Xingqiu: 行秋
+  Chongyun: 重雲
+  Qiqi: 七七
+  Keqing: 刻晴
+  Tartaglia: タルタリヤ
+  Zhongli: 鍾離
+  Xinyan: 辛炎
+  Ganyu: 甘雨
+  HuTao: 胡桃
+  Yanfei: 煙緋
+  KamisatoAyaka: 神里綾華
+  KaedeharaKazuha: 楓原万葉
+  Yoimiya: 宵宮
+  Sayu: 早柚
+  RaidenShogun: 雷電将軍
+  SangonomiyaKokomi: 珊瑚宮心海
+  KujouSara: 九条裟羅
+  Aloy: アーロイ
+  Thoma: トーマ
+  Gorou: ゴロー
+  AratakiItto: 荒瀧一斗
+  Shenhe: 申鶴
+  YunJin: 雲菫
+  YaeMiko: 八重神子
+  KamisatoAyato: 神里綾人
+  Yelan: 夜蘭
+  KukiShinobu: 久岐忍
+  ShikanoinHeizou: 鹿野院平蔵
+  Collei: コレイ
+  Tighnari: ティナリ
+  Dori: ドリー
+  Cyno: セノ
+  Candace: キャンディス
+  Nilou: ニィロウ
+  Nahida: ナヒーダ
+  Layla: レイラ
+  Wanderer: 放浪者
+  Faruzan: ファルザン
+  Alhaitham: アルハイゼン
+  Yaoyao: ヨォーヨ
+  Dehya: ディシア
+  Mika: ミカ

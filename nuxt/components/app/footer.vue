@@ -36,19 +36,19 @@
             <v-menu activator="parent">
               <v-list>
                 <v-list-item
-                  :title="$t('footer.themeOption.light')"
+                  :title="$t('footer.themeOptions.light')"
                   prepend-icon="mdi-brightness-7"
                   :active="config.theme === 'light'"
                   @click="setTheme('light')"
                 />
                 <v-list-item
-                  :title="$t('footer.themeOption.dark')"
+                  :title="$t('footer.themeOptions.dark')"
                   prepend-icon="mdi-brightness-3"
                   :active="config.theme === 'dark'"
                   @click="setTheme('dark')"
                 />
                 <v-list-item
-                  :title="$t('footer.themeOption.auto')"
+                  :title="$t('footer.themeOptions.auto')"
                   prepend-icon="mdi-brightness-auto"
                   :active="config.theme === 'auto'"
                   @click="setTheme('auto')"

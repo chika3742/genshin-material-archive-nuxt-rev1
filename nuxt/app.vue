@@ -100,7 +100,7 @@ onMounted(() => {
   backdrop-filter: blur(4px) brightness(0.5)
   --webkit-backdrop-filter: blur(4px) brightness(0.5)
 
-  &:after
+  &::after
     // loading indicator
     content: ""
     position: absolute

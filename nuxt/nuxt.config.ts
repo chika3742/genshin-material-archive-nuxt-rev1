@@ -4,6 +4,7 @@ import {generateSchemas} from "./scripts/generate-schemas"
 
 export default defineNuxtConfig({
   app: {
+    keepalive: true,
     pageTransition: {
       name: "scroll-y-reverse-transition",
       leaveActiveClass: "d-none",
