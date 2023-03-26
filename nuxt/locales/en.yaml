@@ -15,6 +15,10 @@ pageTitle:
 navDrawer:
   buyMeCoffee: Buy Me a Coffee
 
+interactionType:
+  tap: Tap
+  click: Click
+
 footer:
   disclaimer: This app is unofficial. All images and data belong to miHoYo/COGNOSPHERE.
   theme: Theme
@@ -25,13 +29,14 @@ footer:
 
 charactersPage:
   sortOptions:
-      default: Default
-      name: Name
-      element: Element
+    default: Default
+    name: Name
+    element: Element
   filterOptions:
-      element: Element
-      weaponType: Weapon Type
-      rarity: Rarity
+    element: Element
+    weaponType: Weapon Type
+    rarity: Rarity
+  filterCancelHint: "{interactionTypeText} again to cancel"
 
 about:
   settings:
@@ -50,6 +55,13 @@ about:
     ### chika
     
     2nd year university student
+
+weaponTypes:
+  sword: Sword
+  claymore: Claymore
+  polearm: Polearm
+  bow: Bow
+  catalyst: Catalyst
 
 characters:
   Traveler_anemo: Traveler (Anemo)

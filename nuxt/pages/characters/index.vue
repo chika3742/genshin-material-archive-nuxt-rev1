@@ -62,7 +62,7 @@
               </div>
             </v-row>
             <v-card-subtitle class="my-2" style="text-align: center">
-              もう1度クリックすると解除できます
+              {{ $t("charactersPage.filterCancelHint", {interactionTypeText: isTouchDevice() ? $t("interactionType.tap") : $t("interactionType.click")}) }}
             </v-card-subtitle>
           </v-card>
         </v-menu>
@@ -76,6 +76,7 @@
 </template>
 
 <script lang="ts" setup>
+import {isTouchDevice} from "~/utils/is-touch-device"
 import {computed, ref} from "#imports"
 import {elements, GenshinElement, WeaponType, weaponTypes} from "~/types/strings"
 import {getElementImage} from "~/utils/image-getters"

@@ -15,6 +15,10 @@ pageTitle:
 navDrawer:
   buyMeCoffee: コーヒーをおごる
 
+interactionType:
+  tap: タップ
+  click: クリック
+
 footer:
   disclaimer: このアプリは非公式です。画像・データの著作権はmiHoYo/COGNOSPHEREに帰属します。
   theme: テーマ
@@ -32,6 +36,7 @@ charactersPage:
     element: 元素
     weaponType: 武器種
     rarity: レアリティ
+  filterCancelHint: もう1度{interactionTypeText}すると解除できます
 
 about:
   settings:
