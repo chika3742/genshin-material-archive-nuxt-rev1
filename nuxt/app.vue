@@ -24,7 +24,7 @@
       </v-app-bar>
 
       <v-main class="d-flex flex-column">
-        <div class="position-sticky" style="top: 64px">
+        <div class="position-sticky" style="top: 64px; z-index: 9999">
           <v-progress-linear :active="loadingPage" indeterminate />
         </div>
 
@@ -65,9 +65,9 @@ const title = computed(() => {
   }
   const [base, paramName] = route.meta.title.split("__")
   if (paramName) {
-    return i18n.t(`pageTitle.${base}`, {name: i18n.t(`${base}.${route.params[paramName]}`)})
+    return i18n.t(`pageTitle.${route.meta.title}`, {name: i18n.t(`${base}.${route.params[paramName]}`)})
   } else {
-    return i18n.t(`pageTitle.${base}`)
+    return i18n.t(`pageTitle.${route.meta.title}`)
   }
 })
 
