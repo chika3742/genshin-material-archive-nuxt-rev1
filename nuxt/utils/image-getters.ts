@@ -6,8 +6,8 @@ export const getElementImage = (element: GenshinElement) => {
 
 export const getCharacterImage = (characterId: string, variant: "full" | "small") => {
   if (variant === "full") {
-    return new URL(`../assets/img/character/${characterId}.webp`, import.meta.url).toString()
+    return new URL(`../assets/img/characters/${characterId}.webp`, import.meta.url).toString()
   } else {
-    return new URL(`../assets/img/character/${characterId}_small.webp`, import.meta.url).toString()
+    return new URL(`../assets/img/characters/${characterId}_small.webp`, import.meta.url).toString()
   }
 }

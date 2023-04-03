@@ -18,6 +18,7 @@ export default defineNuxtPlugin((nuxtApp) => {
             star: "#ffff00",
             footer: "#3a3a3a",
             "button-activated": "#d24700",
+            card: "#3a3a3a",
           },
         },
         light: {
@@ -27,6 +28,7 @@ export default defineNuxtPlugin((nuxtApp) => {
             star: "#ff8c00",
             footer: "#e1e1e1",
             "button-activated": "#ff5900",
+            card: "#ececec",
           },
         },
       },
