@@ -24,7 +24,7 @@ body
     font-size: 0.9em
 
   ol, ul
-    padding-left: 16px
+    padding-left: 24px
 
     li
       margin: 4px 0
@@ -40,6 +40,24 @@ body
     font-size: 1.4em
     display: inline-block
 
+  h3
+    padding: 2px 16px
+    font-size: 1.2rem
+
+    &::before
+      content: ""
+      display: inline-block
+      width: 0
+      height: 0
+      --triangle-size: 6px
+      border-top: var(--triangle-size) solid transparent
+      border-bottom: var(--triangle-size) solid transparent
+      border-left: var(--triangle-size) solid rgb(var(--v-theme-secondary))
+      margin-right: 8px
+      margin-left: -16px
+      margin-bottom: 1px
+
+
   a:not(.v-btn)
     color: #0095ff
     transition: all 0.2s ease
@@ -47,6 +65,7 @@ body
 
     &:hover
       opacity: 0.6
+
   pre
     .v-theme--dark &
       background: #343434
