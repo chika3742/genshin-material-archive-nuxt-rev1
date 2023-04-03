@@ -15,6 +15,29 @@
                   <Item>
                     <option name="path" value="nuxt/schemas/characters.yaml" />
                   </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/character-ingredients.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/weapon-ingredients.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="character-ingredients">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="character-ingredients" />
+              <option name="relativePathToSchema" value="nuxt/schemas/character-ingredients.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/character-ingredients.yaml" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
@@ -31,6 +54,23 @@
                 <list>
                   <Item>
                     <option name="path" value="nuxt/assets/data/characters.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="weapon-ingredients">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="weapon-ingredients" />
+              <option name="relativePathToSchema" value="nuxt/schemas/weapon-ingredients.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/weapon-ingredients.yaml" />
                   </Item>
                 </list>
               </option>

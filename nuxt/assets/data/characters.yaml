@@ -5,10 +5,10 @@
   rarity: 5
   weaponType: sword
   materials:
-    ascension:
-      primary: d001
-      secondary: b002
-      local: h013
+    ascensionPrimary: d001
+    secondary: b002
+    ascensionLocal: h013
+    talentBoss: f003
 
 - id: Traveler_geo
   nameJP: 旅人(岩)
@@ -17,10 +17,9 @@
   rarity: 5
   weaponType: sword
   materials:
-    ascension:
-      primary: d001
-      secondary: b002
-      local: h013
+    ascensionPrimary: d001
+    secondary: b002
+    ascensionLocal: h013
 
 - id: Traveler_electro
   nameJP: 旅人(雷)
@@ -29,10 +28,10 @@
   rarity: 5
   weaponType: sword
   materials:
-    ascension:
-      primary: d001
-      secondary: b002
-      local: h013
+    ascensionPrimary: d001
+    secondary: b002
+    ascensionLocal: h013
+    talentBoss: f010
 
 - id: Traveler_dendro
   nameJP: 旅人(草)
@@ -41,10 +40,10 @@
   rarity: 5
   weaponType: sword
   materials:
-    ascension:
-      primary: d001
-      secondary: b002
-      local: h013
+    ascensionPrimary: d001
+    secondary: b002
+    ascensionLocal: h013
+    talentBoss: f016
 
 - id: Jean
   nameJP: ジン
@@ -52,14 +51,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c005
-      local: h004
-      secondary: b002
-    talent:
-      primary: e002
-      boss: f001
+    ascensionPrimary: d006
+    ascensionElementalStone: c005
+    ascensionLocal: h004
+    secondary: b002
+    talentPrimary: e002
+    talentBoss: f001
 
 - id: Kaeya
   nameJP: ガイア
@@ -67,14 +64,12 @@
   weaponType: sword
   rarity: 4
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c004
-      local: h001
-      secondary: b011
-    talent:
-      primary: e003
-      boss: f006
+    ascensionPrimary: d005
+    ascensionElementalStone: c004
+    ascensionLocal: h001
+    secondary: b011
+    talentPrimary: e003
+    talentBoss: f006
 
 - id: Amber
   nameJP: アンバー
@@ -82,14 +77,12 @@
   weaponType: bow
   rarity: 4
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c001
-      local: h010
-      secondary: b004
-    talent:
-      primary: e001
-      boss: f003
+    ascensionPrimary: d002
+    ascensionElementalStone: c001
+    ascensionLocal: h010
+    secondary: b004
+    talentPrimary: e001
+    talentBoss: f003
 
 - id: Lisa
   nameJP: リサ
@@ -97,14 +90,12 @@
   weaponType: catalyst
   rarity: 4
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c003
-      local: h011
-      secondary: b001
-    talent:
-      primary: e003
-      boss: f002
+    ascensionPrimary: d004
+    ascensionElementalStone: c003
+    ascensionLocal: h011
+    secondary: b001
+    talentPrimary: e003
+    talentBoss: f002
 
 - id: Barbara
   nameJP: バーバラ
@@ -112,14 +103,12 @@
   weaponType: catalyst
   rarity: 4
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c002
-      local: h008
-      secondary: b003
-    talent:
-      primary: e001
-      boss: f005
+    ascensionPrimary: d003
+    ascensionElementalStone: c002
+    ascensionLocal: h008
+    secondary: b003
+    talentPrimary: e001
+    talentBoss: f005
 
 - id: Diluc
   nameJP: ディルック
@@ -127,14 +116,12 @@
   weaponType: claymore
   rarity: 5
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c001
-      local: h010
-      secondary: b010
-    talent:
-      primary: e002
-      boss: f001
+    ascensionPrimary: d002
+    ascensionElementalStone: c001
+    ascensionLocal: h010
+    secondary: b010
+    talentPrimary: e002
+    talentBoss: f001
 
 - id: Razor
   nameJP: レザー
@@ -142,14 +129,12 @@
   weaponType: claymore
   rarity: 4
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c003
-      local: h014
-      secondary: b002
-    talent:
-      primary: e002
-      boss: f002
+    ascensionPrimary: d004
+    ascensionElementalStone: c003
+    ascensionLocal: h014
+    secondary: b002
+    talentPrimary: e002
+    talentBoss: f002
 
 - id: Venti
   nameJP: ウェンティ
@@ -157,14 +142,12 @@
   weaponType: bow
   rarity: 5
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c005
-      local: h002
-      secondary: b001
-    talent:
-      primary: e003
-      boss: f004
+    ascensionPrimary: d006
+    ascensionElementalStone: c005
+    ascensionLocal: h002
+    secondary: b001
+    talentPrimary: e003
+    talentBoss: f004
 
 - id: Klee
   nameJP: クレー
@@ -172,14 +155,12 @@
   weaponType: catalyst
   rarity: 5
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c001
-      local: h008
-      secondary: b003
-    talent:
-      primary: e001
-      boss: f005
+    ascensionPrimary: d002
+    ascensionElementalStone: c001
+    ascensionLocal: h008
+    secondary: b003
+    talentPrimary: e001
+    talentBoss: f005
 
 - id: Bennett
   nameJP: ベネット
@@ -187,14 +168,12 @@
   weaponType: sword
   rarity: 4
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c001
-      local: h013
-      secondary: b011
-    talent:
-      primary: e002
-      boss: f001
+    ascensionPrimary: d002
+    ascensionElementalStone: c001
+    ascensionLocal: h013
+    secondary: b011
+    talentPrimary: e002
+    talentBoss: f001
 
 - id: Noelle
   nameJP: ノエル
@@ -202,14 +181,12 @@
   weaponType: claymore
   rarity: 4
   materials:
-    ascension:
-      primary: d007
-      elementalStone: c006
-      local: h011
-      secondary: b002
-    talent:
-      primary: e002
-      boss: f002
+    ascensionPrimary: d007
+    ascensionElementalStone: c006
+    ascensionLocal: h011
+    secondary: b002
+    talentPrimary: e002
+    talentBoss: f002
 
 - id: Fischl
   nameJP: フィッシュル
@@ -217,14 +194,12 @@
   weaponType: bow
   rarity: 4
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c003
-      local: h010
-      secondary: b004
-    talent:
-      primary: e003
-      boss: f006
+    ascensionPrimary: d004
+    ascensionElementalStone: c003
+    ascensionLocal: h010
+    secondary: b004
+    talentPrimary: e003
+    talentBoss: f006
 
 - id: Sucrose
   nameJP: スクロース
@@ -232,14 +207,12 @@
   weaponType: catalyst
   rarity: 4
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c005
-      local: h013
-      secondary: b012
-    talent:
-      primary: e001
-      boss: f006
+    ascensionPrimary: d006
+    ascensionElementalStone: c005
+    ascensionLocal: h013
+    secondary: b012
+    talentPrimary: e001
+    talentBoss: f006
 
 - id: Mona
   nameJP: モナ
@@ -247,14 +220,12 @@
   weaponType: catalyst
   rarity: 5
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c002
-      local: h008
-      secondary: b012
-    talent:
-      primary: e002
-      boss: f005
+    ascensionPrimary: d003
+    ascensionElementalStone: c002
+    ascensionLocal: h008
+    secondary: b012
+    talentPrimary: e002
+    talentBoss: f005
 
 - id: Diona
   nameJP: ディオナ
@@ -262,14 +233,12 @@
   weaponType: bow
   rarity: 4
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c004
-      local: h001
-      secondary: b004
-    talent:
-      primary: e001
-      boss: f008
+    ascensionPrimary: d005
+    ascensionElementalStone: c004
+    ascensionLocal: h001
+    secondary: b004
+    talentPrimary: e001
+    talentBoss: f008
 
 - id: Albedo
   nameJP: アルベド
@@ -277,14 +246,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d007
-      elementalStone: c006
-      local: h002
-      secondary: b003
-    talent:
-      primary: e003
-      boss: f007
+    ascensionPrimary: d007
+    ascensionElementalStone: c006
+    ascensionLocal: h002
+    secondary: b003
+    talentPrimary: e003
+    talentBoss: f007
 
 - id: Rosaria
   nameJP: ロサリア
@@ -292,14 +259,12 @@
   weaponType: polearm
   rarity: 4
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c004
-      local: h011
-      secondary: b010
-    talent:
-      primary: e003
-      boss: f009
+    ascensionPrimary: d005
+    ascensionElementalStone: c004
+    ascensionLocal: h011
+    secondary: b010
+    talentPrimary: e003
+    talentBoss: f009
 
 - id: Eula
   nameJP: エウルア
@@ -307,14 +272,12 @@
   weaponType: claymore
   rarity: 5
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c008
-      local: h004
-      secondary: b002
-    talent:
-      primary: e002
-      boss: f010
+    ascensionPrimary: d005
+    ascensionElementalStone: c008
+    ascensionLocal: h004
+    secondary: b002
+    talentPrimary: e002
+    talentBoss: f010
 
 - id: Xiao
   nameJP: 魈
@@ -323,14 +286,12 @@
   weaponType: polearm
   rarity: 5
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c007
-      local: h015
-      secondary: b001
-    talent:
-      primary: e004
-      boss: f009
+    ascensionPrimary: d006
+    ascensionElementalStone: c007
+    ascensionLocal: h015
+    secondary: b001
+    talentPrimary: e004
+    talentBoss: f009
 
 - id: Beidou
   nameJP: 北斗
@@ -339,14 +300,12 @@
   weaponType: claymore
   rarity: 4
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c003
-      local: h007
-      secondary: b011
-    talent:
-      primary: e006
-      boss: f003
+    ascensionPrimary: d004
+    ascensionElementalStone: c003
+    ascensionLocal: h007
+    secondary: b011
+    talentPrimary: e006
+    talentBoss: f003
 
 - id: Ningguang
   nameJP: 凝光
@@ -355,14 +314,12 @@
   weaponType: catalyst
   rarity: 4
   materials:
-    ascension:
-      primary: d007
-      elementalStone: c006
-      local: h005
-      secondary: b010
-    talent:
-      primary: e004
-      boss: f006
+    ascensionPrimary: d007
+    ascensionElementalStone: c006
+    ascensionLocal: h005
+    secondary: b010
+    talentPrimary: e004
+    talentBoss: f006
 
 - id: Xiangling
   nameJP: 香菱
@@ -371,14 +328,12 @@
   weaponType: polearm
   rarity: 4
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c001
-      local: h006
-      secondary: b001
-    talent:
-      primary: e005
-      boss: f002
+    ascensionPrimary: d002
+    ascensionElementalStone: c001
+    ascensionLocal: h006
+    secondary: b001
+    talentPrimary: e005
+    talentBoss: f002
 
 - id: Xingqiu
   nameJP: 行秋
@@ -387,14 +342,12 @@
   weaponType: sword
   rarity: 4
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c002
-      local: h009
-      secondary: b002
-    talent:
-      primary: e006
-      boss: f004
+    ascensionPrimary: d003
+    ascensionElementalStone: c002
+    ascensionLocal: h009
+    secondary: b002
+    talentPrimary: e006
+    talentBoss: f004
 
 - id: Chongyun
   nameJP: 重雲
@@ -403,14 +356,12 @@
   weaponType: claymore
   rarity: 4
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c004
-      local: h003
-      secondary: b002
-    talent:
-      primary: e005
-      boss: f003
+    ascensionPrimary: d005
+    ascensionElementalStone: c004
+    ascensionLocal: h003
+    secondary: b002
+    talentPrimary: e005
+    talentBoss: f003
 
 - id: Qiqi
   nameJP: 七七
@@ -419,14 +370,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c004
-      local: h012
-      secondary: b003
-    talent:
-      primary: e004
-      boss: f004
+    ascensionPrimary: d005
+    ascensionElementalStone: c004
+    ascensionLocal: h012
+    secondary: b003
+    talentPrimary: e004
+    talentBoss: f004
 
 - id: Keqing
   nameJP: 刻晴
@@ -435,14 +384,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c003
-      local: h003
-      secondary: b012
-    talent:
-      primary: e004
-      boss: f005
+    ascensionPrimary: d004
+    ascensionElementalStone: c003
+    ascensionLocal: h003
+    secondary: b012
+    talentPrimary: e004
+    talentBoss: f005
 
 - id: Tartaglia
   nameJP: タルタリヤ
@@ -450,14 +397,12 @@
   weaponType: bow
   rarity: 5
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c002
-      local: h016
-      secondary: b010
-    talent:
-      primary: e001
-      boss: f008
+    ascensionPrimary: d003
+    ascensionElementalStone: c002
+    ascensionLocal: h016
+    secondary: b010
+    talentPrimary: e001
+    talentBoss: f008
 
 - id: Zhongli
   nameJP: 鍾離
@@ -466,14 +411,12 @@
   weaponType: polearm
   rarity: 5
   materials:
-    ascension:
-      primary: d007
-      elementalStone: c006
-      local: h003
-      secondary: b001
-    talent:
-      primary: e006
-      boss: f007
+    ascensionPrimary: d007
+    ascensionElementalStone: c006
+    ascensionLocal: h003
+    secondary: b001
+    talentPrimary: e006
+    talentBoss: f007
 
 - id: Xinyan
   nameJP: 辛炎
@@ -482,14 +425,12 @@
   weaponType: claymore
   rarity: 4
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c001
-      local: h012
-      secondary: b011
-    talent:
-      primary: e006
-      boss: f007
+    ascensionPrimary: d002
+    ascensionElementalStone: c001
+    ascensionLocal: h012
+    secondary: b011
+    talentPrimary: e006
+    talentBoss: f007
 
 - id: Ganyu
   nameJP: 甘雨
@@ -498,14 +439,12 @@
   weaponType: bow
   rarity: 5
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c004
-      local: h015
-      secondary: b012
-    talent:
-      primary: e005
-      boss: f009
+    ascensionPrimary: d005
+    ascensionElementalStone: c004
+    ascensionLocal: h015
+    secondary: b012
+    talentPrimary: e005
+    talentBoss: f009
 
 - id: HuTao
   nameJP: 胡桃
@@ -514,14 +453,12 @@
   weaponType: polearm
   rarity: 5
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c007
-      local: h009
-      secondary: b012
-    talent:
-      primary: e005
-      boss: f008
+    ascensionPrimary: d002
+    ascensionElementalStone: c007
+    ascensionLocal: h009
+    secondary: b012
+    talentPrimary: e005
+    talentBoss: f008
 
 - id: Yanfei
   nameJP: 煙緋
@@ -530,14 +467,12 @@
   weaponType: catalyst
   rarity: 4
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c007
-      local: h007
-      secondary: b011
-    talent:
-      primary: e006
-      boss: f011
+    ascensionPrimary: d002
+    ascensionElementalStone: c007
+    ascensionLocal: h007
+    secondary: b011
+    talentPrimary: e006
+    talentBoss: f011
 
 - id: KamisatoAyaka
   nameJP: 神里綾華
@@ -546,14 +481,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c010
-      local: h019
-      secondary: b015
-    talent:
-      primary: e008
-      boss: f011
+    ascensionPrimary: d005
+    ascensionElementalStone: c010
+    ascensionLocal: h019
+    secondary: b015
+    talentPrimary: e008
+    talentBoss: f011
 
 - id: KaedeharaKazuha
   nameJP: 楓原万葉
@@ -562,14 +495,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c009
-      local: h017
-      secondary: b011
-    talent:
-      primary: e005
-      boss: f012
+    ascensionPrimary: d006
+    ascensionElementalStone: c009
+    ascensionLocal: h017
+    secondary: b011
+    talentPrimary: e005
+    talentBoss: f012
 
 - id: Yoimiya
   nameJP: 宵宮
@@ -578,14 +509,12 @@
   weaponType: bow
   rarity: 5
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c011
-      local: h022
-      secondary: b003
-    talent:
-      primary: e007
-      boss: f010
+    ascensionPrimary: d002
+    ascensionElementalStone: c011
+    ascensionLocal: h022
+    secondary: b003
+    talentPrimary: e007
+    talentBoss: f010
 
 - id: Sayu
   nameJP: 早柚
@@ -594,14 +523,12 @@
   weaponType: claymore
   rarity: 4
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c009
-      local: h020
-      secondary: b012
-    talent:
-      primary: e009
-      boss: f012
+    ascensionPrimary: d006
+    ascensionElementalStone: c009
+    ascensionLocal: h020
+    secondary: b012
+    talentPrimary: e009
+    talentBoss: f012
 
 - id: RaidenShogun
   nameJP: 雷電将軍
@@ -610,14 +537,12 @@
   weaponType: polearm
   rarity: 5
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c013
-      local: h024
-      secondary: b015
-    talent:
-      primary: e009
-      boss: f013
+    ascensionPrimary: d004
+    ascensionElementalStone: c013
+    ascensionLocal: h024
+    secondary: b015
+    talentPrimary: e009
+    talentBoss: f013
 
 - id: SangonomiyaKokomi
   nameJP: 珊瑚宮心海
@@ -626,14 +551,12 @@
   weaponType: catalyst
   rarity: 5
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c012
-      local: h023
-      secondary: b019
-    talent:
-      primary: e007
-      boss: f014
+    ascensionPrimary: d003
+    ascensionElementalStone: c012
+    ascensionLocal: h023
+    secondary: b019
+    talentPrimary: e007
+    talentBoss: f014
 
 - id: KujouSara
   nameJP: 九条裟羅
@@ -642,14 +565,12 @@
   weaponType: bow
   rarity: 4
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c013
-      local: h021
-      secondary: b002
-    talent:
-      primary: e008
-      boss: f015
+    ascensionPrimary: d004
+    ascensionElementalStone: c013
+    ascensionLocal: h021
+    secondary: b002
+    talentPrimary: e008
+    talentBoss: f015
 
 - id: Aloy
   nameJP: アーロイ
@@ -657,14 +578,12 @@
   weaponType: bow
   rarity: 5
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c008
-      local: h020
-      secondary: b019
-    talent:
-      primary: e001
-      boss: f013
+    ascensionPrimary: d005
+    ascensionElementalStone: c008
+    ascensionLocal: h020
+    secondary: b019
+    talentPrimary: e001
+    talentBoss: f013
 
 - id: Thoma
   nameJP: トーマ
@@ -672,14 +591,12 @@
   weaponType: polearm
   rarity: 4
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c011
-      local: h025
-      secondary: b011
-    talent:
-      primary: e007
-      boss: f014
+    ascensionPrimary: d002
+    ascensionElementalStone: c011
+    ascensionLocal: h025
+    secondary: b011
+    talentPrimary: e007
+    talentBoss: f014
 
 - id: Gorou
   nameJP: ゴロー
@@ -687,14 +604,12 @@
   weaponType: bow
   rarity: 4
   materials:
-    ascension:
-      primary: d007
-      elementalStone: c010
-      local: h023
-      secondary: b019
-    talent:
-      primary: e009
-      boss: f013
+    ascensionPrimary: d007
+    ascensionElementalStone: c010
+    ascensionLocal: h023
+    secondary: b019
+    talentPrimary: e009
+    talentBoss: f013
 
 - id: AratakiItto
   nameJP: 荒瀧一斗
@@ -703,14 +618,12 @@
   weaponType: claymore
   rarity: 5
   materials:
-    ascension:
-      primary: d007
-      elementalStone: c014
-      local: h018
-      secondary: b001
-    talent:
-      primary: e008
-      boss: f015
+    ascensionPrimary: d007
+    ascensionElementalStone: c014
+    ascensionLocal: h018
+    secondary: b001
+    talentPrimary: e008
+    talentBoss: f015
 
 - id: Shenhe
   nameJP: 申鶴
@@ -719,14 +632,12 @@
   weaponType: polearm
   rarity: 5
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c015
-      local: h015
-      secondary: b012
-    talent:
-      primary: e004
-      boss: f014
+    ascensionPrimary: d005
+    ascensionElementalStone: c015
+    ascensionLocal: h015
+    secondary: b012
+    talentPrimary: e004
+    talentBoss: f014
 
 - id: YunJin
   nameJP: 雲菫
@@ -735,14 +646,12 @@
   weaponType: polearm
   rarity: 4
   materials:
-    ascension:
-      primary: d007
-      elementalStone: c014
-      local: h005
-      secondary: b002
-    talent:
-      primary: e005
-      boss: f015
+    ascensionPrimary: d007
+    ascensionElementalStone: c014
+    ascensionLocal: h005
+    secondary: b002
+    talentPrimary: e005
+    talentBoss: f015
 
 - id: YaeMiko
   nameJP: 八重神子
@@ -751,14 +660,12 @@
   weaponType: catalyst
   rarity: 5
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c015
-      local: h017
-      secondary: b015
-    talent:
-      primary: e009
-      boss: f018
+    ascensionPrimary: d004
+    ascensionElementalStone: c015
+    ascensionLocal: h017
+    secondary: b015
+    talentPrimary: e009
+    talentBoss: f018
 
 - id: KamisatoAyato
   nameJP: 神里綾人
@@ -767,14 +674,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c012
-      local: h019
-      secondary: b015
-    talent:
-      primary: e008
-      boss: f016
+    ascensionPrimary: d003
+    ascensionElementalStone: c012
+    ascensionLocal: h019
+    secondary: b015
+    talentPrimary: e008
+    talentBoss: f016
 
 - id: Yelan
   nameJP: 夜蘭
@@ -783,14 +688,12 @@
   weaponType: bow
   rarity: 5
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c016
-      local: h016
-      secondary: b010
-    talent:
-      primary: e004
-      boss: f012
+    ascensionPrimary: d003
+    ascensionElementalStone: c016
+    ascensionLocal: h016
+    secondary: b010
+    talentPrimary: e004
+    talentBoss: f012
 
 - id: KukiShinobu
   nameJP: 久岐忍
@@ -799,14 +702,12 @@
   weaponType: sword
   rarity: 4
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c016
-      local: h022
-      secondary: b019
-    talent:
-      primary: e008
-      boss: f017
+    ascensionPrimary: d004
+    ascensionElementalStone: c016
+    ascensionLocal: h022
+    secondary: b019
+    talentPrimary: e008
+    talentBoss: f017
 
 - id: ShikanoinHeizou
   nameJP: 鹿野院平蔵
@@ -815,14 +716,12 @@
   weaponType: catalyst
   rarity: 4
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c016
-      local: h018
-      secondary: b011
-    talent:
-      primary: e007
-      boss: f018
+    ascensionPrimary: d006
+    ascensionElementalStone: c016
+    ascensionLocal: h018
+    secondary: b011
+    talentPrimary: e007
+    talentBoss: f018
 
 - id: Collei
   nameJP: コレイ
@@ -830,14 +729,12 @@
   weaponType: bow
   rarity: 4
   materials:
-    ascension:
-      primary: d008
-      elementalStone: c017
-      local: h026
-      secondary: b004
-    talent:
-      primary: e012
-      boss: f017
+    ascensionPrimary: d008
+    ascensionElementalStone: c017
+    ascensionLocal: h026
+    secondary: b004
+    talentPrimary: e012
+    talentBoss: f017
 
 - id: Tighnari
   nameJP: ティナリ
@@ -845,14 +742,12 @@
   weaponType: bow
   rarity: 5
   materials:
-    ascension:
-      primary: d008
-      elementalStone: c017
-      local: h028
-      secondary: b021
-    talent:
-      primary: e010
-      boss: f018
+    ascensionPrimary: d008
+    ascensionElementalStone: c017
+    ascensionLocal: h028
+    secondary: b021
+    talentPrimary: e010
+    talentBoss: f018
 
 - id: Dori
   nameJP: ドリー
@@ -860,14 +755,12 @@
   weaponType: claymore
   rarity: 4
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c018
-      local: h027
-      secondary: b020
-    talent:
-      primary: e011
-      boss: f011
+    ascensionPrimary: d004
+    ascensionElementalStone: c018
+    ascensionLocal: h027
+    secondary: b020
+    talentPrimary: e011
+    talentBoss: f011
 
 - id: Cyno
   nameJP: セノ
@@ -875,14 +768,12 @@
   weaponType: polearm
   rarity: 5
   materials:
-    ascension:
-      primary: d004
-      elementalStone: c018
-      local: h029
-      secondary: b003
-    talent:
-      primary: e010
-      boss: f016
+    ascensionPrimary: d004
+    ascensionElementalStone: c018
+    ascensionLocal: h029
+    secondary: b003
+    talentPrimary: e010
+    talentBoss: f016
 
 - id: Candace
   nameJP: キャンディス
@@ -890,14 +781,12 @@
   weaponType: polearm
   rarity: 4
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c019
-      local: h030
-      secondary: b020
-    talent:
-      primary: e010
-      boss: f017
+    ascensionPrimary: d003
+    ascensionElementalStone: c019
+    ascensionLocal: h030
+    secondary: b020
+    talentPrimary: e010
+    talentBoss: f017
 
 - id: Nilou
   nameJP: ニィロウ
@@ -905,14 +794,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d003
-      elementalStone: c020
-      local: h031
-      secondary: b021
-    talent:
-      primary: e012
-      boss: f017
+    ascensionPrimary: d003
+    ascensionElementalStone: c020
+    ascensionLocal: h031
+    secondary: b021
+    talentPrimary: e012
+    talentBoss: f017
 
 - id: Nahida
   nameJP: ナヒーダ
@@ -920,14 +807,12 @@
   weaponType: catalyst
   rarity: 5
   materials:
-    ascension:
-      primary: d008
-      elementalStone: c021
-      local: h027
-      secondary: b021
-    talent:
-      primary: e011
-      boss: f019
+    ascensionPrimary: d008
+    ascensionElementalStone: c021
+    ascensionLocal: h027
+    secondary: b021
+    talentPrimary: e011
+    talentBoss: f019
 
 - id: Layla
   nameJP: レイラ
@@ -935,14 +820,12 @@
   weaponType: sword
   rarity: 4
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c020
-      local: h028
-      secondary: b003
-    talent:
-      primary: e011
-      boss: f020
+    ascensionPrimary: d005
+    ascensionElementalStone: c020
+    ascensionLocal: h028
+    secondary: b003
+    talentPrimary: e011
+    talentBoss: f020
 
 - id: Wanderer
   nameJP: 放浪者
@@ -950,14 +833,12 @@
   weaponType: catalyst
   rarity: 5
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c020
-      local: h026
-      secondary: b015
-    talent:
-      primary: e012
-      boss: f021
+    ascensionPrimary: d006
+    ascensionElementalStone: c020
+    ascensionLocal: h026
+    secondary: b015
+    talentPrimary: e012
+    talentBoss: f021
 
 - id: Faruzan
   nameJP: ファルザン
@@ -965,14 +846,12 @@
   weaponType: bow
   rarity: 4
   materials:
-    ascension:
-      primary: d006
-      elementalStone: c019
-      local: h030
-      secondary: b020
-    talent:
-      primary: e010
-      boss: f019
+    ascensionPrimary: d006
+    ascensionElementalStone: c019
+    ascensionLocal: h030
+    secondary: b020
+    talentPrimary: e010
+    talentBoss: f019
 
 - id: Yaoyao
   nameJP: ヨォーヨ
@@ -980,14 +859,12 @@
   weaponType: polearm
   rarity: 4
   materials:
-    ascension:
-      primary: d008
-      elementalStone: c021
-      local: h006
-      secondary: b001
-    talent:
-      primary: e005
-      boss: f021
+    ascensionPrimary: d008
+    ascensionElementalStone: c021
+    ascensionLocal: h006
+    secondary: b001
+    talentPrimary: e005
+    talentBoss: f021
 
 - id: Alhaitham
   nameJP: アルハイゼン
@@ -995,14 +872,12 @@
   weaponType: sword
   rarity: 5
   materials:
-    ascension:
-      primary: d008
-      elementalStone: c022
-      local: h032
-      secondary: b020
-    talent:
-      primary: e011
-      boss: f020
+    ascensionPrimary: d008
+    ascensionElementalStone: c022
+    ascensionLocal: h032
+    secondary: b020
+    talentPrimary: e011
+    talentBoss: f020
 
 - id: Dehya
   nameJP: ディシア
@@ -1010,14 +885,12 @@
   weaponType: claymore
   rarity: 5
   materials:
-    ascension:
-      primary: d002
-      elementalStone: c019
-      local: h032
-      secondary: b020
-    talent:
-      primary: e012
-      boss: f019
+    ascensionPrimary: d002
+    ascensionElementalStone: c019
+    ascensionLocal: h032
+    secondary: b020
+    talentPrimary: e012
+    talentBoss: f019
 
 - id: Mika
   nameJP: ミカ
@@ -1025,11 +898,9 @@
   weaponType: catalyst
   rarity: 4
   materials:
-    ascension:
-      primary: d005
-      elementalStone: c022
-      local: h014
-      secondary: b010
-    talent:
-      primary: e003
-      boss: f020
+    ascensionPrimary: d005
+    ascensionElementalStone: c022
+    ascensionLocal: h014
+    secondary: b010
+    talentPrimary: e003
+    talentBoss: f020

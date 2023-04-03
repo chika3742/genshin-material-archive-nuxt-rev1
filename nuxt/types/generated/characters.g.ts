@@ -27,44 +27,34 @@ export interface Character {
    * キャラクターの武器種
    */
   weaponType: "sword" | "claymore" | "polearm" | "catalyst" | "bow";
-  materials?: CharacterMaterials;
+  materials: CharacterMaterials;
 }
 /**
  * キャラクターの強化素材
  */
 export interface CharacterMaterials {
   /**
-   * キャラクターの突破素材
+   * キャラ突破用のプライマリ素材 (例: 炎願のアゲート) のID。
    */
-  ascension: {
-    /**
-     * キャラ突破用のプライマリ素材 (例: 炎願のアゲート) のID。
-     */
-    primary: string;
-    /**
-     * キャラ突破用のフィールドボス素材 (例: 常燃の火種) のID。
-     */
-    elementalStone?: string;
-    /**
-     * キャラ突破用の地域特産素材 (例: 石珀) のID。
-     */
-    local: string;
-    /**
-     * キャラ突破用のセカンダリ素材 (例: スライムの液体) のID。
-     */
-    secondary: string;
-  };
+  ascensionPrimary: string;
   /**
-   * キャラクターの天賦レベルアップ素材
+   * キャラ突破用のフィールドボス素材 (例: 常燃の火種) のID。
    */
-  talent?: {
-    /**
-     * キャラ天賦レベルアップ用のプライマリ素材 (例: 「自由」の教え) のID。
-     */
-    primary: string;
-    /**
-     * キャラ天賦レベルアップ用の週ボス素材 (例: 東風の羽根) のID。
-     */
-    boss: string;
-  };
+  ascensionElementalStone?: string;
+  /**
+   * キャラ突破用の地域特産素材 (例: 石珀) のID。
+   */
+  ascensionLocal: string;
+  /**
+   * キャラ突破/天賦用のセカンダリ素材 (例: スライムの液体) のID。
+   */
+  secondary: string;
+  /**
+   * キャラ天賦レベルアップ用のプライマリ素材 (例: 「自由」の教え) のID。
+   */
+  talentPrimary?: string;
+  /**
+   * キャラ天賦レベルアップ用の週ボス素材 (例: 東風の羽根) のID。
+   */
+  talentBoss?: string;
 }

@@ -15,6 +15,7 @@ definitions:
       - element
       - rarity
       - weaponType
+      - materials
     properties:
       id:
         type: string
@@ -59,40 +60,25 @@ definitions:
     type: object
     additionalProperties: false
     required:
-      - ascension
+      - ascensionPrimary
+      - ascensionLocal
+      - secondary
     properties:
-      ascension:
-        type: object
-        description: キャラクターの突破素材
-        additionalProperties: false
-        required:
-          - primary
-          - local
-          - secondary
-        properties:
-          primary:
-            type: string
-            description: "キャラ突破用のプライマリ素材 (例: 炎願のアゲート) のID。"
-          elementalStone:
-            type: string
-            description: "キャラ突破用のフィールドボス素材 (例: 常燃の火種) のID。"
-          local:
-            type: string
-            description: "キャラ突破用の地域特産素材 (例: 石珀) のID。"
-          secondary:
-            type: string
-            description: "キャラ突破用のセカンダリ素材 (例: スライムの液体) のID。"
-      talent:
-        type: object
-        description: キャラクターの天賦レベルアップ素材
-        additionalProperties: false
-        required:
-          - primary
-          - boss
-        properties:
-          primary:
-            type: string
-            description: "キャラ天賦レベルアップ用のプライマリ素材 (例: 「自由」の教え) のID。"
-          boss:
-            type: string
-            description: "キャラ天賦レベルアップ用の週ボス素材 (例: 東風の羽根) のID。"
+      ascensionPrimary:
+        type: string
+        description: "キャラ突破用のプライマリ素材 (例: 炎願のアゲート) のID。"
+      ascensionElementalStone:
+        type: string
+        description: "キャラ突破用のフィールドボス素材 (例: 常燃の火種) のID。"
+      ascensionLocal:
+        type: string
+        description: "キャラ突破用の地域特産素材 (例: 石珀) のID。"
+      secondary:
+        type: string
+        description: "キャラ突破/天賦用のセカンダリ素材 (例: スライムの液体) のID。"
+      talentPrimary:
+        type: string
+        description: "キャラ天賦レベルアップ用のプライマリ素材 (例: 「自由」の教え) のID。"
+      talentBoss:
+        type: string
+        description: "キャラ天賦レベルアップ用の週ボス素材 (例: 東風の羽根) のID。"
