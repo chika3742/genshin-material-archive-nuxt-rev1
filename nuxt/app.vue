@@ -25,7 +25,7 @@
 
       <v-main class="d-flex flex-column">
         <div class="position-sticky" style="top: 64px; z-index: 9999">
-          <v-progress-linear :active="loadingPage" indeterminate />
+          <v-progress-linear :active="loadingPage" color="primary" indeterminate />
         </div>
 
         <v-container>
