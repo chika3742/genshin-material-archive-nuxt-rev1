@@ -1,5 +1,6 @@
 <template>
   <v-card :to="localePath(`/characters/${character.id}`)" :v-slot:loader="false" class="character-card">
+    <v-img :src="getElementImage(character.element)" class="character-card__element" />
     <v-img
       :src="getCharacterImage(character.id, 'full')"
       :style="`filter: brightness(${$vuetify.theme.name === 'dark' ? '0.8' : '1'})`"
@@ -12,13 +13,9 @@
 import {getCharacterImage, getElementImage} from "~/utils/image-getters"
 import {Character as _Character} from "~/types/generated/characters.g"
 
-const props = defineProps<{
+defineProps<{
   character: _Character
 }>()
-
-const elementImageCss = computed(() => {
-  return `url(${getElementImage(props.character.element)})`
-})
 
 </script>
 
@@ -28,9 +25,7 @@ const elementImageCss = computed(() => {
   max-width: 250px
   width: calc(50% - 16px)
 
-  &::before
-    content: ""
-    background-image: v-bind(elementImageCss)
+  &__element
     position: absolute
     right: 12%
     top: 20%
