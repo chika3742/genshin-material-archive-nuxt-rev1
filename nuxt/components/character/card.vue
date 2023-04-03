@@ -10,10 +10,10 @@
 
 <script lang="ts" setup>
 import {getCharacterImage, getElementImage} from "~/utils/image-getters"
-import {Character} from "~/types/generated/characters.g"
+import {Character as _Character} from "~/types/generated/characters.g"
 
 const props = defineProps<{
-  character: Character
+  character: _Character
 }>()
 
 const elementImageCss = computed(() => {
