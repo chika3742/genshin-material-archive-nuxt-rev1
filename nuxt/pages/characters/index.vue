@@ -3,69 +3,76 @@
     <v-row style="gap: 16px" no-gutters>
       <v-btn prepend-icon="ms:sort">
         {{ $t("common.sort") }}
-        <v-menu activator="parent">
-          <v-list v-model:selected="sort" select-strategy="single-independent">
-            <v-list-item
-              v-for="item in sortOrderOptions"
-              :key="item"
-              :title="$t(`charactersPage.sortOptions.${item}`)"
-              :value="item"
-            />
-          </v-list>
-        </v-menu>
+        <!-- avoid node mismatch error -->
+        <client-only>
+          <v-menu activator="parent">
+            <v-list v-model:selected="sort" select-strategy="single-independent">
+              <v-list-item
+                v-for="item in sortOrderOptions"
+                :key="item"
+                :title="$t(`charactersPage.sortOptions.${item}`)"
+                :value="item"
+              />
+            </v-list>
+          </v-menu>
+        </client-only>
       </v-btn>
+
       <v-btn
         prepend-icon="ms:filter_alt"
         :color="Object.values(filter).some(e => e[0]) ? 'orange-darken-3' : undefined"
       >
         {{ $t("common.filter") }}
-        <v-menu activator="parent" :close-on-content-click="false">
-          <v-card>
-            <v-row class="filter-options" no-gutters>
-              <div>
-                <h4>{{ $t("charactersPage.filterOptions.element") }}</h4>
-                <v-list v-model:selected="filter.element">
-                  <v-list-item v-for="item in elements" :key="item" class="justify-center" :value="item">
-                    <v-img
-                      :src="getElementImage(item)"
-                      width="30px"
-                      height="30px"
-                      :style="`filter: brightness(${$vuetify.theme.global.name === 'light' ? '0' : '1'})`"
+        <!-- avoid node mismatch error -->
+        <client-only>
+          <v-menu :close-on-content-click="false" activator="parent">
+            <v-card>
+              <v-row class="filter-options" no-gutters>
+                <div>
+                  <h4>{{ $t("charactersPage.filterOptions.element") }}</h4>
+                  <v-list v-model:selected="filter.element">
+                    <v-list-item v-for="item in elements" :key="item" :value="item" class="justify-center">
+                      <v-img
+                        :src="getElementImage(item)"
+                        :style="`filter: brightness(${$vuetify.theme.global.name === 'light' ? '0' : '1'})`"
+                        height="30px"
+                        width="30px"
+                      />
+                    </v-list-item>
+                  </v-list>
+                </div>
+                <v-divider vertical />
+                <div>
+                  <h4>{{ $t("charactersPage.filterOptions.weaponType") }}</h4>
+                  <v-list v-model:selected="filter.weaponType">
+                    <v-list-item
+                      v-for="item in weaponTypes"
+                      :key="item"
+                      :title="$t(`weaponTypes.${item}`)"
+                      :value="item"
                     />
-                  </v-list-item>
-                </v-list>
-              </div>
-              <v-divider vertical />
-              <div>
-                <h4>{{ $t("charactersPage.filterOptions.weaponType") }}</h4>
-                <v-list v-model:selected="filter.weaponType">
-                  <v-list-item
-                    v-for="item in weaponTypes"
-                    :key="item"
-                    :value="item"
-                    :title="$t(`weaponTypes.${item}`)"
-                  />
-                </v-list>
-              </div>
-              <v-divider vertical />
-              <div>
-                <h4>{{ $t("charactersPage.filterOptions.rarity") }}</h4>
-                <v-list v-model:selected="filter.rarity">
-                  <v-list-item v-for="item in rarityFilterOptions" :key="item" :value="item">
-                    <v-row no-gutters>
-                      <v-icon v-for="i of item" :key="i" color="star" size="18">
-                        mdi-star
-                      </v-icon>
-                    </v-row>
-                  </v-list-item>
-                </v-list>
-              </div>
-            </v-row>
-            <v-card-subtitle class="my-2" style="text-align: center">
-              {{ $t("charactersPage.filterCancelHint", {interactionTypeText: isTouchDevice() ? $t("interactionType.tap") : $t("interactionType.click")}) }}
-            </v-card-subtitle>
-          </v-card>
-        </v-menu>
+                  </v-list>
+                </div>
+                <v-divider vertical />
+                <div>
+                  <h4>{{ $t("charactersPage.filterOptions.rarity") }}</h4>
+                  <v-list v-model:selected="filter.rarity">
+                    <v-list-item v-for="item in rarityFilterOptions" :key="item" :value="item">
+                      <v-row no-gutters>
+                        <v-icon v-for="i of item" :key="i" color="star" size="18">
+                          mdi-star
+                        </v-icon>
+                      </v-row>
+                    </v-list-item>
+                  </v-list>
+                </div>
+              </v-row>
+              <v-card-subtitle class="my-2" style="text-align: center">
+                {{ i18n.t("charactersPage.filterCancelHint", {interactionTypeText: getInteractionTypeText($t)}) }}
+              </v-card-subtitle>
+            </v-card>
+          </v-menu>
+        </client-only>
       </v-btn>
     </v-row>
 
@@ -76,7 +83,7 @@
 </template>
 
 <script lang="ts" setup>
-import {isTouchDevice} from "~/utils/is-touch-device"
+import {getInteractionTypeText} from "~/utils/is-touch-device"
 import {computed, ref} from "#imports"
 import {elements, GenshinElement, WeaponType, weaponTypes} from "~/types/strings"
 import {getElementImage} from "~/utils/image-getters"
