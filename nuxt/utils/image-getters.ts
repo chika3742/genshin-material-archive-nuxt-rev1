@@ -11,3 +11,7 @@ export const getCharacterImage = (characterId: string, variant: "full" | "small"
     return new URL(`../assets/img/characters/${characterId}_small.webp`, import.meta.url).toString()
   }
 }
+
+export const getMaterialImage = (materialId: string) => {
+  return new URL(`../assets/img/materials/${materialId}.webp`, import.meta.url).toString()
+}

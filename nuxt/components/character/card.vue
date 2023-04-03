@@ -1,6 +1,9 @@
 <template>
-  <v-card class="character-card">
-    <v-img :src="getCharacterImage(character.id, 'full')" :style="`filter: brightness(${$vuetify.theme.name === 'dark' ? '0.8' : '1'})`" />
+  <v-card :to="localePath(`/characters/${character.id}`)" class="character-card">
+    <v-img
+      :src="getCharacterImage(character.id, 'full')"
+      :style="`filter: brightness(${$vuetify.theme.name === 'dark' ? '0.8' : '1'})`"
+    />
     <span class="font-kaisei-opti">{{ $t(`characters.${character.id}`) }}</span>
   </v-card>
 </template>
@@ -44,7 +47,6 @@ const elementImageCss = computed(() => {
     padding: 4px 16px
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 70%, rgba(0, 0, 0, 0))
     font-size: 1.3rem
-    font-weight: bold
     color: white
     text-shadow: 0 0 4px black
 

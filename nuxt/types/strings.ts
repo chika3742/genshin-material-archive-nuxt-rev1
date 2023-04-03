@@ -1,5 +1,9 @@
 export type ThemeConfig = "dark" | "light" | "auto"
 
+export type TargetType = "character" | "weapon"
+
+export type PurposeType = "ascension" | "normalAttack" | "elementalSkill" | "elementalBurst"
+
 export const elements = ["pyro", "hydro", "anemo", "electro", "dendro", "cryo", "geo"] as const
 
 export type GenshinElement = typeof elements[number]

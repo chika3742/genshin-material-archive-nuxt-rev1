@@ -2,10 +2,12 @@ common:
   appName: Genshin Material Helper
   sort: Sort
   filter: Filter
+  backToHome: Back to Home
 
 pageTitle:
   home: Home
   characters: Characters
+  characters__characterId: Characters / {name}
   about: About This App
   releaseNotes: Release Notes
   terms: Terms of Service
@@ -37,6 +39,14 @@ charactersPage:
     weaponType: Weapon Type
     rarity: Rarity
   filterCancelHint: "{interactionTypeText} again to cancel"
+
+characterDetailsPage:
+  ascension:
+    title: Character Lv Up / Ascension Materials
+  talent:
+    title: Talent Lv Up Materials
+    elementalSkill: "Elemental Skill: "
+    elementalBurst: "Elemental Burst: "
 
 about:
   settings:

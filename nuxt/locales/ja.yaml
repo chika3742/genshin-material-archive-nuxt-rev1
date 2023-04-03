@@ -2,10 +2,12 @@ common:
   appName: 原神素材ヘルパー
   sort: 並べ替え
   filter: 絞り込み
+  backToHome: ホームに戻る
 
 pageTitle:
   home: ホーム
   characters: キャラクター
+  characters__characterId: キャラクター / {name}
   about: このアプリについて
   releaseNotes: 更新履歴
   terms: 利用規約
@@ -37,6 +39,14 @@ charactersPage:
     weaponType: 武器種
     rarity: レアリティ
   filterCancelHint: もう1度{interactionTypeText}すると解除できます
+
+characterDetailsPage:
+  ascension:
+    title: キャラLvアップ/突破素材
+  talent:
+    title: 天賦Lvアップ素材
+    elementalSkill: 元素スキル・
+    elementalBurst: 元素爆発・
 
 about:
   settings:
@@ -132,3 +142,277 @@ characters:
   Yaoyao: ヨォーヨ
   Dehya: ディシア
   Mika: ミカ
+
+talentNames:
+  Traveler_anemo:
+    normal: 通常攻撃・異邦の鉄風
+    skill: 旋風の剣
+    burst: 激風の息
+  Traveler_geo:
+    normal: 通常攻撃・異邦の岩峰
+    skill: 星落としの剣
+    burst: 岩潮幾重
+  Traveler_electro:
+    normal: 通常攻撃・異邦の驚雷
+    skill: 雷影剣
+    burst: 電光雷轟
+  Traveler_dendro:
+    normal: 通常攻撃・異邦の草薙
+    skill: 草縁剣
+    burst: 臥草若化
+  Jean:
+    normal: 通常攻撃・西風剣術
+    skill: 風圧剣
+    burst: 蒲公英の風
+  Kaeya:
+    normal: 通常攻撃・儀典の剣術
+    skill: 霜の襲撃
+    burst: 凛冽なる輪舞
+  Amber:
+    normal: 通常攻撃・一流射手
+    skill: 爆弾人形
+    burst: 矢の雨
+  Lisa:
+    normal: 通常攻撃・指先の雷
+    skill: 蒼雷
+    burst: 薔薇の雷光
+  Barbara:
+    normal: 通常攻撃・水の囁き
+    skill: 公演、開始♪
+    burst: シャイニングミラクル♪
+  Diluc:
+    normal: 通常攻撃・百煉の剣
+    skill: 逆焔の刃
+    burst: 黎明
+  Razor:
+    normal: 通常攻撃・鋼の脊
+    skill: 鋭い爪と蒼雷
+    burst: 雷牙
+  Venti:
+    normal: 通常攻撃・神代の射術
+    skill: 高天の歌
+    burst: 風神の詩
+  Klee:
+    normal: 通常攻撃・バンバン
+    skill: ボンボン爆弾
+    burst: ドッカン花火
+  Bennett:
+    normal: 通常攻撃・好運の剣
+    skill: 溢れる情熱
+    burst: 素晴らしい旅
+  Noelle:
+    normal: 通常攻撃・西風剣術・メイド
+    skill: 護心鎧
+    burst: 大掃除
+  Fischl:
+    normal: 通常攻撃・罪滅ぼしの矢
+    skill: 夜巡りの翼
+    burst: 夜の幻現
+  Sucrose:
+    normal: 通常攻撃・簡式風霊作成
+    skill: 風霊作成・六三〇八
+    burst: 禁・風霊作成・七五同構弐型
+  Mona:
+    normal: 通常攻撃・因果点破
+    skill: 水中幻願
+    burst: 虚実流動
+  Diona:
+    normal: 通常攻撃・狩人の射術
+    skill: フリーズキャッツクロー
+    burst: 特製スピリッツ
+  Albedo:
+    normal: 通常攻撃・西風剣術・白
+    skill: 創生術・擬似陽華
+    burst: 誕生式・大地の潮
+  Rosaria:
+    normal: 通常攻撃・教会槍術
+    skill: 罪喰いの懺悔
+    burst: 臨終の聖礼
+  Eula:
+    normal: 通常攻撃・西風剣術・旧貴族
+    skill: 氷潮の渦
+    burst: 氷浪の光剣
+  Xiao:
+    normal: 通常攻撃・微塵突進
+    skill: 風輪両立
+    burst: 靖妖儺舞
+  Beidou:
+    normal: 通常攻撃・征浪
+    skill: 浪追い
+    burst: 雷斫り
+  Ningguang:
+    normal: 通常攻撃・千金擲
+    skill: 璇璣屏
+    burst: 天権崩玉
+  Xiangling:
+    normal: 通常攻撃・料理技法
+    skill: グゥオパァー出撃
+    burst: 旋火輪
+  Xingqiu:
+    normal: 通常攻撃・古華剣法
+    skill: 古華剣・画雨籠山
+    burst: 古華剣・裁雨留虹
+  Chongyun:
+    normal: 通常攻撃・滅邪四式
+    skill: 霊刃・重華積霜
+    burst: 霊刃・雲開星落
+  Qiqi:
+    normal: 通常攻撃・雲来古剣法
+    skill: 仙法・寒病鬼差
+    burst: 仙法・救苦度厄
+  Keqing:
+    normal: 通常攻撃・雲来剣法
+    skill: 星辰帰位
+    burst: 天街巡遊
+  Tartaglia:
+    normal: 通常攻撃・断雨
+    skill: 魔王の武装・荒波
+    burst: 極悪技・尽滅閃
+  Zhongli:
+    normal: 通常攻撃・岩雨
+    skill: 地心
+    burst: 天星
+  Xinyan:
+    normal: 通常攻撃・炎舞
+    skill: 情熱の薙ぎ払い
+    burst: 反逆の弾き
+  Ganyu:
+    normal: 通常攻撃・流天射術
+    skill: 山沢麟跡
+    burst: 降衆天華
+  HuTao:
+    normal: 通常攻撃・往生秘伝槍法
+    skill: 蝶導来世
+    burst: 安神秘法
+  Yanfei:
+    normal: 通常攻撃・封蝋の印
+    skill: 丹書契約
+    burst: 契約成立
+  KamisatoAyaka:
+    normal: 通常攻撃・神里流・傾き
+    skill: 神里流・氷華
+    burst: 神里流・霰歩
+  KaedeharaKazuha:
+    normal: 通常攻撃・我流剣術
+    skill: 千早振る
+    burst: 万葉の一刀
+  Yoimiya:
+    normal: 通常攻撃・打ち上げ花火
+    skill: 焔硝の庭火舞い
+    burst: 琉金の雲間草
+  Sayu:
+    normal: 通常攻撃・忍刀・終末番
+    skill: 嗚呼流・風隠急進
+    burst: 嗚呼流・影貉繚乱
+  RaidenShogun:
+    normal: 通常攻撃・源流
+    skill: 神変・悪曜開眼
+    burst: 奥義・夢想真説
+  SangonomiyaKokomi:
+    normal: 通常攻撃・水の常形
+    skill: 海月の誓い
+    burst: 海人の羽衣
+  KujouSara:
+    normal: 通常攻撃・天狗伝弓術
+    skill: 烏天狗雷霆召呪
+    burst: 煌煌千道鎮式
+  Aloy:
+    normal: 通常攻撃・ラピッドファイア
+    skill: 凍てついた大地
+    burst: ドーンプロフェシー
+  Thoma:
+    normal: 通常攻撃・瞬破槍勢
+    skill: 烈炎侍立
+    burst: 真紅熾炎の大鎧
+  Gorou:
+    normal: 通常攻撃・獣牙裂扇矢
+    skill: 犬坂の遠吠え方円陣
+    burst: 獣牙突撃陣形戦法
+  AratakiItto:
+    normal: 通常攻撃・喧嘩屋伝説
+    skill: 魔殺絶技・岩牛発破！
+    burst: 最凶鬼王・一斗轟臨！！
+  Shenhe:
+    normal: 通常攻撃・踏辰摂斗
+    skill: 仰霊威召将役呪
+    burst: 神女遣霊真訣
+  YunJin:
+    normal: 通常攻撃・拂雲出手
+    skill: 旋雲開相
+    burst: 破嶂の旌儀
+  YaeMiko:
+    normal: 通常攻撃・狐霊罪喰い式
+    skill: 野干役呪・殺生櫻
+    burst: 大密法・天狐顕現
+  KamisatoAyato:
+    normal: 通常攻撃・神里流・転
+    skill: 神里流・鏡花
+    burst: 神里流・水囿
+  Yelan:
+    normal: 通常攻撃・匿影隠曜の弓
+    skill: 絡み合う命の糸
+    burst: 深謀玲瓏賽
+  KukiShinobu:
+    normal: 通常攻撃・忍流飛刃斬り
+    skill: 越祓雷草の輪
+    burst: 御詠鳴神刈山祭
+  ShikanoinHeizou:
+    normal: 通常攻撃・不動流格闘術
+    skill: 戮心拳
+    burst: 廻風蹴
+  Tighnari:
+    normal: 通常攻撃・蔵蘊散悩
+    skill: 識果榴弾
+    burst: 造生・蔓纏いの矢
+  Collei:
+    normal: 通常攻撃・祈りの射技
+    skill: 花触葉讃
+    burst: ニャンコトレジャー
+  Dori:
+    normal: 通常攻撃・マーベラスソードダンス・改
+    skill: ジンニーランプ・トラブルシューター
+    burst: アルカサルザライの極上サービス
+  Cyno:
+    normal: 通常攻撃・七聖槍術
+    skill: 秘儀・律淵渡魂
+    burst: 聖儀・狼駆憑走
+  Candace:
+    normal: 通常攻撃・流耀槍術・守勢
+    skill: 聖儀・蒼鷺による庇護
+    burst: 聖儀・灰鴒の呼び潮
+  Nilou:
+    normal: 通常攻撃・弦月のダンス
+    skill: 七域のダンス
+    burst: 浮蓮のダンス・遠夢聆泉
+  Nahida:
+    normal: 通常攻撃・行相
+    skill: 所聞遍計
+    burst: 心景幻成
+  Layla:
+    normal: 通常攻撃・煌めく軌跡の剣
+    skill: 垂裳凛然の夜
+    burst: 星流揺籠の夢
+  Wanderer:
+    normal: 通常攻撃・幡舞鳴弦
+    skill: 羽画・風姿華歌
+    burst: 狂言・式楽伍番
+  Faruzan:
+    normal: 通常攻撃・転回弓術
+    skill: 非想風天
+    burst: 搏風秘道
+  Alhaitham:
+    normal: 通常攻撃・リトロダクション
+    skill: 共相・イデア模写
+    burst: 殊境・顕象結縛
+  Yaoyao:
+    normal: 通常攻撃・顛撲連撃槍
+    skill: 祥雲団々落清白
+    burst: 玉颗珊々月中落
+  Dehya:
+    normal: 通常攻撃・剣闘術・金砂塵
+    skill: 熔鉄流獄
+    burst: 炎哮獅子咬
+  Mika:
+    normal: 通常攻撃・西風槍術・鏑矢
+    skill: スターフロストスワール
+    burst: スカイフェザーソング
