@@ -1,8 +1,9 @@
-import {createVuetify} from "vuetify"
+import {createVuetify, IconProps} from "vuetify"
 import * as components from "vuetify/components"
 import * as directives from "vuetify/directives"
 import "@mdi/font/css/materialdesignicons.css"
 import "vuetify/lib/styles/main.sass"
+import {FunctionalComponent} from "vue"
 import {h} from "#imports"
 
 export default defineNuxtPlugin((nuxtApp) => {
@@ -37,12 +38,12 @@ export default defineNuxtPlugin((nuxtApp) => {
       defaultSet: "mdi",
       sets: {
         ms: {
-          component(params) {
+          component: ((params) => {
             return h("i", {
               class: ["font-material-symbols-outlined"],
               textContent: params.icon,
             })
-          },
+          }) as FunctionalComponent<IconProps>,
         },
       },
     },
