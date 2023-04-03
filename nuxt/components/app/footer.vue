@@ -58,9 +58,13 @@
           </client-only>
         </v-btn>
       </div>
-      <div style="font-size: 0.7em">
-        ©chika {{ new Date().getFullYear() }}<br>
-        {{ $t("footer.disclaimer") }}
+      <div class="d-flex align-end flex-wrap" style="font-size: 0.7em; gap: 16px">
+        <div class="d-flex flex-column">
+          <span>©chika {{ new Date().getFullYear() }}</span>
+          <span>{{ $t("footer.disclaimer") }}</span>
+        </div>
+        <v-spacer />
+        <span>{{ getCurrentVersion() }}</span>
       </div>
     </div>
   </v-footer>
