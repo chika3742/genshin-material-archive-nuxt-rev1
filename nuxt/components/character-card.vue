@@ -1,5 +1,5 @@
 <template>
-  <v-card :to="localePath(`/characters/${character.id}`)" class="character-card">
+  <v-card :to="localePath(`/characters/${character.id}`)" :v-slot:loader="false" class="character-card">
     <v-img
       :src="getCharacterImage(character.id, 'full')"
       :style="`filter: brightness(${$vuetify.theme.name === 'dark' ? '0.8' : '1'})`"
