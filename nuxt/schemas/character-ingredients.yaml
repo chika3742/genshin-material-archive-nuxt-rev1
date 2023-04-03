@@ -1,0 +1,87 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: object
+additionalProperties: false
+required:
+  - ascension
+  - normalAttack
+  - elementalSkill
+  - elementalBurst
+
+properties:
+  ascension:
+    type: array
+    items:
+      $ref: "#/definitions/levelIngredients"
+
+  normalAttack:
+    type: array
+    items:
+      $ref: "#/definitions/levelIngredients"
+
+  elementalSkill:
+    type: array
+    items:
+      $ref: "#/definitions/levelIngredients"
+
+  elementalBurst:
+    type: array
+    items:
+      $ref: "#/definitions/levelIngredients"
+
+
+definitions:
+  ingredient:
+    oneOf:
+      - type: object
+        additionalProperties: false
+        required:
+          - id
+          - quantity
+        properties:
+          id:
+            type: string
+          craftLevel:
+            type: string
+          quantity:
+            type: integer
+
+      - type: object
+        additionalProperties: false
+        required:
+          - type
+          - quantity
+        properties:
+          type:
+            type: string
+            enum:
+              - ascensionPrimary
+              - ascensionElementalStone
+              - ascensionLocal
+              - secondary
+              - talentPrimary
+              - talentBoss
+          craftLevel:
+            type: string
+          quantity:
+            type: integer
+          exceptions:
+            type: object
+            additionalProperties:
+              type:
+                - string
+                - boolean
+
+  levelIngredients:
+    type: object
+    additionalProperties: false
+    required:
+      - level
+      - ingredients
+    properties:
+      level:
+        type: integer
+      ingredients:
+        type: array
+        items:
+          $ref: "#/definitions/ingredient"

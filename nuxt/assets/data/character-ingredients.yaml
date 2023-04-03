@@ -1,0 +1,721 @@
+ascension:
+  - level: 20
+    ingredients:
+      - id: a002
+        craftLevel: "3"
+        quantity: 6
+      - id: a002
+        craftLevel: "1"
+        quantity: 1
+      - id: z002
+        quantity: 24200
+
+  - level: 40
+    ingredients:
+      - id: a002
+        craftLevel: "3"
+        quantity: 28
+      - id: a002
+        craftLevel: "2"
+        quantity: 3
+      - id: a002
+        craftLevel: "1"
+        quantity: 4
+      - id: z002
+        quantity: 115800
+      - type: ascensionPrimary
+        craftLevel: "1"
+        quantity: 1
+      - type: secondary
+        craftLevel: "1"
+        quantity: 3
+      - type: ascensionLocal
+        quantity: 3
+      - id: z002
+        quantity: 20000
+
+  - level: 50
+    ingredients:
+      - id: a002
+        craftLevel: "3"
+        quantity: 29
+      - id: z002
+        quantity: 116000
+      - type: ascensionPrimary
+        craftLevel: "2"
+        quantity: 3
+      - type: ascensionElementalStone
+        quantity: 2
+        exceptions:
+          Traveler_anemo: false
+          Traveler_geo: false
+          Traveler_electro: false
+          Traveler_dendro: false
+      - type: secondary
+        craftLevel: "1"
+        quantity: 15
+      - type: ascensionLocal
+        quantity: 10
+      - id: z002
+        quantity: 40000
+
+  - level: 60
+    ingredients:
+      - id: a002
+        craftLevel: "3"
+        quantity: 42
+      - id: a002
+        craftLevel: "2"
+        quantity: 3
+      - id: z002
+        quantity: 171000
+      - type: ascensionPrimary
+        craftLevel: "2"
+        quantity: 6
+      - type: ascensionElementalStone
+        quantity: 4
+        exceptions:
+          Traveler_anemo: false
+          Traveler_geo: false
+          Traveler_electro: false
+          Traveler_dendro: false
+      - type: secondary
+        craftLevel: "2"
+        quantity: 12
+      - type: ascensionLocal
+        quantity: 20
+      - id: z002
+        quantity: 60000
+
+  - level: 70
+    ingredients:
+      - id: a002
+        craftLevel: "3"
+        quantity: 59
+      - id: a002
+        craftLevel: "2"
+        quantity: 3
+      - id: a002
+        craftLevel: "1"
+        quantity: 1
+      - id: z002
+        quantity: 239200
+      - type: ascensionPrimary
+        craftLevel: "3"
+        quantity: 3
+      - type: ascensionElementalStone
+        quantity: 8
+        exceptions:
+          Traveler_anemo: false
+          Traveler_geo: false
+          Traveler_electro: false
+          Traveler_dendro: false
+      - type: secondary
+        craftLevel: "2"
+        quantity: 18
+      - type: ascensionLocal
+        quantity: 30
+      - id: z002
+        quantity: 80000
+
+  - level: 80
+    ingredients:
+      - id: a002
+        craftLevel: "3"
+        quantity: 80
+      - id: a002
+        craftLevel: "2"
+        quantity: 2
+      - id: a002
+        craftLevel: "1"
+        quantity: 2
+      - id: z002
+        quantity: 322400
+      - type: ascensionPrimary
+        craftLevel: "3"
+        quantity: 6
+      - type: ascensionElementalStone
+        quantity: 12
+        exceptions:
+          Traveler_anemo: false
+          Traveler_geo: false
+          Traveler_electro: false
+          Traveler_dendro: false
+      - type: secondary
+        craftLevel: "3"
+        quantity: 12
+      - type: ascensionLocal
+        quantity: 45
+      - id: z002
+        quantity: 100000
+
+  - level: 90
+    ingredients:
+      - id: a002
+        craftLevel: "3"
+        quantity: 171
+      - id: a002
+        craftLevel: "1"
+        quantity: 4
+      - id: z002
+        quantity: 684800
+      - type: ascensionPrimary
+        craftLevel: "4"
+        quantity: 6
+      - type: ascensionElementalStone
+        quantity: 20
+        exceptions:
+          Traveler_anemo: false
+          Traveler_geo: false
+          Traveler_electro: false
+          Traveler_dendro: false
+      - type: secondary
+        craftLevel: "3"
+        quantity: 24
+      - type: ascensionLocal
+        quantity: 60
+      - id: z002
+        quantity: 120000
+
+normalAttack:
+  - level: 2
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "1"
+        quantity: 3
+        exceptions:
+          Traveler_anemo: e001-1
+          Traveler_geo: e001-1
+          Traveler_electro: e007-1
+          Traveler_dendro: e010-1
+      - type: secondary
+        craftLevel: "1"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b003-1
+      - id: z002
+        quantity: 12500
+
+  - level: 3
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 2
+        exceptions:
+          Traveler_anemo: e002-2
+          Traveler_geo: e002-2
+          Traveler_electro: e008-2
+          Traveler_dendro: e011-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 3
+        exceptions:
+          Traveler_geo: b003-2
+      - id: z002
+        quantity: 17500
+
+  - level: 4
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 4
+        exceptions:
+          Traveler_anemo: e003-2
+          Traveler_geo: e003-2
+          Traveler_electro: e009-2
+          Traveler_dendro: e012-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 4
+        exceptions:
+          Traveler_geo: b003-2
+      - id: z002
+        quantity: 25000
+
+  - level: 5
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 6
+        exceptions:
+          Traveler_anemo: e001-2
+          Traveler_geo: e001-2
+          Traveler_electro: e007-2
+          Traveler_dendro: e010-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b003-2
+      - id: z002
+        quantity: 30000
+
+  - level: 6
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 9
+        exceptions:
+          Traveler_anemo: e002-2
+          Traveler_geo: e002-2
+          Traveler_electro: e008-2
+          Traveler_dendro: e011-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 9
+        exceptions:
+          Traveler_geo: b003-2
+      - id: z002
+        quantity: 37500
+
+  - level: 7
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 4
+        exceptions:
+          Traveler_anemo: e003-3
+          Traveler_geo: e003-3
+          Traveler_electro: e009-3
+          Traveler_dendro: e012-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 4
+        exceptions:
+          Traveler_geo: b003-3
+      - type: talentBoss
+        quantity: 1
+        exceptions:
+          Traveler_geo: f003
+      - id: z002
+        quantity: 120000
+
+  - level: 8
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 6
+        exceptions:
+          Traveler_anemo: e001-3
+          Traveler_geo: e001-3
+          Traveler_electro: e007-3
+          Traveler_dendro: e010-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b003-3
+      - type: talentBoss
+        quantity: 1
+        exceptions:
+          Traveler_geo: f003
+      - id: z002
+        quantity: 260000
+
+  - level: 9
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 12
+        exceptions:
+          Traveler_anemo: e002-3
+          Traveler_geo: e002-3
+          Traveler_electro: e008-3
+          Traveler_dendro: e011-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 9
+        exceptions:
+          Traveler_geo: b003-3
+      - type: talentBoss
+        quantity: 2
+        exceptions:
+          Traveler_geo: f003
+      - id: z002
+        quantity: 450000
+
+  - level: 10
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 16
+        exceptions:
+          Traveler_anemo: e003-3
+          Traveler_geo: e003-3
+          Traveler_electro: e009-3
+          Traveler_dendro: e012-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 12
+        exceptions:
+          Traveler_geo: b003-3
+      - type: talentBoss
+        quantity: 2
+        exceptions:
+          Traveler_geo: f003
+      - id: z001
+        quantity: 1
+      - id: z002
+        quantity: 700000
+
+elementalSkill:
+  - level: 2
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "1"
+        quantity: 3
+        exceptions:
+          Traveler_anemo: e001-1
+          Traveler_geo: e004-1
+          Traveler_electro: e007-1
+          Traveler_dendro: e010-1
+      - type: secondary
+        craftLevel: "1"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b004-1
+      - id: z002
+        quantity: 12500
+
+  - level: 3
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 2
+        exceptions:
+          Traveler_anemo: e002-2
+          Traveler_geo: e005-2
+          Traveler_electro: e008-2
+          Traveler_dendro: e011-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 3
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 17500
+
+  - level: 4
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 4
+        exceptions:
+          Traveler_anemo: e003-2
+          Traveler_geo: e006-2
+          Traveler_electro: e009-2
+          Traveler_dendro: e012-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 4
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 25000
+
+  - level: 5
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 6
+        exceptions:
+          Traveler_anemo: e001-2
+          Traveler_geo: e004-2
+          Traveler_electro: e007-2
+          Traveler_dendro: e010-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 30000
+
+  - level: 6
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 9
+        exceptions:
+          Traveler_anemo: e002-2
+          Traveler_geo: e005-2
+          Traveler_electro: e008-2
+          Traveler_dendro: e011-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 9
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 37500
+
+  - level: 7
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 4
+        exceptions:
+          Traveler_anemo: e003-3
+          Traveler_geo: e006-3
+          Traveler_electro: e009-3
+          Traveler_dendro: e012-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 4
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 1
+        exceptions:
+          Traveler_geo: f004
+      - id: z002
+        quantity: 120000
+
+  - level: 8
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 6
+        exceptions:
+          Traveler_anemo: e001-3
+          Traveler_geo: e004-3
+          Traveler_electro: e007-3
+          Traveler_dendro: e010-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 1
+        exceptions:
+          Traveler_geo: f004
+      - id: z002
+        quantity: 260000
+
+  - level: 9
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 12
+        exceptions:
+          Traveler_anemo: e002-3
+          Traveler_geo: e005-3
+          Traveler_electro: e008-3
+          Traveler_dendro: e011-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 9
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 2
+        exceptions:
+          Traveler_geo: f004
+      - id: z002
+        quantity: 450000
+
+  - level: 10
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 16
+        exceptions:
+          Traveler_anemo: e003-3
+          Traveler_geo: e006-3
+          Traveler_electro: e009-3
+          Traveler_dendro: e012-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 12
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 2
+        exceptions:
+          Traveler_geo: f004
+      - id: z001
+        quantity: 1
+      - id: z002
+        quantity: 700000
+
+elementalBurst:
+  - level: 2
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "1"
+        quantity: 3
+        exceptions:
+          Traveler_anemo: e001-1
+          Traveler_geo: e004-1
+          Traveler_electro: e007-1
+          Traveler_dendro: e010-1
+      - type: secondary
+        craftLevel: "1"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b004-1
+      - id: z002
+        quantity: 12500
+
+  - level: 3
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 2
+        exceptions:
+          Traveler_anemo: e002-2
+          Traveler_geo: e005-2
+          Traveler_electro: e008-2
+          Traveler_dendro: e011-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 3
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 17500
+
+  - level: 4
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 4
+        exceptions:
+          Traveler_anemo: e003-2
+          Traveler_geo: e006-2
+          Traveler_electro: e009-2
+          Traveler_dendro: e012-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 4
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 25000
+
+  - level: 5
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 6
+        exceptions:
+          Traveler_anemo: e001-2
+          Traveler_geo: e004-2
+          Traveler_electro: e007-2
+          Traveler_dendro: e010-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 30000
+
+  - level: 6
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "2"
+        quantity: 9
+        exceptions:
+          Traveler_anemo: e002-2
+          Traveler_geo: e005-2
+          Traveler_electro: e008-2
+          Traveler_dendro: e011-2
+      - type: secondary
+        craftLevel: "2"
+        quantity: 9
+        exceptions:
+          Traveler_geo: b004-2
+      - id: z002
+        quantity: 37500
+
+  - level: 7
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 4
+        exceptions:
+          Traveler_anemo: e003-3
+          Traveler_geo: e006-3
+          Traveler_electro: e009-3
+          Traveler_dendro: e012-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 4
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 1
+        exceptions:
+          Traveler_geo: f004
+      - id: z002
+        quantity: 120000
+
+  - level: 8
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 6
+        exceptions:
+          Traveler_anemo: e001-3
+          Traveler_geo: e004-3
+          Traveler_electro: e007-3
+          Traveler_dendro: e010-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 6
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 1
+        exceptions:
+          Traveler_geo: f004
+      - id: z002
+        quantity: 260000
+
+  - level: 9
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 12
+        exceptions:
+          Traveler_anemo: e002-3
+          Traveler_geo: e005-3
+          Traveler_electro: e008-3
+          Traveler_dendro: e011-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 9
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 2
+        exceptions:
+          Traveler_geo: f004
+      - id: z002
+        quantity: 450000
+
+  - level: 10
+    ingredients:
+      - type: talentPrimary
+        craftLevel: "3"
+        quantity: 16
+        exceptions:
+          Traveler_anemo: e003-3
+          Traveler_geo: e006-3
+          Traveler_electro: e009-3
+          Traveler_dendro: e012-3
+      - type: secondary
+        craftLevel: "3"
+        quantity: 12
+        exceptions:
+          Traveler_geo: b004-3
+      - type: talentBoss
+        quantity: 2
+        exceptions:
+          Traveler_geo: f004
+      - id: z001
+        quantity: 1
+      - id: z002
+        quantity: 700000
