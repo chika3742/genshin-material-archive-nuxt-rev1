@@ -21,6 +21,9 @@
                   <Item>
                     <option name="path" value="nuxt/schemas/weapon-ingredients.yaml" />
                   </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/release-notes.yaml" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
@@ -54,6 +57,23 @@
                 <list>
                   <Item>
                     <option name="path" value="nuxt/assets/data/characters.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="release-notes">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="release-notes" />
+              <option name="relativePathToSchema" value="nuxt/schemas/release-notes.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/release-notes.yaml" />
                   </Item>
                 </list>
               </option>

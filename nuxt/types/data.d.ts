@@ -15,3 +15,9 @@ declare module "~/assets/data/weapon-ingredients.yaml" {
   const weaponIngredients: WeaponIngredients
   export default weaponIngredients
 }
+
+declare module "~/assets/data/release-notes.yaml" {
+  import {ReleaseNotes} from "~/types/generated/release-notes.g";
+  const releaseNotes: ReleaseNotes
+  export default releaseNotes
+}
