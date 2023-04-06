@@ -61,7 +61,6 @@ import releaseNotes from "~/assets/data/release-notes.yaml"
 
 marked.options({
   headerIds: false,
-  sanitize: true,
 })
 
 definePageMeta({
