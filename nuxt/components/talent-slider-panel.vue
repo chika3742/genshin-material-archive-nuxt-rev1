@@ -30,10 +30,11 @@ import characterIngredients from "~/assets/data/character-ingredients.yaml"
 import {LevelIngredients} from "~/types/generated/character-ingredients.g"
 import {BookmarkableIngredient} from "~/types/bookmarkable-ingredient"
 import {PurposeType} from "~/types/strings"
+import {Character} from "~/types/generated/characters.g"
 
 const props = defineProps<{
   title: string
-  characterId: string
+  character: Character
 }>()
 
 interface Slider {
@@ -47,18 +48,18 @@ const i18n = useI18n()
 
 const sliders: Slider[] = [
   {
-    title: i18n.t(`talentNames.${props.characterId}.normal`),
+    title: i18n.t(`talentNames.${props.character.id}.normal`),
     type: "normalAttack",
     levelIngredientsList: characterIngredients.normalAttack,
   },
   {
-    title: i18n.t(`talentNames.${props.characterId}.skill`),
+    title: i18n.t(`talentNames.${props.character.id}.skill`),
     grayTitle: i18n.t("characterDetailsPage.talent.elementalSkill"),
     type: "elementalSkill",
     levelIngredientsList: characterIngredients.elementalSkill,
   },
   {
-    title: i18n.t(`talentNames.${props.characterId}.burst`),
+    title: i18n.t(`talentNames.${props.character.id}.burst`),
     grayTitle: i18n.t("characterDetailsPage.talent.elementalBurst"),
     type: "elementalBurst",
     levelIngredientsList: characterIngredients.elementalBurst,
@@ -78,12 +79,12 @@ const ingredients = computed<BookmarkableIngredient[]>(() => {
       return []
     }
     return e.levelIngredientsList.filter(f => ranges.value[i][0] < f.level && f.level <= ranges.value[i][1])
-      .map(f => f.ingredients.filter(g => getMaterialIdFromIngredient(g, props.characterId) !== null).map<BookmarkableIngredient>(g => ({
-        id: getMaterialIdFromIngredient(g, props.characterId)!,
+      .map(f => f.ingredients.filter(g => getMaterialIdFromIngredient(g, props.character) !== null).map<BookmarkableIngredient>(g => ({
+        id: getMaterialIdFromIngredient(g, props.character)!,
         quantity: g.quantity,
         level: f.level,
         targetType: "character",
-        targetId: props.characterId,
+        targetId: props.character.id,
         purposeType: e.type,
       }))).flat()
   }).flat()

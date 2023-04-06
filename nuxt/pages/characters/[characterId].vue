@@ -5,18 +5,18 @@
     <div class="mt-n8">
       <v-expansion-panels mandatory="force">
         <SliderPanel
-          :target-id="character.id"
           :title="$t('characterDetailsPage.ascension.title')"
           target-type="character"
+          :target="character"
         />
-        <TalentSliderPanel :character-id="character.id" :title="$t('characterDetailsPage.talent.title')" />
+        <TalentSliderPanel :character="character" :title="$t('characterDetailsPage.talent.title')" />
       </v-expansion-panels>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import _characters from "~/assets/data/characters.yaml"
+import characters from "~/assets/data/characters.yaml"
 import TalentSliderPanel from "~/components/talent-slider-panel.vue"
 
 definePageMeta({
@@ -25,10 +25,10 @@ definePageMeta({
 
 const route = useRoute()
 
-if (!_characters.some(e => e.id === route.params.characterId)) {
+if (characters.every(e => e.id !== route.params.characterId)) {
   throw createError({statusCode: 404, message: "character not found"})
 }
 
-const character = _characters.find(e => e.id === route.params.characterId)!
+const character = characters.find(e => e.id === route.params.characterId)!
 
 </script>

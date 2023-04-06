@@ -18,11 +18,14 @@ import {BookmarkableIngredient} from "~/types/bookmarkable-ingredient"
 import {TargetType} from "~/types/strings"
 import characterIngredients from "~/assets/data/character-ingredients.yaml"
 import weaponIngredients from "~/assets/data/weapon-ingredients.yaml"
+import {Character} from "~/types/generated/characters.g"
+import {Weapon} from "~/types/generated/weapons.g"
 
 const props = defineProps<{
   title: string
   targetType: TargetType
-  targetId: string
+  target: Character | Weapon
+  rarity?: number
 }>()
 
 const levelIngredientsList = computed<LevelIngredients[]>(() => {
@@ -30,7 +33,7 @@ const levelIngredientsList = computed<LevelIngredients[]>(() => {
     case "character":
       return characterIngredients.ascension
     case "weapon":
-      return weaponIngredients
+      return weaponIngredients.find(e => e.rarity === props.rarity)!.levels
   }
 })
 
@@ -43,12 +46,12 @@ const selectedLevelIngredientsList = computed(() => {
 })
 
 const ingredients = computed<BookmarkableIngredient[]>(() => {
-  return selectedLevelIngredientsList.value.map(e => e.ingredients.filter(f => getMaterialIdFromIngredient(f, props.targetId) !== null).map<BookmarkableIngredient>(f => ({
-    id: getMaterialIdFromIngredient(f, props.targetId)!,
+  return selectedLevelIngredientsList.value.map(e => e.ingredients.filter(f => getMaterialIdFromIngredient(f, props.target) !== null).map<BookmarkableIngredient>(f => ({
+    id: getMaterialIdFromIngredient(f, props.target)!,
     quantity: f.quantity,
     level: e.level,
     targetType: props.targetType,
-    targetId: props.targetId,
+    targetId: props.target.id,
     purposeType: "ascension",
   }))).flat()
 })
