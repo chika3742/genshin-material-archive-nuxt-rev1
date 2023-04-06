@@ -1,0 +1,1820 @@
+- id: u1-01
+  nameJP: 無鋒の剣
+  rarity: 1
+  yomi: ムホウノケン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  type: sword
+  whereToGet: treasureChestsOrQuests
+
+- id: u2-01
+  nameJP: 銀の剣
+  rarity: 2
+  yomi: ギンノケン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  type: sword
+  whereToGet: treasureChestsOrQuests
+
+- id: u3-01
+  nameJP: 冷刃
+  rarity: 3
+  yomi: レイジン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  subStat: atkPercent
+  type: sword
+  whereToGet: gacha
+
+- id: u3-02
+  nameJP: 暗鉄剣
+  rarity: 3
+  yomi: アンテツケン
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b002
+  subStat: em
+  type: sword
+  whereToGet: chenTheSharp
+
+- id: u3-03
+  nameJP: チ虎魚の刀
+  rarity: 3
+  yomi: チコザカナノカタナ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b011
+  subStat: atkPercent
+  type: sword
+  whereToGet: treasureChests
+
+- id: u3-04
+  nameJP: 黎明の神剣
+  rarity: 3
+  yomi: レイメイノシンケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  subStat: critDmg
+  type: sword
+  whereToGet: gacha
+
+- id: u3-05
+  nameJP: 飛天御剣
+  rarity: 3
+  yomi: ヒテンミツルギ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b010
+  subStat: recharge
+  type: sword
+  whereToGet: gacha
+
+- id: u3-06
+  nameJP: 旅道の剣
+  rarity: 3
+  yomi: リョドウノケン
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  subStat: defPercent
+  type: sword
+  whereToGet: treasureChestsOrQuests
+
+- id: u4-01
+  nameJP: 黒岩の長剣
+  rarity: 4
+  yomi: コクガンノチョウケン
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b004
+  subStat: critDmg
+  type: sword
+  whereToGet: starglitterExchange
+
+- id: u4-02
+  nameJP: 西風剣
+  rarity: 4
+  yomi: セピュロスソード
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  subStat: recharge
+  type: sword
+  whereToGet: gacha
+
+- id: u4-03
+  nameJP: 鉄蜂の刺し
+  rarity: 4
+  yomi: テツホウノサシ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b012
+  subStat: em
+  type: sword
+  whereToGet: forging
+
+- id: u4-04
+  nameJP: 匣中龍吟
+  rarity: 4
+  yomi: コウチュウリュウギン
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b011
+  subStat: atkPercent
+  type: sword
+  whereToGet: gacha
+  hasDescription: true
+
+- id: u4-05
+  nameJP: 斬岩・試作
+  rarity: 4
+  yomi: ザンガンシサク
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b010
+  subStat: physicalDmgBonus
+  type: sword
+  whereToGet: forging
+
+- id: u4-06
+  nameJP: 旧貴族長剣
+  rarity: 4
+  yomi: キュウキゾクチョウケン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: sword
+  whereToGet: starglitterExchange
+
+- id: u4-07
+  nameJP: 祭礼の剣
+  rarity: 4
+  yomi: サイレイノケン
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  subStat: recharge
+  type: sword
+  whereToGet: gacha
+
+- id: u4-08
+  nameJP: ダークアレイの閃光
+  rarity: 4
+  yomi: ダークアレイノセンコウ
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b003
+  subStat: em
+  type: sword
+  whereToGet: limitedGacha
+
+- id: u4-09
+  nameJP: 黒剣
+  rarity: 4
+  yomi: コッケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  subStat: critRate
+  type: sword
+  whereToGet: battlePass
+
+- id: u4-10
+  nameJP: 笛の剣
+  rarity: 4
+  yomi: フエノケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  subStat: atkPercent
+  type: sword
+  whereToGet: gacha
+
+- id: u4-11
+  nameJP: 降臨の剣
+  rarity: 4
+  yomi: コウリンノケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b011
+  subStat: atkPercent
+  type: sword
+  whereToGet: playStationLimited
+
+- id: u4-12
+  nameJP: 腐植の剣
+  rarity: 4
+  yomi: フショクノケン
+  materials:
+    ascensionPrimary: g003
+    secondary: b005
+    ascensionCommon: b010
+  subStat: recharge
+  type: sword
+  whereToGet: eventUnavailable
+
+- id: u4-13
+  nameJP: 天目影打
+  rarity: 4
+  yomi: アメノマカゲウチ
+  materials:
+    ascensionPrimary: g007
+    secondary: b016
+    ascensionCommon: b015
+  subStat: atkPercent
+  type: sword
+  whereToGet: forging
+
+- id: u4-14
+  nameJP: シナバースピンドル
+  rarity: 4
+  yomi: シナバースピンドル
+  materials:
+    ascensionPrimary: g001
+    secondary: b007
+    ascensionCommon: b002
+  subStat: defPercent
+  type: sword
+  whereToGet: eventUnavailable
+
+- id: u4-15
+  nameJP: 「妖刀」(籠釣瓶一心)
+  rarity: 4
+  yomi: ヨウトウ|カゴツルベイッシン
+  materials:
+    ascensionPrimary: g009
+    secondary: b014
+    ascensionCommon: b019
+  type: sword
+  whereToGet: kazuhaStoryQuest
+  hasDescription: true
+
+- id: u4-16
+  nameJP: 原木刀
+  rarity: 4
+  yomi: ゲンボクトウ
+  materials:
+    ascensionPrimary: g010
+    secondary: b023
+    ascensionCommon: b020
+  type: sword
+  whereToGet: forging
+  hasDescription: true
+
+- id: u4-17
+  nameJP: サイフォスの月明かり
+  rarity: 4
+  yomi: サイフォスノツキアカリ
+  materials:
+    ascensionPrimary: g010
+    secondary: b024
+    ascensionCommon: b020
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: u4-18
+  nameJP: 東花坊時雨
+  rarity: 4
+  yomi: トウカボウシグレ
+  materials:
+    ascensionPrimary: g008
+    secondary: b024
+    ascensionCommon: b015
+  type: sword
+  whereToGet: event
+  hasDescription: true
+
+- id: u5-01
+  nameJP: 風鷹剣
+  rarity: 5
+  yomi: フウヨウケン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  subStat: physicalDmgBonus
+  type: sword
+  whereToGet: gacha
+  hasDescription: true
+
+- id: u5-02
+  nameJP: 天空の刃
+  rarity: 5
+  yomi: テンクウノヤイバ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  subStat: recharge
+  type: sword
+  whereToGet: gacha
+  hasDescription: true
+
+- id: u5-03
+  nameJP: 斬山の刃
+  rarity: 5
+  yomi: ザンサンノヤイバ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: u5-04
+  nameJP: 磐岩結緑
+  rarity: 5
+  yomi: バンガンケツロク
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b011
+  subStat: critRate
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: u5-05
+  nameJP: 蒼古なる自由への誓い
+  rarity: 5
+  yomi: ソウコナルジユウヘノチカイ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  subStat: em
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: u5-06
+  nameJP: 霧切の廻光
+  rarity: 5
+  yomi: キリギリノカイコウ
+  materials:
+    ascensionPrimary: g007
+    secondary: b016
+    ascensionCommon: b015
+  subStat: critDmg
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: u5-07
+  nameJP: 波乱月白経津
+  rarity: 5
+  yomi: ハランゲッパクフツ
+  materials:
+    ascensionPrimary: g008
+    secondary: b014
+    ascensionCommon: b015
+  subStat: critRate
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: u5-08
+  nameJP: 聖顕の鍵
+  rarity: 5
+  yomi: セイケンノカギ
+  materials:
+    ascensionPrimary: g010
+    secondary: b024
+    ascensionCommon: b020
+  subStat: hpPercent
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: u5-09
+  nameJP: 萃光の裁葉
+  rarity: 5
+  yomi: スイコウノサイヨウ
+  materials:
+    ascensionPrimary: g010
+    secondary: b025
+    ascensionCommon: b020
+  subStat: critDmg
+  type: sword
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: v1-01
+  nameJP: 訓練用大剣
+  rarity: 1
+  yomi: クンレンヨウタイケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  type: claymore
+  whereToGet: treasureChests
+
+- id: v2-01
+  nameJP: 傭兵の重剣
+  rarity: 2
+  yomi: ヨウヘイノジュウケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  type: claymore
+  whereToGet: treasureChests
+
+- id: v3-01
+  nameJP: 龍血を浴びた剣
+  rarity: 3
+  yomi: リュウケツヲアビタケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b004
+  subStat: em
+  type: claymore
+  whereToGet: gacha
+
+- id: v3-02
+  nameJP: 理屈責め
+  rarity: 3
+  yomi: リクツゼメ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: claymore
+  whereToGet: gacha
+
+- id: v3-03
+  nameJP: 鉄影段平
+  rarity: 3
+  yomi: テツエイダンビラ
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b012
+  subStat: hpPercent
+  type: claymore
+  whereToGet: gacha
+
+- id: v3-04
+  nameJP: 飛天大御剣
+  rarity: 3
+  yomi: ヒテンオオミツルギ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b011
+  subStat: physicalDmgBonus
+  type: claymore
+  whereToGet: treasureChests
+
+- id: v3-05
+  nameJP: 白鉄の大剣
+  rarity: 3
+  yomi: ハクテツノタイケン
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b001
+  subStat: defPercent
+  type: claymore
+  whereToGet: treasureChests
+
+- id: v4-01
+  nameJP: 黒岩の斬刀
+  rarity: 4
+  yomi: コクガンノザントウ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b010
+  subStat: critDmg
+  type: claymore
+  whereToGet: starglitterExchange
+
+- id: v4-02
+  nameJP: 西風大剣
+  rarity: 4
+  yomi: セピュロスクレイモア
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b010
+  subStat: recharge
+  type: claymore
+  whereToGet: gacha
+
+- id: v4-03
+  nameJP: 千岩古剣
+  rarity: 4
+  yomi: センガンコケン
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b004
+  subStat: atkPercent
+  type: claymore
+  whereToGet: limitedGacha
+
+- id: v4-04
+  nameJP: 古華・試作
+  rarity: 4
+  yomi: コカシサク
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: claymore
+  whereToGet: forging
+
+- id: v4-05
+  nameJP: 雨裁
+  rarity: 4
+  yomi: ウサイ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b003
+  subStat: em
+  type: claymore
+  whereToGet: gacha
+
+- id: v4-06
+  nameJP: 旧貴族大剣
+  rarity: 4
+  yomi: キュウキゾクタイケン
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b001
+  subStat: atkPercent
+  type: claymore
+  whereToGet: starglitterExchange
+
+- id: v4-07
+  nameJP: 螭龍の剣
+  rarity: 4
+  yomi: チリュウノケン
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b012
+  subStat: critRate
+  type: claymore
+  whereToGet: battlePass
+
+- id: v4-08
+  nameJP: 鐘の剣
+  rarity: 4
+  yomi: カネノケン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b012
+  subStat: hpPercent
+  type: claymore
+  whereToGet: gacha
+
+- id: v4-09
+  nameJP: 白影の剣
+  rarity: 4
+  yomi: ハクエイノケン
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b011
+  subStat: defPercent
+  type: claymore
+  whereToGet: forging
+
+- id: v4-10
+  nameJP: 祭礼の大剣
+  rarity: 4
+  yomi: サイレイノタイケン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b004
+  subStat: recharge
+  type: claymore
+  whereToGet: gacha
+
+- id: v4-11
+  nameJP: 雪葬の星銀
+  rarity: 4
+  yomi: セッソウノセイギン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b001
+  subStat: physicalDmgBonus
+  type: claymore
+  whereToGet: forging
+
+- id: v4-12
+  nameJP: 桂木斬長正
+  rarity: 4
+  yomi: カツラギキリナガマサ
+  materials:
+    ascensionPrimary: g008
+    secondary: b016
+    ascensionCommon: b015
+  subStat: recharge
+  type: claymore
+  whereToGet: forging
+
+- id: v4-13
+  nameJP: 銜玉の海皇
+  rarity: 4
+  yomi: カンギョクノカイオウ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b001
+  subStat: atkPercent
+  type: claymore
+  whereToGet: eventUnavailable
+
+- id: v4-14
+  nameJP: 惡王丸
+  rarity: 4
+  yomi: アクオウマル
+  materials:
+    ascensionPrimary: g007
+    secondary: b017
+    ascensionCommon: b013
+  subStat: atkPercent
+  type: claymore
+  whereToGet: limitedGacha
+
+- id: v4-15
+  nameJP: マカイラの水色
+  rarity: 4
+  yomi: マカイラノミズイロ
+  materials:
+    ascensionPrimary: g012
+    secondary: b023
+    ascensionCommon: b011
+  type: claymore
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: v4-16
+  nameJP: 森林のレガリア
+  rarity: 4
+  yomi: シンリンノレガリア
+  materials:
+    ascensionPrimary: g010
+    secondary: b023
+    ascensionCommon: b020
+  type: claymore
+  whereToGet: forging
+  hasDescription: true
+
+- id: v5-01
+  nameJP: 天空の傲
+  rarity: 5
+  yomi: テンクウノオゴリ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  subStat: recharge
+  type: claymore
+  whereToGet: gacha
+
+- id: v5-02
+  nameJP: 狼の末路
+  rarity: 5
+  yomi: オオカミノマツロ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  subStat: atkPercent
+  type: claymore
+  whereToGet: gacha
+
+- id: v5-03
+  nameJP: 無工の剣
+  rarity: 5
+  yomi: ムコウノケン
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b011
+  subStat: atkPercent
+  type: claymore
+  whereToGet: limitedGacha
+
+- id: v5-04
+  nameJP: 松韻の響く頃
+  rarity: 5
+  yomi: ショウインノヒビクコロ
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b002
+  subStat: physicalDmgBonus
+  type: claymore
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: v5-05
+  nameJP: 赤角石塵滅砕
+  rarity: 5
+  yomi: セキカクセキジンメッサイ
+  materials:
+    ascensionPrimary: g008
+    secondary: b017
+    ascensionCommon: b015
+  subStat: critDmg
+  type: claymore
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: w1-01
+  nameJP: 新米の長槍
+  rarity: 1
+  yomi: シンマイノナガヤリ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  type: polearm
+  whereToGet: treasureChestsOrQuests
+
+- id: w2-01
+  nameJP: 鉄尖槍
+  rarity: 2
+  yomi: テツセンソウ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  type: polearm
+  whereToGet: treasureChestsOrQuests
+
+- id: w3-01
+  nameJP: 黒纓槍
+  rarity: 3
+  yomi: コクエイソウ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b004
+  subStat: hpPercent
+  type: polearm
+  whereToGet: gacha
+
+- id: w3-02
+  nameJP: 鉾槍
+  rarity: 3
+  yomi: ホコヤリ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b012
+  subStat: atkPercent
+  type: polearm
+  whereToGet: treasureChests
+
+- id: w3-03
+  nameJP: 白纓槍
+  rarity: 3
+  yomi: ハクエイソウ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b010
+  subStat: critRate
+  type: polearm
+  whereToGet: treasureChests
+
+- id: w4-01
+  nameJP: 黒岩の突槍
+  rarity: 4
+  yomi: コクガンノトッソウ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b010
+  subStat: critDmg
+  type: polearm
+  whereToGet: starglitterExchange
+
+- id: w4-02
+  nameJP: 流月の針
+  rarity: 4
+  yomi: リュウゲツノハリ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b011
+  subStat: physicalDmgBonus
+  type: polearm
+  whereToGet: forging
+
+- id: w4-03
+  nameJP: 死闘の槍
+  rarity: 4
+  yomi: シトウノヤリ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b012
+  subStat: critRate
+  type: polearm
+  whereToGet: battlePass
+
+- id: w4-04
+  nameJP: 匣中滅龍
+  rarity: 4
+  yomi: コウチュウメツリュウ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b003
+  subStat: em
+  type: polearm
+  whereToGet: gacha
+
+- id: w4-05
+  nameJP: 千岩長槍
+  rarity: 4
+  yomi: センガンチョウソウ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b004
+  subStat: atkPercent
+  type: polearm
+  whereToGet: limitedGacha
+
+- id: w4-06
+  nameJP: 星鎌・試作
+  rarity: 4
+  yomi: セイレンシサク
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b002
+  subStat: recharge
+  type: polearm
+  whereToGet: forging
+
+- id: w4-07
+  nameJP: 西風長槍
+  rarity: 4
+  yomi: セピュロススピア
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b001
+  subStat: recharge
+  type: polearm
+  whereToGet: gacha
+
+- id: w4-08
+  nameJP: 旧貴族の猟槍
+  rarity: 4
+  yomi: キュウキゾクノリョウソウ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b010
+  subStat: atkPercent
+  type: polearm
+  whereToGet: starglitterExchange
+
+- id: w4-09
+  nameJP: ドラゴンスピア
+  rarity: 4
+  yomi: ドラゴンスピア
+  materials:
+    ascensionPrimary: g002
+    secondary: b008
+    ascensionCommon: b010
+  subStat: physicalDmgBonus
+  type: polearm
+  whereToGet: forging
+
+- id: w4-10
+  nameJP: 喜多院十文字槍
+  rarity: 4
+  yomi: キタインジュウモンジヤリ
+  materials:
+    ascensionPrimary: g009
+    secondary: b016
+    ascensionCommon: b011
+  subStat: em
+  type: polearm
+  whereToGet: forging
+
+- id: w4-11
+  nameJP: 「漁獲」
+  rarity: 4
+  yomi: リョウカク
+  materials:
+    ascensionPrimary: g009
+    secondary: b016
+    ascensionCommon: b019
+  subStat: recharge
+  type: polearm
+  whereToGet: inazumaFishingAssociation
+
+- id: w4-12
+  nameJP: 斬波のひれ長
+  rarity: 4
+  yomi: ザンパノヒレナガ
+  materials:
+    ascensionPrimary: g009
+    secondary: b017
+    ascensionCommon: b015
+  subStat: atkPercent
+  type: polearm
+  whereToGet: limitedGacha
+
+- id: w4-13
+  nameJP: ムーンピアサー
+  rarity: 4
+  yomi: ムーンピアサー
+  materials:
+    ascensionPrimary: g011
+    secondary: b023
+    ascensionCommon: b010
+  type: polearm
+  whereToGet: forging
+  hasDescription: true
+
+- id: w4-14
+  nameJP: 風信の矛
+  rarity: 4
+  yomi: フウシンノホコ
+  materials:
+    ascensionPrimary: g002
+    secondary: b014
+    ascensionCommon: b001
+  type: polearm
+  whereToGet: event
+  hasDescription: true
+
+- id: w5-01
+  nameJP: 破天の槍
+  rarity: 5
+  yomi: ハテンノヤリ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b011
+  subStat: atkPercent
+  type: polearm
+  whereToGet: limitedGacha
+
+- id: w5-02
+  nameJP: 和璞鳶
+  rarity: 5
+  yomi: ワハクエン
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b010
+  subStat: critRate
+  type: polearm
+  whereToGet: gacha
+
+- id: w5-03
+  nameJP: 天空の脊
+  rarity: 5
+  yomi: テンクウノセキ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  subStat: recharge
+  type: polearm
+  whereToGet: gacha
+
+- id: w5-04
+  nameJP: 護摩の杖
+  rarity: 5
+  yomi: ゴマノツエ
+  materials:
+    ascensionPrimary: g006
+    secondary: b006
+    ascensionCommon: b001
+  subStat: critDmg
+  type: polearm
+  whereToGet: limitedGacha
+
+- id: w5-05
+  nameJP: 草薙の稲光
+  rarity: 5
+  yomi: クサナギノイナビカリ
+  materials:
+    ascensionPrimary: g009
+    secondary: b016
+    ascensionCommon: b015
+  subStat: recharge
+  type: polearm
+  whereToGet: limitedGacha
+
+- id: w5-06
+  nameJP: 息災
+  rarity: 5
+  yomi: ソクサイ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b012
+  subStat: critDmg
+  type: polearm
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: w5-07
+  nameJP: 赤砂の杖
+  rarity: 5
+  yomi: アカシャノツエ
+  materials:
+    ascensionPrimary: g011
+    secondary: b023
+    ascensionCommon: b021
+  type: polearm
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: x1-01
+  nameJP: 狩猟弓
+  rarity: 1
+  yomi: シュリョウユミ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b011
+  type: bow
+  whereToGet: treasureChestsOrQuests
+
+- id: x2-01
+  nameJP: 歴戦の狩猟弓
+  rarity: 2
+  yomi: レキセンノシュリョウユミ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b011
+  type: bow
+  whereToGet: treasureChestsOrQuests
+
+- id: x3-01
+  nameJP: 文使い
+  rarity: 3
+  yomi: フミツカイ
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b011
+  subStat: critDmg
+  type: bow
+  whereToGet: treasureChests
+
+- id: x3-02
+  nameJP: 鴉羽の弓
+  rarity: 3
+  yomi: カラスバノユミ
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  subStat: em
+  type: bow
+  whereToGet: gacha
+
+- id: x3-03
+  nameJP: リカーブボウ
+  rarity: 3
+  yomi: リカーブボウ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  subStat: hpPercent
+  type: bow
+  whereToGet: treasureChestsOrQuests
+
+- id: x3-04
+  nameJP: シャープシューターの誓い
+  rarity: 3
+  yomi: シャープシューターノチカイ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  subStat: critDmg
+  type: bow
+  whereToGet: gacha
+
+- id: x3-05
+  nameJP: 弾弓
+  rarity: 3
+  yomi: ダンキュウ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b002
+  subStat: critRate
+  type: bow
+  whereToGet: gacha
+
+- id: x4-01
+  nameJP: 絶弦
+  rarity: 4
+  yomi: ゼツゲン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  subStat: em
+  type: bow
+  whereToGet: gacha
+
+- id: x4-02
+  nameJP: ダークアレイの狩人
+  rarity: 4
+  yomi: ダークアレイノカリュウド
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b001
+  subStat: atkPercent
+  type: bow
+  whereToGet: limitedGacha
+
+- id: x4-03
+  nameJP: 黒岩の戦弓
+  rarity: 4
+  yomi: コクガンノセンキュウ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b002
+  subStat: critDmg
+  type: bow
+  whereToGet: starglitterExchange
+
+- id: x4-04
+  nameJP: リングボウ
+  rarity: 4
+  yomi: リングボウ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b010
+  subStat: physicalDmgBonus
+  type: bow
+  whereToGet: forging
+
+- id: x4-05
+  nameJP: 西風猟弓
+  rarity: 4
+  yomi: セピュロスアロー
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b012
+  subStat: recharge
+  type: bow
+  whereToGet: gacha
+
+- id: x4-06
+  nameJP: 澹月・試作
+  rarity: 4
+  yomi: タンゲツシサク
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b011
+  subStat: atkPercent
+  type: bow
+  whereToGet: forging
+
+- id: x4-07
+  nameJP: 旧貴族長弓
+  rarity: 4
+  yomi: キュウキゾクチョウキュウ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b003
+  subStat: atkPercent
+  type: bow
+  whereToGet: starglitterExchange
+
+- id: x4-08
+  nameJP: 弓蔵
+  rarity: 4
+  yomi: キュウゾウ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: bow
+  whereToGet: gacha
+
+- id: x4-09
+  nameJP: 祭礼の弓
+  rarity: 4
+  yomi: サイレイノユミ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b001
+  subStat: recharge
+  type: bow
+  whereToGet: gacha
+
+- id: x4-10
+  nameJP: 蒼翠の狩猟弓
+  rarity: 4
+  yomi: ソウスイノシュリョウユミ
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b004
+  subStat: critRate
+  type: bow
+  whereToGet: battlePass
+
+- id: x4-11
+  nameJP: 風花の頌歌
+  rarity: 4
+  yomi: ウィンドブルームノショウカ
+  materials:
+    ascensionPrimary: g003
+    secondary: b006
+    ascensionCommon: b012
+  subStat: em
+  type: bow
+  whereToGet: limitedGacha
+
+- id: x4-12
+  nameJP: 幽夜のワルツ
+  rarity: 4
+  yomi: ユウヤノワルツ
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b011
+  subStat: physicalDmgBonus
+  type: bow
+  whereToGet: limitedGacha
+
+- id: x4-13
+  nameJP: 破魔の弓
+  rarity: 4
+  yomi: ハマノユミ
+  materials:
+    ascensionPrimary: g008
+    secondary: b018
+    ascensionCommon: b004
+  subStat: atkPercent
+  type: bow
+  whereToGet: forging
+
+- id: x4-14
+  nameJP: プレデター
+  rarity: 4
+  yomi: プレデター
+  materials:
+    ascensionPrimary: g008
+    secondary: b018
+    ascensionCommon: b004
+  subStat: atkPercent
+  type: bow
+  whereToGet: playStationLimited
+
+- id: x4-15
+  nameJP: 曚雲の月
+  rarity: 4
+  yomi: モウウンノツキ
+  materials:
+    ascensionPrimary: g008
+    secondary: b018
+    ascensionCommon: b019
+  subStat: atkPercent
+  type: bow
+  whereToGet: limitedGacha
+
+- id: x4-16
+  nameJP: 落霞
+  rarity: 4
+  yomi: ラクカ
+  materials:
+    ascensionPrimary: g006
+    secondary: b009
+    ascensionCommon: b003
+  subStat: recharge
+  type: bow
+  whereToGet: event
+  hasDescription: true
+
+- id: x4-17
+  nameJP: 王の近侍
+  rarity: 4
+  yomi: オウノキンジ
+  materials:
+    ascensionPrimary: g012
+    secondary: b022
+    ascensionCommon: b004
+  type: bow
+  whereToGet: forging
+  hasDescription: true
+
+- id: x4-18
+  nameJP: 竭沢
+  rarity: 4
+  yomi: ケツタク
+  materials:
+    ascensionPrimary: g012
+    secondary: b022
+    ascensionCommon: b021
+  type: bow
+  whereToGet: sumeruFishingAssociation
+  hasDescription: true
+
+- id: x5-01
+  nameJP: 天空の翼
+  rarity: 5
+  yomi: テンクウノツバサ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b004
+  subStat: critRate
+  type: bow
+  whereToGet: gacha
+  hasDescription: true
+
+- id: x5-02
+  nameJP: アモスの弓
+  rarity: 5
+  yomi: アモスノユミ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b001
+  subStat: atkPercent
+  type: bow
+  whereToGet: gacha
+
+- id: x5-03
+  nameJP: 終焉を嘆く詩
+  rarity: 5
+  yomi: シュウエンヲナゲクウタ
+  materials:
+    ascensionPrimary: g002
+    secondary: b005
+    ascensionCommon: b010
+  subStat: recharge
+  type: bow
+  whereToGet: limitedGacha
+
+- id: x5-04
+  nameJP: 飛雷の鳴弦
+  rarity: 5
+  yomi: ヒライノメイゲン
+  materials:
+    ascensionPrimary: g008
+    secondary: b018
+    ascensionCommon: b004
+  subStat: critDmg
+  type: bow
+  whereToGet: limitedGacha
+
+- id: x5-05
+  nameJP: 冬極の白星
+  rarity: 5
+  yomi: トウキョクノハクセイ
+  materials:
+    ascensionPrimary: g009
+    secondary: b017
+    ascensionCommon: b019
+  subStat: critRate
+  type: bow
+  whereToGet: limitedGacha
+
+- id: x5-06
+  nameJP: 若水
+  rarity: 5
+  yomi: ジャクスイ
+  materials:
+    ascensionPrimary: g004
+    secondary: b014
+    ascensionCommon: b019
+  subStat: critDmg
+  type: bow
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: x5-07
+  nameJP: 狩人の道
+  rarity: 5
+  yomi: カリュウドノミチ
+  materials:
+    ascensionPrimary: g012
+    secondary: b022
+    ascensionCommon: b020
+  type: bow
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: y1-01
+  nameJP: 生徒ノート
+  rarity: 1
+  yomi: セイトノート
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b002
+  type: catalyst
+  whereToGet: treasureChests
+
+- id: y2-01
+  nameJP: ポケット魔導書
+  rarity: 2
+  yomi: ポケットマドウショ
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b002
+  type: catalyst
+  whereToGet: treasureChests
+
+- id: y3-01
+  nameJP: 翡玉法珠
+  rarity: 3
+  yomi: ヒギョクホウジュ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b011
+  subStat: em
+  type: catalyst
+  whereToGet: gacha
+
+- id: y3-02
+  nameJP: 魔導緒論
+  rarity: 3
+  yomi: マドウショロン
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b001
+  subStat: em
+  type: catalyst
+  whereToGet: gacha
+
+- id: y3-03
+  nameJP: 異世界旅行記
+  rarity: 3
+  yomi: イセカイリョコウキ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b002
+  subStat: recharge
+  type: catalyst
+  whereToGet: treasureChestsOrQuests
+
+- id: y3-04
+  nameJP: 龍殺しの英傑譚
+  rarity: 3
+  yomi: リュウゴロシノエイケツタン
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b003
+  subStat: hpPercent
+  type: catalyst
+  whereToGet: gacha
+
+- id: y3-05
+  nameJP: 特級の宝玉
+  rarity: 3
+  yomi: トッキュウノホウギョク
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b010
+  subStat: critRate
+  type: catalyst
+  whereToGet: treasureChests
+
+- id: y4-01
+  nameJP: 黒岩の緋玉
+  rarity: 4
+  yomi: コクガンノヒギョク
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b003
+  subStat: critDmg
+  type: catalyst
+  whereToGet: starglitterExchange
+
+- id: y4-02
+  nameJP: 西風秘典
+  rarity: 4
+  yomi: セピュロスコデックス
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b003
+  subStat: recharge
+  type: catalyst
+  whereToGet: gacha
+
+- id: y4-03
+  nameJP: 万国諸海の図譜
+  rarity: 4
+  yomi: バンコクショカイノズフ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b001
+  subStat: em
+  type: catalyst
+  whereToGet: forging
+
+- id: y4-04
+  nameJP: 金珀・試作
+  rarity: 4
+  yomi: キンパクシサク
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b004
+  subStat: hpPercent
+  type: catalyst
+  whereToGet: forging
+
+- id: y4-05
+  nameJP: 旧貴族秘法録
+  rarity: 4
+  yomi: キュウキゾクヒホウロク
+  materials:
+    ascensionPrimary: g001
+    secondary: b005
+    ascensionCommon: b010
+  subStat: atkPercent
+  type: catalyst
+  whereToGet: starglitterExchange
+
+- id: y4-06
+  nameJP: 祭礼の断片
+  rarity: 4
+  yomi: サイレイノダンペン
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b011
+  subStat: em
+  type: catalyst
+  whereToGet: gacha
+
+- id: y4-07
+  nameJP: 匣中日月
+  rarity: 4
+  yomi: コウチュウニチゲツ
+  materials:
+    ascensionPrimary: g004
+    secondary: b009
+    ascensionCommon: b012
+  subStat: critRate
+  type: catalyst
+  whereToGet: battlePass
+
+- id: y4-08
+  nameJP: 流浪楽章
+  rarity: 4
+  yomi: ルロウガクショウ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b002
+  subStat: critDmg
+  type: catalyst
+  whereToGet: gacha
+
+- id: y4-09
+  nameJP: ダークアレイの酒と詩
+  rarity: 4
+  yomi: ダークアレイノサケトウタ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b011
+  subStat: recharge
+  type: catalyst
+  whereToGet: limitedGacha
+
+- id: y4-10
+  nameJP: 昭心
+  rarity: 4
+  yomi: ショウシン
+  materials:
+    ascensionPrimary: g005
+    secondary: b008
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: catalyst
+  whereToGet: gacha
+
+- id: y4-11
+  nameJP: 冬忍びの実
+  rarity: 4
+  yomi: フユシノビノミ
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b012
+  subStat: atkPercent
+  type: catalyst
+  whereToGet: frostbearingTree
+
+- id: y4-12
+  nameJP: ドドコの物語
+  rarity: 4
+  yomi: ドドコノモノガタリ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: catalyst
+  whereToGet: eventUnavailable
+
+- id: y4-13
+  nameJP: 白辰の輪
+  rarity: 4
+  yomi: ハクシンノワ
+  materials:
+    ascensionPrimary: g007
+    secondary: b018
+    ascensionCommon: b003
+  subStat: recharge
+  type: catalyst
+  whereToGet: forging
+
+- id: y4-14
+  nameJP: 誓いの明瞳
+  rarity: 4
+  yomi: チカイノメイドウ
+  materials:
+    ascensionPrimary: g007
+    secondary: b017
+    ascensionCommon: b019
+  subStat: atkPercent
+  type: catalyst
+  whereToGet: event
+  hasDescription: true
+
+- id: y4-15
+  nameJP: 満悦の実
+  rarity: 4
+  yomi: マンエツノミ
+  materials:
+    ascensionPrimary: g011
+    secondary: b014
+    ascensionCommon: b021
+  type: catalyst
+  whereToGet: forging
+  hasDescription: true
+
+- id: y4-16
+  nameJP: 彷徨える星
+  rarity: 4
+  yomi: サマヨエルホシ
+  materials:
+    ascensionPrimary: g011
+    secondary: b022
+    ascensionCommon: b021
+  type: catalyst
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: y5-01
+  nameJP: 四風原典
+  rarity: 5
+  yomi: シフウゲンテン
+  subStat: critRate
+  materials:
+    ascensionPrimary: g003
+    secondary: b007
+    ascensionCommon: b001
+  type: catalyst
+  whereToGet: gacha
+  hasDescription: true
+
+- id: y5-02
+  nameJP: 天空の巻
+  rarity: 5
+  yomi: テンクウノマキ
+  materials:
+    ascensionPrimary: g002
+    secondary: b006
+    ascensionCommon: b004
+  subStat: atkPercent
+  type: catalyst
+  whereToGet: gacha
+
+- id: y5-03
+  nameJP: 浮世の錠
+  rarity: 5
+  yomi: ウキヨノジョウ
+  materials:
+    ascensionPrimary: g006
+    secondary: b013
+    ascensionCommon: b002
+  subStat: atkPercent
+  type: catalyst
+  whereToGet: limitedGacha
+
+- id: y5-04
+  nameJP: 不滅の月華
+  rarity: 5
+  yomi: フメツノゲッカ
+  materials:
+    ascensionPrimary: g007
+    secondary: b018
+    ascensionCommon: b019
+  subStat: hpPercent
+  type: catalyst
+  whereToGet: limitedGacha
+
+- id: y5-05
+  nameJP: 神楽の真意
+  rarity: 5
+  yomi: カグラノシンイ
+  materials:
+    ascensionPrimary: g009
+    secondary: b017
+    ascensionCommon: b019
+  subStat: critDmg
+  type: catalyst
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: y5-06
+  nameJP: 千夜に浮かぶ夢
+  rarity: 5
+  yomi: センヤニウカブユメ
+  materials:
+    ascensionPrimary: g011
+    secondary: b024
+    ascensionCommon: b021
+  type: catalyst
+  whereToGet: limitedGacha
+  hasDescription: true
+
+- id: y5-07
+  nameJP: トゥライトゥーラの記憶
+  rarity: 5
+  yomi: トゥライトゥーラノキオク
+  materials:
+    ascensionPrimary: g012
+    secondary: b022
+    ascensionCommon: b021
+  type: catalyst
+  whereToGet: limitedGacha
+  hasDescription: true

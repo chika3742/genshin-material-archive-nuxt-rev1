@@ -59,6 +59,7 @@ definitions:
               - ascensionElementalStone
               - ascensionLocal
               - secondary
+              - ascensionCommon
               - talentPrimary
               - talentBoss
           craftLevel:

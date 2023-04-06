@@ -10,6 +10,12 @@ declare module "~/assets/data/character-ingredients.yaml" {
   export default characterIngredients
 }
 
+declare module "~/assets/data/weapons.yaml" {
+  import {Weapon} from "~/types/generated/weapons.g";
+  const weapons: Weapon[]
+  export default weapons
+}
+
 declare module "~/assets/data/weapon-ingredients.yaml" {
   import {WeaponIngredients} from "~/types/generated/weapon-ingredients.g";
   const weaponIngredients: WeaponIngredients

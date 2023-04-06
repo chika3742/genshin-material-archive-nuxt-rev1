@@ -12,6 +12,7 @@ export type Ingredient =
         | "ascensionElementalStone"
         | "ascensionLocal"
         | "secondary"
+        | "ascensionCommon"
         | "talentPrimary"
         | "talentBoss";
       craftLevel?: string;

@@ -2,4 +2,21 @@ $schema: https://json-schema.org/draft-07/schema
 
 type: array
 items:
-  $ref: "character-ingredients.yaml#/definitions/levelIngredients"
+  $ref: "#/definitions/rarityIngredients"
+
+definitions:
+  rarityIngredients:
+    type: object
+    additionalProperties: false
+    required:
+      - rarity
+      - levels
+    properties:
+      rarity:
+        type: integer
+        minimum: 1
+        maximum: 5
+      levels:
+        type: array
+        items:
+          $ref: "character-ingredients.yaml#/definitions/levelIngredients"

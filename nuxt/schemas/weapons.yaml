@@ -1,0 +1,92 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+items:
+  $ref: "#/definitions/weapon"
+
+definitions:
+  weapon:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - nameJP
+      - rarity
+      - type
+      - materials
+    properties:
+      id:
+        type: string
+        description: 武器のID
+      nameJP:
+        type: string
+        description: 武器の日本語名
+      yomi:
+        type: string
+        description: 武器の日本語名の読み。すべてカタカナの場合は不要。
+      rarity:
+        type: integer
+        description: 武器のレアリティ
+        minimum: 1
+        maximum: 5
+      type:
+        type: string
+        description: 武器の種類
+        enum:
+          - sword
+          - claymore
+          - polearm
+          - catalyst
+          - bow
+      subStat:
+        description: 武器のサブステータス
+        type: string
+        enum:
+          - atkPercent
+          - hpPercent
+          - defPercent
+          - recharge
+          - critRate
+          - critDmg
+          - em
+          - physicalDmgBonus
+
+      hasDescription:
+        type: boolean
+        description: 武器の説明文があるかどうか
+      whereToGet:
+        description: 武器の入手方法のi18nキー
+        anyOf:
+          - type: string
+          - type: string
+            enum:
+              - treasureChestsOrQuests
+              - gacha
+              - treasureChests
+              - starglitterExchange
+              - forging
+              - limitedGacha
+              - battlePass
+              - eventUnavailable
+              - event
+      materials:
+        description: 武器の強化素材
+        $ref: "#/definitions/weaponMaterials"
+
+  weaponMaterials:
+    type: object
+    additionalProperties: false
+    required:
+      - ascensionPrimary
+      - secondary
+      - ascensionCommon
+    properties:
+      ascensionPrimary:
+        type: string
+        description: "武器突破用のプライマリ素材 (例: 高塔の王の瓦)"
+      secondary:
+        type: string
+        description: "武器突破用のセカンダリ素材 (例: 地脈の旧枝)"
+      ascensionCommon:
+        type: string
+        description: "武器強化用の共通素材 (例: 牢固な矢先)"

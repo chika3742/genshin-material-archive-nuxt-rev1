@@ -1,1 +1,1039 @@
-[]
+#   rarities:
+#    1:
+#      purposes:
+#        levelUp:
+#          levels:
+#            20:
+#              - id: a001-3
+#                quantity: 3
+#              - id: z002
+#                quantity: 3000
+#            40:
+#              - id: a001-3
+#                quantity: 13
+#              - id: z002
+#                quantity: 13000
+#            50:
+#              - id: a001-3
+#                quantity: 13
+#              - id: z002
+#                quantity: 13000
+#            60:
+#              - id: a001-3
+#                quantity: 19
+#              - id: z002
+#                quantity: 19000
+#            70:
+#              - id: a001-3
+#                quantity: 26
+#              - id: z002
+#                quantity: 26000
+#
+#        ascension:
+#          levels:
+#            40:
+#              - type: primary
+#                craftLevel: 1
+#                quantity: 1
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 1
+#              - type: common
+#                craftLevel: 1
+#                quantity: 1
+#            50:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 1
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 4
+#              - type: common
+#                craftLevel: 1
+#                quantity: 2
+#              - id: z002
+#                quantity: 5000
+#            60:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 2
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 2
+#              - type: common
+#                craftLevel: 2
+#                quantity: 2
+#              - id: z002
+#                quantity: 5000
+#            70:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 1
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 4
+#              - type: common
+#                craftLevel: 2
+#                quantity: 3
+#              - id: z002
+#                quantity: 10000
+#    2:
+#      purposes:
+#        levelUp:
+#          levels:
+#            20:
+#              - id: a001-3
+#                quantity: 4
+#              - id: z002
+#                quantity: 4000
+#            40:
+#              - id: a001-3
+#                quantity: 19
+#              - id: z002
+#                quantity: 19000
+#            50:
+#              - id: a001-3
+#                quantity: 19
+#              - id: z002
+#                quantity: 19000
+#            60:
+#              - id: a001-3
+#                quantity: 28
+#              - id: z002
+#                quantity: 28000
+#            70:
+#              - id: a001-3
+#                quantity: 39
+#              - id: z002
+#                quantity: 39000
+#
+#        ascension:
+#          levels:
+#            40:
+#              - type: primary
+#                craftLevel: 1
+#                quantity: 1
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 1
+#              - type: common
+#                craftLevel: 1
+#                quantity: 1
+#              - id: z002
+#                quantity: 5000
+#            50:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 1
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 5
+#              - type: common
+#                craftLevel: 1
+#                quantity: 4
+#              - id: z002
+#                quantity: 5000
+#            60:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 3
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 3
+#              - type: common
+#                craftLevel: 2
+#                quantity: 3
+#              - id: z002
+#                quantity: 10000
+#            70:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 1
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 5
+#              - type: common
+#                craftLevel: 2
+#                quantity: 4
+#              - id: z002
+#                quantity: 15000
+#    3:
+#      purposes:
+#        levelUp:
+#          levels:
+#            20:
+#              - id: a001-3
+#                quantity: 6
+#              - id: z002
+#                quantity: 6000
+#            40:
+#              - id: a001-3
+#                quantity: 28
+#              - id: z002
+#                quantity: 28000
+#            50:
+#              - id: a001-3
+#                quantity: 28
+#              - id: z002
+#                quantity: 28000
+#            60:
+#              - id: a001-3
+#                quantity: 41
+#              - id: z002
+#                quantity: 41000
+#            70:
+#              - id: a001-3
+#                quantity: 58
+#              - id: z002
+#                quantity: 58000
+#            80:
+#              - id: a001-3
+#                quantity: 78
+#              - id: z002
+#                quantity: 78000
+#            90:
+#              - id: a001-3
+#                quantity: 164
+#              - id: z002
+#                quantity: 164000
+#        ascension:
+#          levels:
+#            40:
+#              - type: primary
+#                craftLevel: 1
+#                quantity: 2
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 2
+#              - type: common
+#                craftLevel: 1
+#                quantity: 1
+#              - id: z002
+#                quantity: 5000
+#            50:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 2
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 8
+#              - type: common
+#                craftLevel: 1
+#                quantity: 5
+#              - id: z002
+#                quantity: 10000
+#            60:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 4
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 4
+#              - type: common
+#                craftLevel: 2
+#                quantity: 4
+#              - id: z002
+#                quantity: 15000
+#            70:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 2
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 8
+#              - type: common
+#                craftLevel: 2
+#                quantity: 6
+#              - id: z002
+#                quantity: 20000
+#            80:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 4
+#              - type: secondary
+#                craftLevel: 3
+#                quantity: 6
+#              - type: common
+#                craftLevel: 3
+#                quantity: 4
+#              - id: z002
+#                quantity: 25000
+#            90:
+#              - type: primary
+#                craftLevel: 4
+#                quantity: 3
+#              - type: secondary
+#                craftLevel: 3
+#                quantity: 12
+#              - type: common
+#                craftLevel: 3
+#                quantity: 8
+#              - id: z002
+#                quantity: 30000
+#    4:
+#      purposes:
+#        levelUp:
+#          levels:
+#            20:
+#              - id: a001-3
+#                quantity: 9
+#              - id: z002
+#                quantity: 9000
+#            40:
+#              - id: a001-3
+#                quantity: 42
+#              - id: z002
+#                quantity: 42000
+#            50:
+#              - id: a001-3
+#                quantity: 42
+#              - id: z002
+#                quantity: 42000
+#            60:
+#              - id: a001-3
+#                quantity: 62
+#              - id: z002
+#                quantity: 62000
+#            70:
+#              - id: a001-3
+#                quantity: 87
+#              - id: z002
+#                quantity: 87000
+#            80:
+#              - id: a001-3
+#                quantity: 117
+#              - id: z002
+#                quantity: 117000
+#            90:
+#              - id: a001-3
+#                quantity: 248
+#              - id: z002
+#                quantity: 248000
+#        ascension:
+#          levels:
+#            40:
+#              - type: primary
+#                craftLevel: 1
+#                quantity: 3
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 3
+#              - type: common
+#                craftLevel: 1
+#                quantity: 2
+#              - id: z002
+#                quantity: 5000
+#            50:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 3
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 12
+#              - type: common
+#                craftLevel: 1
+#                quantity: 8
+#              - id: z002
+#                quantity: 15000
+#            60:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 6
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 6
+#              - type: common
+#                craftLevel: 2
+#                quantity: 6
+#              - id: z002
+#                quantity: 20000
+#            70:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 3
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 12
+#              - type: common
+#                craftLevel: 2
+#                quantity: 9
+#              - id: z002
+#                quantity: 30000
+#            80:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 6
+#              - type: secondary
+#                craftLevel: 3
+#                quantity: 9
+#              - type: common
+#                craftLevel: 3
+#                quantity: 6
+#              - id: z002
+#                quantity: 35000
+#            90:
+#              - type: primary
+#                craftLevel: 4
+#                quantity: 4
+#              - type: secondary
+#                craftLevel: 3
+#                quantity: 18
+#              - type: common
+#                craftLevel: 3
+#                quantity: 12
+#              - id: z002
+#                quantity: 45000
+#    5:
+#      purposes:
+#        levelUp:
+#          levels:
+#            20:
+#              - id: a001-3
+#                quantity: 13
+#              - id: z002
+#                quantity: 13000
+#            40:
+#              - id: a001-3
+#                quantity: 63
+#              - id: z002
+#                quantity: 63000
+#            50:
+#              - id: a001-3
+#                quantity: 63
+#              - id: z002
+#                quantity: 63000
+#            60:
+#              - id: a001-3
+#                quantity: 93
+#              - id: z002
+#                quantity: 93000
+#            70:
+#              - id: a001-3
+#                quantity: 130
+#              - id: z002
+#                quantity: 130000
+#            80:
+#              - id: a001-3
+#                quantity: 175
+#              - id: z002
+#                quantity: 175000
+#            90:
+#              - id: a001-3
+#                quantity: 372
+#              - id: z002
+#                quantity: 372000
+#        ascension:
+#          levels:
+#            40:
+#              - type: primary
+#                craftLevel: 1
+#                quantity: 5
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 5
+#              - type: common
+#                craftLevel: 1
+#                quantity: 3
+#              - id: z002
+#                quantity: 10000
+#            50:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 5
+#              - type: secondary
+#                craftLevel: 1
+#                quantity: 18
+#              - type: common
+#                craftLevel: 1
+#                quantity: 12
+#              - id: z002
+#                quantity: 20000
+#            60:
+#              - type: primary
+#                craftLevel: 2
+#                quantity: 9
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 9
+#              - type: common
+#                craftLevel: 2
+#                quantity: 9
+#              - id: z002
+#                quantity: 30000
+#            70:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 5
+#              - type: secondary
+#                craftLevel: 2
+#                quantity: 18
+#              - type: common
+#                craftLevel: 2
+#                quantity: 14
+#              - id: z002
+#                quantity: 45000
+#            80:
+#              - type: primary
+#                craftLevel: 3
+#                quantity: 9
+#              - type: secondary
+#                craftLevel: 3
+#                quantity: 14
+#              - type: common
+#                craftLevel: 3
+#                quantity: 9
+#              - id: z002
+#                quantity: 55000
+#            90:
+#              - type: primary
+#                craftLevel: 4
+#                quantity: 6
+#              - type: secondary
+#                craftLevel: 3
+#                quantity: 27
+#              - type: common
+#                craftLevel: 3
+#                quantity: 18
+#              - id: z002
+#                quantity: 65000
+
+- rarity: 1
+  levels:
+    - level: 20
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 3
+        - id: z002
+          quantity: 3000
+
+    - level: 40
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 13
+        - id: z002
+          quantity: 13000
+        - type: ascensionPrimary
+          craftLevel: "1"
+          quantity: 1
+        - type: secondary
+          craftLevel: "1"
+          quantity: 1
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 1
+
+    - level: 50
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 13
+        - id: z002
+          quantity: 13000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 1
+        - type: secondary
+          craftLevel: "1"
+          quantity: 4
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 2
+        - id: z002
+          quantity: 5000
+
+    - level: 60
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 19
+        - id: z002
+          quantity: 19000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 2
+        - type: secondary
+          craftLevel: "2"
+          quantity: 2
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 2
+        - id: z002
+          quantity: 5000
+    - level: 70
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 25
+        - id: z002
+          quantity: 25000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 1
+        - type: secondary
+          craftLevel: "2"
+          quantity: 4
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 3
+        - id: z002
+          quantity: 10000
+
+- rarity: 2
+  levels:
+    - level: 20
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 4
+        - id: z002
+          quantity: 4000
+
+    - level: 40
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 19
+        - id: z002
+          quantity: 19000
+        - type: ascensionPrimary
+          craftLevel: "1"
+          quantity: 1
+        - type: secondary
+          craftLevel: "1"
+          quantity: 1
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 1
+        - id: z002
+          quantity: 5000
+
+    - level: 50
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 19
+        - id: z002
+          quantity: 19000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 1
+        - type: secondary
+          craftLevel: "1"
+          quantity: 5
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 4
+        - id: z002
+          quantity: 5000
+
+    - level: 60
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 28
+        - id: z002
+          quantity: 28000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 3
+        - type: secondary
+          craftLevel: "2"
+          quantity: 3
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 2
+        - id: z002
+          quantity: 10000
+
+    - level: 70
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 39
+        - id: z002
+          quantity: 39000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 1
+        - type: secondary
+          craftLevel: "2"
+          quantity: 5
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 4
+        - id: z002
+          quantity: 10000
+
+- rarity: 3
+  levels:
+    - level: 20
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 6
+        - id: z002
+          quantity: 6000
+
+    - level: 40
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 28
+        - id: z002
+          quantity: 28000
+        - type: ascensionPrimary
+          craftLevel: "1"
+          quantity: 2
+        - type: secondary
+          craftLevel: "1"
+          quantity: 2
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 1
+        - id: z002
+          quantity: 5000
+
+    - level: 50
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 28
+        - id: z002
+          quantity: 28000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 2
+        - type: secondary
+          craftLevel: "1"
+          quantity: 8
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 5
+        - id: z002
+          quantity: 10000
+
+    - level: 60
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 41
+        - id: z002
+          quantity: 41000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 4
+        - type: secondary
+          craftLevel: "2"
+          quantity: 4
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 4
+        - id: z002
+          quantity: 15000
+
+    - level: 70
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 58
+        - id: z002
+          quantity: 58000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 2
+        - type: secondary
+          craftLevel: "2"
+          quantity: 8
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 6
+        - id: z002
+          quantity: 20000
+
+    - level: 80
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 78
+        - id: z002
+          quantity: 78000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 4
+        - type: secondary
+          craftLevel: "3"
+          quantity: 6
+        - type: ascensionCommon
+          craftLevel: "3"
+          quantity: 4
+        - id: z002
+          quantity: 25000
+
+    - level: 90
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 164
+        - id: z002
+          quantity: 164000
+        - type: ascensionPrimary
+          craftLevel: "4"
+          quantity: 3
+        - type: secondary
+          craftLevel: "3"
+          quantity: 12
+        - type: ascensionCommon
+          craftLevel: "3"
+          quantity: 8
+        - id: z002
+          quantity: 30000
+
+- rarity: 4
+  levels:
+    - level: 20
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 9
+        - id: z002
+          quantity: 9000
+
+    - level: 40
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 42
+        - id: z002
+          quantity: 42000
+        - type: ascensionPrimary
+          craftLevel: "1"
+          quantity: 3
+        - type: secondary
+          craftLevel: "1"
+          quantity: 3
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 2
+        - id: z002
+          quantity: 5000
+
+    - level: 50
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 42
+        - id: z002
+          quantity: 42000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 3
+        - type: secondary
+          craftLevel: "1"
+          quantity: 12
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 8
+        - id: z002
+          quantity: 15000
+
+    - level: 60
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 62
+        - id: z002
+          quantity: 62000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 6
+        - type: secondary
+          craftLevel: "2"
+          quantity: 6
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 6
+        - id: z002
+          quantity: 20000
+
+    - level: 70
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 87
+        - id: z002
+          quantity: 87000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 3
+        - type: secondary
+          craftLevel: "2"
+          quantity: 12
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 9
+        - id: z002
+          quantity: 30000
+
+    - level: 80
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 117
+        - id: z002
+          quantity: 117000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 6
+        - type: secondary
+          craftLevel: "3"
+          quantity: 9
+        - type: ascensionCommon
+          craftLevel: "3"
+          quantity: 6
+        - id: z002
+          quantity: 35000
+
+    - level: 90
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 248
+        - id: z002
+          quantity: 248000
+        - type: ascensionPrimary
+          craftLevel: "4"
+          quantity: 4
+        - type: secondary
+          craftLevel: "3"
+          quantity: 18
+        - type: ascensionCommon
+          craftLevel: "3"
+          quantity: 12
+        - id: z002
+          quantity: 45000
+
+- rarity: 5
+  levels:
+    - level: 20
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 13
+        - id: z002
+          quantity: 13000
+
+    - level: 40
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 63
+        - id: z002
+          quantity: 63000
+        - type: ascensionPrimary
+          craftLevel: "1"
+          quantity: 5
+        - type: secondary
+          craftLevel: "1"
+          quantity: 5
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 3
+        - id: z002
+          quantity: 10000
+
+    - level: 50
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 63
+        - id: z002
+          quantity: 63000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 5
+        - type: secondary
+          craftLevel: "1"
+          quantity: 18
+        - type: ascensionCommon
+          craftLevel: "1"
+          quantity: 12
+        - id: z002
+          quantity: 20000
+
+    - level: 60
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 93
+        - id: z002
+          quantity: 93000
+        - type: ascensionPrimary
+          craftLevel: "2"
+          quantity: 9
+        - type: secondary
+          craftLevel: "2"
+          quantity: 9
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 9
+        - id: z002
+          quantity: 30000
+
+    - level: 70
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 130
+        - id: z002
+          quantity: 130000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 5
+        - type: secondary
+          craftLevel: "2"
+          quantity: 18
+        - type: ascensionCommon
+          craftLevel: "2"
+          quantity: 14
+        - id: z002
+          quantity: 45000
+
+    - level: 80
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 175
+        - id: z002
+          quantity: 175000
+        - type: ascensionPrimary
+          craftLevel: "3"
+          quantity: 9
+        - type: secondary
+          craftLevel: "3"
+          quantity: 14
+        - type: ascensionCommon
+          craftLevel: "3"
+          quantity: 9
+        - id: z002
+          quantity: 55000
+
+    - level: 90
+      ingredients:
+        - id: a001
+          craftLevel: "3"
+          quantity: 372
+        - id: z002
+          quantity: 372000
+        - type: ascensionPrimary
+          craftLevel: "4"
+          quantity: 6
+        - type: secondary
+          craftLevel: "3"
+          quantity: 27
+        - type: ascensionCommon
+          craftLevel: "3"
+          quantity: 18
+        - id: z002
+          quantity: 65000
