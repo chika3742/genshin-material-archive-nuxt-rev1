@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: {
       name: "scroll-y-reverse-transition",
-      leaveActiveClass: "d-none",
+      leaveActiveClass: "position-absolute d-none",
       duration: 200,
     },
     head: {
