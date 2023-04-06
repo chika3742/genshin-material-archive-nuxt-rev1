@@ -12,6 +12,10 @@ export const getCharacterImage = (characterId: string, variant: "full" | "small"
   }
 }
 
+export const getWeaponImage = (weaponId: string) => {
+  return new URL(`../assets/img/weapons/${weaponId}.webp`, import.meta.url).toString()
+}
+
 export const getMaterialImage = (materialId: string) => {
   return new URL(`../assets/img/materials/${materialId}.webp`, import.meta.url).toString()
 }

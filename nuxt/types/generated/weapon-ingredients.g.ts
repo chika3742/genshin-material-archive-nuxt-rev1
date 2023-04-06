@@ -6,7 +6,6 @@ export interface RarityIngredients {
   rarity: number;
   levels: LevelIngredients[];
 }
-
 export interface LevelIngredients {
   level: number;
   ingredients: (
@@ -24,11 +23,11 @@ export interface LevelIngredients {
       | "ascensionCommon"
       | "talentPrimary"
       | "talentBoss";
-        craftLevel?: string;
-        quantity: number;
-        exceptions?: {
-          [k: string]: string | boolean;
-        };
-      }
+    craftLevel?: string;
+    quantity: number;
+    exceptions?: {
+      [k: string]: string | boolean;
+    };
+  }
   )[];
 }

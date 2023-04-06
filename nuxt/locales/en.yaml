@@ -8,6 +8,8 @@ pageTitle:
   home: Home
   characters: Characters
   characters__characterId: Characters / {name}
+  weapons: Weapons
+  weapons__weaponId: Weapons / {name}
   about: About This App
   releaseNotes: Release Notes
   terms: Terms of Service
@@ -48,6 +50,16 @@ characterDetailsPage:
     elementalSkill: "Elemental Skill: "
     elementalBurst: "Elemental Burst: "
 
+weaponsPage:
+  filterOptions:
+    none: None
+
+weaponDetailsPage:
+  ascension:
+    title: Weapon Lv Up / Ascension Materials
+  effects: Weapon Effects
+  subStat: Sub Stat
+
 about:
   settings:
     heading: Settings
@@ -72,6 +84,26 @@ weaponTypes:
   polearm: Polearm
   bow: Bow
   catalyst: Catalyst
+
+stats:
+  hp: HP
+  hpPercent: HP(%)
+  atk: ATK
+  atkPercent: ATK(%)
+  def: DEF
+  defPercent: DEF(%)
+  em: Elemental Mastery
+  critRate: Crit Rate
+  critDmg: Crit DMG
+  recharge: Elemental Recharge
+  pyroDmgBonus: Pyro DMG Bonus
+  hydroDmgBonus: Hydro DMG Bonus
+  cryoDmgBonus: Cryo DMG Bonus
+  electroDmgBonus: Electro DMG Bonus
+  anemoDmgBonus: Anemo DMG Bonus
+  geoDmgBonus: Geo DMG Bonus
+  dendroDmgBonus: Dendro DMG Bonus
+  physicalDmgBonus: Physical DMG Bonus
 
 characters:
   Traveler_anemo: Traveler (Anemo)
@@ -412,4 +444,174 @@ talentNames:
     normal: 'Normal Attack: Spear of Favonius – Arrow’s Passage'
     skill: Starfrost Swirl
     burst: Skyfeather Song
+
+weapons:
+  u1-01: Dull Blade
+  u2-01: Silver Sword
+  u3-01: Cool Steel
+  u3-02: Dark Iron Sword
+  u3-03: Fillet Blade
+  u3-04: Harbinger of Dawn
+  u3-05: Skyrider Sword
+  u3-06: Traveler's Handy Sword
+  u4-01: Blackcliff Longsword
+  u4-02: Favonius Sword
+  u4-03: Iron Sting
+  u4-04: Lion's Roar
+  u4-05: Prototype Rancour
+  u4-06: Royal Longsword
+  u4-07: Sacrificial Sword
+  u4-08: The Alley Flash
+  u4-09: The Black Sword
+  u4-10: The Flute
+  u4-11: Sword of Descension
+  u4-12: Festering Desire
+  u4-13: Amenoma Kageuchi
+  u4-14: Cinnabar Spindle
+  u4-15: Cursed Blade (Kagotsurube Isshin)
+  u4-16: Sapwood Blade
+  u4-17: Xiphos’ Moonlight
+  u4-18: Toukabou Shigure
+  u5-01: Aquila Favonia
+  u5-02: Skyward Blade
+  u5-03: Summit Shaper
+  u5-04: Primordial Jade Cutter
+  u5-05: Freedom-Sworn
+  u5-06: Mistsplitter Reforged
+  u5-07: Haran Geppaku Futsu
+  u5-08: Key of Khaj-Nisut
+  u5-09: Light of Foliar Incision
+  v1-01: Waster Greatsword
+  v2-01: Old Merc's Pal
+  v3-01: Bloodtainted Greatsword
+  v3-02: Debate Club
+  v3-03: Ferrous Shadow
+  v3-04: Skyrider Greatsword
+  v3-05: White Iron Greatsword
+  v4-01: Blackcliff Slasher
+  v4-02: Favonius Greatsword
+  v4-03: Lithic Blade
+  v4-04: Prototype Archaic
+  v4-05: Rainslasher
+  v4-06: Royal Greatsword
+  v4-07: Serpent Spine
+  v4-08: The Bell
+  v4-09: Whiteblind
+  v4-10: Sacrificial Greatsword
+  v4-11: Snow-Tombed Starsilver
+  v4-12: Katsuragikiri Nagamasa
+  v4-13: Luxurious Sea-Lord
+  v4-14: Akuoumaru
+  v4-15: Makhaira Aquamarine
+  v4-16: Forest Regalia
+  v5-01: Skyward Pride
+  v5-02: Wolf's Gravestone
+  v5-03: The Unforged
+  v5-04: Song of Broken Pines
+  v5-05: Redhorn Stonethresher
+  w1-01: Beginner's Protector
+  w2-01: Iron Point
+  w3-01: Black Tassel
+  w3-02: Halberd
+  w3-03: White Tassel
+  w4-01: Blackcliff Pole
+  w4-02: Crescent Pike
+  w4-03: Deathmatch
+  w4-04: Dragon's Bane
+  w4-05: Lithic Spear
+  w4-06: Prototype Starglitter
+  w4-07: Favonius Lance
+  w4-08: Royal Spear
+  w4-09: Dragonspine Spear
+  w4-10: Kitain Cross Spear
+  w4-11: '"The Catch"'
+  w4-12: Wavebreaker's Fin
+  w4-13: Moonpiercer
+  w4-14: Missive Windspear
+  w5-01: Vortex Vanquisher
+  w5-02: Primordial Jade Winged-Spear
+  w5-03: Skyward Spine
+  w5-04: Staff of Homa
+  w5-05: Engulfing Lightning
+  w5-06: Calamity Queller
+  w5-07: Staff of the Scarlet Sands
+  x1-01: Hunter's Bow
+  x2-01: Seasoned Hunter's Bow
+  x3-01: Messenger
+  x3-02: Raven Bow
+  x3-03: Recurve Bow
+  x3-04: Sharpshooter's Oath
+  x3-05: Slingshot
+  x4-01: The Stringless
+  x4-02: Alley Hunter
+  x4-03: Blackcliff Warbow
+  x4-04: Compound Bow
+  x4-05: Favonius Warbow
+  x4-06: Prototype Crescent
+  x4-07: Royal Bow
+  x4-08: Rust
+  x4-09: Sacrificial Bow
+  x4-10: The Viridescent Hunt
+  x4-11: Windblume Ode
+  x4-12: Mitternachts Waltz
+  x4-13: Hamayumi
+  x4-14: Predator
+  x4-15: Mouun's Moon
+  x4-16: Fading twilight
+  x4-17: King’s Squire
+  x4-18: End of the Line
+  x5-01: Skyward Harp
+  x5-02: Amos' Bow
+  x5-03: Elegy for the End
+  x5-04: Thundering Pulse
+  x5-05: Brumal Star
+  x5-06: Aqua simulacra
+  x5-07: Hunter’s Path
+  y1-01: Apprentice's Notes
+  y2-01: Pocket Grimoire
+  y3-01: Emerald Orb
+  y3-02: Magic Guide
+  y3-03: Otherworldly Story
+  y3-04: Thrilling Tales of Dragon Slayers
+  y3-05: Twin Nephrite
+  y4-01: Blackcliff Agate
+  y4-02: Favonius Codex
+  y4-03: Mappa Mare
+  y4-04: Prototype Amber
+  y4-05: Royal Grimoire
+  y4-06: Sacrificial Fragments
+  y4-07: Solar Pearl
+  y4-08: The Widsith
+  y4-09: Wine and Song
+  y4-10: Eye of Perception
+  y4-11: Frostbearer
+  y4-12: Dodoco Tales
+  y4-13: Hakushin Ring
+  y4-14: Oathsworn Eye
+  y4-15: Fruit of Fulfillment
+  y4-16: Wandering Evenstar
+  y5-01: Lost Prayer to the Sacred Winds
+  y5-02: Skyward Atlas
+  y5-03: Memory of Dust
+  y5-04: Everlasting Moonglow
+  y5-05: Kagura's Verity
+  y5-06: A Thousand Floating Dreams
+  y5-07: Tulaytullah's Remembrance
+
+weaponWhereToGet:
+  treasureChestsOrQuests: treasure chests or quest rewards
+  gacha: available in wish
+  chenTheSharp: Chen the Sharp, Liyue Harbor
+  treasureChests: treasure chests
+  starglitterExchange: Starglitter exchange
+  forging: forging
+  limitedGacha: limited wish
+  battlePass: battle pass rewards
+  playStationLimited: PS4/PS5 rewards
+  eventUnavailable: unavailable (event rewards)
+  kazuhaStoryQuest: Kazuha's story quest
+  event: event rewards
+  inazumaFishingAssociation: Inazuma Fishing Association
+  sumeruFishingAssociation: Sumeru Fishing Association
+  frostbearingTree: Frostbearing Tree
 

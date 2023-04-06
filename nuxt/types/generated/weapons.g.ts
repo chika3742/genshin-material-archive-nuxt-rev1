@@ -34,7 +34,7 @@ export interface Weapon {
   /**
    * 武器の入手方法のi18nキー
    */
-  whereToGet?:
+  whereToGet:
     | string
     | (
     | "treasureChestsOrQuests"
@@ -49,7 +49,6 @@ export interface Weapon {
     );
   materials: WeaponMaterials;
 }
-
 /**
  * 武器の強化素材
  */

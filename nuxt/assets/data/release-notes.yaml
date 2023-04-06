@@ -1,3 +1,17 @@
+- date: 2023/04/07
+  funcVersion: 4.0.0-alpha.7
+  dataVersion: 3.5.1
+  isMajor: false
+  content: |
+    ### 追加
+
+    - 武器ページ・武器詳細ページを追加しました。
+    - キャラ天賦名の英語表記を追加しました。
+    
+    ### 修正
+    
+    - バック時にアニメーションがガタつく不具合を修正しました。
+
 - date: 2023/04/03
   funcVersion: 4.0.0-alpha.6
   dataVersion: 3.5.1

@@ -14,6 +14,7 @@ definitions:
       - rarity
       - type
       - materials
+      - whereToGet
     properties:
       id:
         type: string
