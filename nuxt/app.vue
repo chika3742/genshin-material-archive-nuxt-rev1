@@ -29,7 +29,7 @@
         </div>
 
         <v-container>
-          <NuxtPage :page-key="$route.fullPath" />
+          <NuxtPage :keepalive="{max: 5}" :page-key="$route.fullPath" />
         </v-container>
 
         <v-spacer />

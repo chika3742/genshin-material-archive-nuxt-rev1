@@ -91,7 +91,6 @@ import originalCharacterList from "~/assets/data/characters.yaml"
 
 definePageMeta({
   title: "characters",
-  keepalive: true,
 })
 
 const i18n = useI18n()
