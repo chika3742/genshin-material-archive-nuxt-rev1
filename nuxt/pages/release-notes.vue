@@ -11,16 +11,15 @@
           :size="item.isMajor ? 'default' : 'small'"
         >
           <template #opposite>
-            <div v-if="!$vuetify.display.smAndDown" class="d-flex flex-column align-end">
+            <div v-show="!$vuetify.display.smAndDown" class="changelog-title">
               <span class="font-weight-bold">{{ getVersionText(item) }}</span>
               <span style="font-size: 0.8em">{{ item.date }}</span>
             </div>
           </template>
           <div class="d-flex flex-column">
             <div
-              v-if="$vuetify.display.smAndDown"
-              class="d-flex flex-column py-1 px-4 mb-2"
-              style="background: rgb(var(--v-theme-card)); border-radius: 8px; max-width: 250px"
+              v-show="$vuetify.display.smAndDown"
+              class="changelog-title--mobile"
             >
               <span class="font-weight-bold">{{ getVersionText(item) }}</span>
               <span style="font-size: 0.8em">{{ item.date }}</span>
@@ -67,3 +66,19 @@ definePageMeta({
   title: "releaseNotes",
 })
 </script>
+
+<style lang="sass">
+.changelog-title
+  display: flex
+  flex-direction: column
+  align-items: end
+
+  &--mobile
+    display: flex
+    flex-direction: column
+    padding: 4px 16px
+    margin-bottom: 8px
+    background: rgb(var(--v-theme-card))
+    border-radius: 8px
+    max-width: 250px
+</style>
