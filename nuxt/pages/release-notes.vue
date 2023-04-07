@@ -20,7 +20,7 @@
             <div
               v-if="$vuetify.display.smAndDown"
               class="d-flex flex-column py-1 px-4 mb-2"
-              style="background: rgb(var(--v-theme-card)); border-radius: 8px"
+              style="background: rgb(var(--v-theme-card)); border-radius: 8px; max-width: 250px"
             >
               <span class="font-weight-bold">{{ getVersionText(item) }}</span>
               <span style="font-size: 0.8em">{{ item.date }}</span>
