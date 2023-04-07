@@ -66,6 +66,7 @@ materialDetailsPage:
   teyvatMap: テイワットマップ
   charactersUsingThisMaterial: この素材を使用するキャラクター
   weaponsUsingThisMaterial: この素材を使用する武器
+  newTab: 新しいタブで開く
 
 about:
   settings:

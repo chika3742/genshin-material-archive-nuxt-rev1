@@ -66,6 +66,7 @@ materialDetailsPage:
   teyvatMap: Teyvat Interactive Map
   charactersUsingThisMaterial: Character(s) Using This Material
   weaponsUsingThisMaterial: Weapon(s) Using This Material
+  newTab: Open in a new tab
 
 about:
   settings:

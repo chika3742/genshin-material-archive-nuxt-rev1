@@ -23,6 +23,12 @@
           style="width: 100%; height: calc(100vh - 64px); border: none"
         />
       </v-card-text>
+      <v-card-actions>
+        <v-spacer />
+        <v-btn prepend-icon="ms:open_in_new" :href="teyvatMapUrl" target="_blank">
+          {{ $t("materialDetailsPage.newTab") }}
+        </v-btn>
+      </v-card-actions>
     </v-card>
 
     <v-card v-if="charactersUsingThisMaterial.length > 0">
