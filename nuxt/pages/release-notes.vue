@@ -80,5 +80,6 @@ definePageMeta({
     margin-bottom: 8px
     background: rgb(var(--v-theme-card))
     border-radius: 8px
+    width: 250px
     max-width: 250px
 </style>
