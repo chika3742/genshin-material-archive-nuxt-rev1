@@ -646,3 +646,382 @@ weaponWhereToGet:
   sumeruFishingAssociation: Sumeru Fishing Association
   frostbearingTree: Frostbearing Tree
 
+weaponDescriptions:
+  u4-04: |
+    - Damage to enemies affected by Pyro or Electro __+20%__ .
+
+  u4-15: |
+    - After hitting an enemy with Normal or Charged Attack, or with a plunging attack: Inflicts __180%__ AoE Pyro DMG.
+    - After triggering the effect above, ATK is increased by __+15%__ for 8s. This effect can only occur once every 8s.
+
+  u4-16: |
+    - When a character triggers a Burning, Overloaded, Vaporized, Swirl, or Electro-Charged reaction, a "Sage's Leaf" 
+      will be created around the character for 10 seconds. Picking up the Sage's Leaf grants the character Elemental Mastery __+60__ for 12 seconds. This effect cannot be overlapped. (Can be triggered while on standby, 20s cooldown)
+
+  u4-17: |
+    - Every 10 seconds after entering the field, the character's Elemental Recharge __+(Elemental Mastery)×0.036%__ .
+    - Increases the Elemental Recharge of other characters in the team by __+30%__ of the above effect
+      (duration 12s, can be overlapped by other weapons of the same type, can be triggered while on standby)
+    
+  u4-18: |
+    - After hitting an enemy, increases DMG against that enemy by __+16%__ for 10s. (Max 1 enemy, 15s cooldown, resets when the enemy is defeated)
+
+  u5-01: |
+    - ATK __+20%__ .
+    - When hit, restores __100% ATK__ HP and deals __200% ATK__ AoE DMG to nearby enemies. (15s cooldown)
+
+  u5-02: |
+    - Crit Rate __+20%__ .
+    - After using an elemental burst, increases movement speed by __+10%__ for 10s. (Max 1 stack, 15s cooldown)
+
+  u5-03: |
+    - Increases Shield Strength by __+20%__ .
+    - After hitting an enemy, increases ATK by __+4%__ for 8s. (when shield is active, 2x, max 5 stacks, 0.3s cooldown)
+
+  u5-04: |
+    - HP __+20%__ .
+    - Increases ATK by __+1.2% of HP__ .
+
+  u5-05: |
+    - DMG __+10%__ .
+    - When a character triggers a reaction, a stack is accumulated.
+      When 2 stacks are accumulated, increases Normal/Charged Attack and Plunge DMG by __+12%__ for 12s,
+      and increases ATK by __+20%__ for 12s. (can be triggered while on standby, 0.5s stack cooldown, 20s cooldown after activation, cannot be overlapped)
+
+  u5-06: |
+    - All elemental DMG __+12%__ .
+    - Elemental damage of own elemental type __ +8/16/28%__ with stacks 1/2/3 existing when elemental damage is dealt by normal attack (5 seconds) / when elemental burst is activated (10 seconds) / when elemental energy is less than 100%, respectively.
+
+  u5-07: |
+    - All elemental DMG __+12%__.
+    - Whenever one of the surrounding team members activates an elemental skill, they gain a stack (maximum 2). When an equipped character activates an elemental skill, each of these stacks will deal normal attack damage
+      __+20%__ (duration: 8s).
+
+materials:
+  a001-1: Enhancement Ore
+  a001-2: Fine Enhancement Ore
+  a001-3: Mystic Enhancement Ore
+  a002-1: Wanderer's Advice
+  a002-2: Adventurer's Experience
+  a002-3: Hero's Wit
+  b001-1: Slime Condensate
+  b001-2: Slime Secretions
+  b001-3: Slime Concentrate
+  b002-1: Damaged Mask
+  b002-2: Stained Mask
+  b002-3: Ominous Mask
+  b003-1: Divining Scroll
+  b003-2: Sealed Scroll
+  b003-3: Forbidden Curse Scroll
+  b004-1: Firm Arrowhead
+  b004-2: Sharp Arrowhead
+  b004-3: Weathered Arrowhead
+  b005-1: Heavy Horn
+  b005-2: Black Bronze Horn
+  b005-3: Black Crystal Horn
+  b006-1: Dead Ley Line Branch
+  b006-2: Dead Ley Line Leaves
+  b006-3: Ley Line Sprout
+  b007-1: Chaos Device
+  b007-2: Chaos Circuit
+  b007-3: Chaos Core
+  b008-1: Mist Grass Pollen
+  b008-2: Mist Grass
+  b008-3: Mist Grass Wick
+  b009-1: Hunter's Sacrificial Knife
+  b009-2: Agent's Sacrificial Knife
+  b009-3: Inspector's Sacrificial Knife
+  b010-1: Recruit's Insignia
+  b010-2: Sergeant's Insignia
+  b010-3: Lieutenant's Insignia
+  b011-1: Treasure Hoarder Insignia
+  b011-2: Silver Raven Insignia
+  b011-3: Golden Raven Insignia
+  b012-1: Whopperflower Nectar
+  b012-2: Shimmering Nectar
+  b012-3: Energy Nectar
+  b013-1: Fragile Bone Shard
+  b013-2: Sturdy Bone Shard
+  b013-3: Fossilized Bone Shard
+  b014-1: Gloomy Statuette
+  b014-2: Dark Statuette
+  b014-3: Deathly Statuette
+  b015-1: Old Handguard
+  b015-2: Kageuchi Handguard
+  b015-3: Famed Handguard
+  b016-1: Chaos Gear
+  b016-2: Chaos Axis
+  b016-3: Chaos Oculus
+  b017-1: Concealed Claw
+  b017-2: Concealed Unguis
+  b017-3: Concealed Talon
+  b018-1: Dismal Prism
+  b018-2: Crystal Prism
+  b018-3: Polarizing Prism
+  b019-1: Spectral Husk
+  b019-2: Spectral Heart
+  b019-3: Spectral Nucleus
+  b020-1: Faded Red Satin
+  b020-2: Trimmed Red Silk
+  b020-3: Rich Red Brocade
+  b021-1: Fungal Spores
+  b021-2: Luminescent Pollen
+  b021-3: Crystalline Cyst Dust
+  b022-1: Inactivated Fungal Nucleus
+  b022-2: Dormant Fungal Nucleus
+  b022-3: Robust Fungal Nucleus
+  b023-1: Chaos Storage
+  b023-2: Chaos Module
+  b023-3: Chaos Bolt
+  b024-1: Damaged Prism
+  b024-2: Turbid Prism
+  b024-3: Radiant Prism
+  b025-1: Desiccated Shell
+  b025-2: Sturdy Shell
+  b025-3: Marked Shell
+  c001: Everflame Seed
+  c002: Cleansing Heart
+  c003: Lightning Prism
+  c004: Hoarfrost Core
+  c005: Hurricane Seed
+  c006: Basalt Pillar
+  c007: Juvenile Jade
+  c008: Crystalline Bloom
+  c009: Maguu Kishin
+  c010: Perpetual Heart
+  c011: Smoldering Pearl
+  c012: Dew of Repudiation
+  c013: Storm Beads
+  c014: Riftborn Regalia
+  c015: Dragonheir's False Fin
+  c017: Majestic Hooked Beak
+  c018: Thunderclap Fruitcore
+  c019: Light Guiding Tetrahedron
+  c020: Perpetual Caliber
+  c021: Quelled Creeper
+  c022: Pseudo-Stamens
+  d001-1: Brilliant Diamond Sliver
+  d001-2: Brilliant Diamond Fragment
+  d001-3: Brilliant Diamond Chunk
+  d001-4: Brilliant Diamond Gemstone
+  d002-1: Agnidus Agate Sliver
+  d002-2: Agnidus Agate Fragment
+  d002-3: Agnidus Agate Chunk
+  d002-4: Agnidus Agate Gemstone
+  d003-1: Varunada Lazurite Sliver
+  d003-2: Varunada Lazurite Fragment
+  d003-3: Varunada Lazurite Chunk
+  d003-4: Varunada Lazurite Gemstone
+  d004-1: Vajrada Amethyst Sliver
+  d004-2: Vajrada Amethyst Fragment
+  d004-3: Vajrada Amethyst Chunk
+  d004-4: Vajrada Amethyst Gemstone
+  d005-1: Shivada Jade Sliver
+  d005-2: Shivada Jade Fragment
+  d005-3: Shivada Jade Chunk
+  d005-4: Shivada Jade Gemstone
+  d006-1: Vayuda Turquoise Sliver
+  d006-2: Vayuda Turquoise Fragment
+  d006-3: Vayuda Turquoise Chunk
+  d006-4: Vayuda Turquoise Gemstone
+  d007-1: Prithiva Topaz Sliver
+  d007-2: Prithiva Topaz Fragment
+  d007-3: Prithiva Topaz Chunk
+  d007-4: Prithiva Topaz Gemstone
+  d008-1: Nagadus Emerald Sliver
+  d008-2: Nagadus Emerald Fragment
+  d008-3: Nagadus Emerald Chunk
+  d008-4: Nagadus Emerald Gemstone
+  e003-1: Teachings of Ballad
+  e003-2: Guide to Ballad
+  e003-3: Philosophies of Ballad
+  e007-1: Teachings of Transience
+  e007-2: Guide to Transience
+  e007-3: Philosophies of Transience
+  e005-1: Teachings of Diligence
+  e005-2: Guide to Diligence
+  e005-3: Philosophies of Diligence
+  e008-1: Teachings of Elegance
+  e008-2: Guide to Elegance
+  e008-3: Philosophies of Elegance
+  e001-1: Teachings of Freedom
+  e001-2: Guide to Freedom
+  e001-3: Philosophies of Freedom
+  e009-1: Teachings of Light
+  e009-2: Guide to Light
+  e009-3: Philosophies of Light
+  e006-1: Teachings of Gold
+  e006-2: Guide to Gold
+  e006-3: Philosophies of Gold
+  e004-1: Teachings of Prosperity
+  e004-2: Guide to Prosperity
+  e004-3: Philosophies of Prosperity
+  e002-1: Teachings of Resistance
+  e002-2: Guide to Resistance
+  e002-3: Philosophies of Resistance
+  e010-1: Teachings of Admonition
+  e010-2: Guide of Admonition
+  e010-3: Philosophies of Admonition
+  e011-1: Teachings of Ingenuity
+  e011-2: Guide of Ingenuity
+  e011-3: Philosophies of Ingenuity
+  e012-1: Teachings to Praxis
+  e012-2: Guide to Praxis
+  e012-3: Philosophies to Praxis
+  f001: Dvalin's Plume
+  f002: Dvalin's Claw
+  f003: Dvalin's Sigh
+  f004: Tail of Boreas
+  f005: Ring of Boreas
+  f006: Spirit Locket of Boreas
+  f007: Tusk of Monoceros Caeli
+  f008: Shard of a Foul Legacy
+  f009: Shadow of the Warrior
+  f010: Dragon Lord's Crown
+  f011: Bloodjade Branch
+  f012: Gilded Scale
+  f013: Molten Moment
+  f014: Hellfire Butterfly
+  f015: Ashen Heart
+  f016: Mudra of the Malefic General
+  f017: Tears of the Calamitous God
+  f018: The Meaning of Aeons
+  f019: Puppet Strings
+  f020: Mirror of Mushin
+  f021: Daka’s Bell
+  c016: Runic Fang
+  z001: Crown of Insight
+  g001-1: Tile of Decarabian's Tower
+  g001-2: Debris of Decarabian's City
+  g001-3: Fragment of Decarabian's Epic
+  g001-4: Scattered Piece of Decarabian's Dream
+  g004-1: Luminous Sands from Guyun
+  g004-2: Lustrous Stone from Guyun
+  g004-3: Relic from Guyun
+  g004-4: Divine Body from Guyun
+  g002-1: Boreal Wolf's Milk Tooth
+  g002-2: Boreal Wolf's Cracked Tooth
+  g002-3: Boreal Wolf's Broken Fang
+  g002-4: Boreal Wolf's Nostalgia
+  g005-1: Mist Veiled Lead Elixir
+  g005-2: Mist Veiled Mercury Elixir
+  g005-3: Mist Veiled Gold Elixir
+  g005-4: Mist Veiled Primo Elixir
+  g003-1: Fetters of the Dandelion Gladiator
+  g003-2: Chains of the Dandelion Gladiator
+  g003-3: Shackles of the Dandelion Gladiator
+  g003-4: Dream of the Dandelion Gladiator
+  g006-1: Grain of Aerosiderite
+  g006-2: Piece of Aerosiderite
+  g006-3: Bit of Aerosiderite
+  g006-4: Chunk of Aerosiderite
+  g007-1: Coral Branch of a Distant Sea
+  g007-2: Jeweled Branch of a Distant Sea
+  g007-3: Jade Branch of a Distant Sea
+  g007-4: Golden Branch of a Distant Sea
+  g008-1: Narukami's Wisdom
+  g008-2: Narukami's Joy
+  g008-3: Narukami's Affection
+  g008-4: Narukami's Valor
+  g009-1: Mask of the Wicked Lieutenant
+  g009-2: Mask of the Tiger's Bite
+  g009-3: Mask of the One-Horned
+  g009-4: Mask of the Kijin
+  g010-1: Copper Talisman of the Forest Dew
+  g010-2: Iron Talisman of the Forest Dew
+  g010-3: Silver Talisman of the Forest Dew
+  g010-4: Golden Talisman of the Forest Dew
+  g011-1: Oasis Garden's Reminiscence
+  g011-2: Oasis Garden's Kindness
+  g011-3: Oasis Garden's Mourning
+  g011-4: Oasis Garden's Truth
+  g012-1: Echo of Scorching Might
+  g012-2: Remnant Glow of Scorching Might
+  g012-3: Dream of Scorching Might
+  g012-4: Olden Days of Scorching Might
+  h001: Calla Lily
+  h002: Cecilia
+  h003: Cor Lapis
+  h004: Dandelion Seed
+  h005: Glaze Lily
+  h006: Jueyun Chili
+  h007: Noctilucous Jade
+  h008: Philanemo Mushroom
+  h009: Silk Flower
+  h010: Small Lamp Grass
+  h011: Valberry
+  h012: Violetgrass
+  h013: Windwheel Aster
+  h014: Wolfhook
+  h015: Qingxin
+  h016: Starconch
+  h017: Sea Ganoderma
+  h018: Onikabuto
+  h019: Sakura Bloom
+  h020: Crystal Marrow
+  h021: Dendrobium
+  h022: Naku Weed
+  h023: Sango Pearl
+  h024: Amakumo Fruit
+  h025: Fluorescent Fungus
+  h026: Rukkhashava Mushrooms
+  h027: Kalpalata Lotus
+  h028: Nilotpala Lotus
+  h029: Scarab
+  h030: Redcrest
+  h031: Padisarah
+  h032: Sand Grease Pupa
+  z002: Mora
+  i001: Birch Wood
+  i002: Cuihua Wood
+  i003: Pine Wood
+  i004: Sandbearer Wood
+  i005: Bamboo Segment
+  i006: Fragrant Cedar Wood
+  i007: Fir Wood
+  i008: Yumemiru Wood
+  i009: Maple Wood
+  i010: Aralia Wood
+  i011: Otogi Wood
+
+materialWhereToGet:
+  s8393835895: Forge, chest rewards, mission rewards, etc.
+  s0435935404: Lay Line Outcrop, and other mission rewards, etc.
+  s8978389602: Field boss "Pyro Regisvine" (Liyue)
+  s5341368793: Field boss "Oceanid" (Liyue)
+  s8693481680: Field boss "Electro Hypostasis" (Mondstadt)
+  s6601894814: Field boss "Cryo Regisvine" (Mondstadt)
+  s1113482925: Field boss "Anemo Hypostasis" (Mondstadt)
+  s8376760173: Field boss "Geo Hypostasis" (Liyue)
+  s3612764781: Field boss "Primo Geovishap" (Liyue)
+  s3417717341: Field boss "Cryo Hypostasis" (Dragonspine)
+  s1175729103: Field boss "Maguu Kenki" (Inazuma)
+  s3360640394: Field boss "Perpetual Mechanical Array" (Inazuma)
+  s2975080566: Field boss "Pyro Hypostasis" (Inazuma)
+  s5874276153: Field boss "Hydro Hypostasis" (Inazuma)
+  s6923625500: Field boss "Thunder Manifestation" (Inazuma)
+  s3138344873: Field boss "Golden Wolflord" (Inazuma)
+  s9541745698: Field boss "Bathysmal Vishap" (Enkanomiya)
+  s1273257873: "Field boss \"Ruin Serpent\" (The Chasm: Underground Mines)"
+  s1644765790: Field boss "Jadeplume Terrorshroom" (Sumeru)
+  s8337664310: Field boss "Electro Regisvine" (Sumeru)
+  s6360312579: Field boss "Algorithm of Semi-Intransient Matrix of Overseer Network" (Sumeru)
+  s6531861708: Field boss "Aeonblight Drake" (Sumeru)
+  s8280408119: Field boss "Dendro Hypostasis" (Sumeru)
+  s2643733474: Field boss "Setekh Wenut" (Sumeru)
+  s3791026267: Domain "Forsaken Rift"
+  s0194031863: Domain "Taishan Mansion"
+  s6665051234: Domain "Violet Court"
+  s0649000072: Domain "Steeple of Ignorance"
+  s2779723855: Trounce domain (weekly boss) "Stormterror's Lair"
+  s2894142297: Wolf of the North challenge reward
+  s9314787989: Weekly boss Childe rewards
+  s0611705112: Weekly boss Azhdaha rewards
+  s8295778283: Weekly boss Signora rewards
+  s2819645061: Weekly boss Guardian of Eternity rewards
+  s6189395594: Weekly boss Shouki no Kami, the Prodigal rewards
+  s0726485467: Domain "Cecilia Garden"
+  s6295198885: Domain "Hidden Palace of Lianshan Formula"
+  s4887518411: Domain "Court of Flowing Sand"
+  s2646615067: Domain "Tower of Abject Pride"
+  s1736930303: Event rewards, etc.
