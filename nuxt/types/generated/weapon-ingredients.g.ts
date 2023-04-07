@@ -10,24 +10,24 @@ export interface LevelIngredients {
   level: number;
   ingredients: (
     | {
-    id: string;
-    craftLevel?: string;
-    quantity: number;
-  }
+        id: string;
+        craftLevel?: string;
+        quantity: number;
+      }
     | {
-    type:
-      | "ascensionPrimary"
-      | "ascensionElementalStone"
-      | "ascensionLocal"
-      | "secondary"
-      | "ascensionCommon"
-      | "talentPrimary"
-      | "talentBoss";
-    craftLevel?: string;
-    quantity: number;
-    exceptions?: {
-      [k: string]: string | boolean;
-    };
-  }
+        type:
+          | "ascensionPrimary"
+          | "ascensionElementalStone"
+          | "ascensionLocal"
+          | "secondary"
+          | "ascensionCommon"
+          | "talentPrimary"
+          | "talentBoss";
+        craftLevel?: string;
+        quantity: number;
+        exceptions?: {
+          [k: string]: string | boolean;
+        };
+      }
   )[];
 }

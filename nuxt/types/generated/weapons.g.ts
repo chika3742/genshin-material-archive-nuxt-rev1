@@ -37,16 +37,16 @@ export interface Weapon {
   whereToGet:
     | string
     | (
-    | "treasureChestsOrQuests"
-    | "gacha"
-    | "treasureChests"
-    | "starglitterExchange"
-    | "forging"
-    | "limitedGacha"
-    | "battlePass"
-    | "eventUnavailable"
-    | "event"
-    );
+        | "treasureChestsOrQuests"
+        | "gacha"
+        | "treasureChests"
+        | "starglitterExchange"
+        | "forging"
+        | "limitedGacha"
+        | "battlePass"
+        | "eventUnavailable"
+        | "event"
+      );
   materials: WeaponMaterials;
 }
 /**
