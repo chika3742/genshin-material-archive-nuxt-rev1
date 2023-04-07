@@ -18,12 +18,11 @@
         </div>
       </template>
     </v-range-slider>
-    <div class="mx-2 mt-3">
-      <span>Lv. </span><span class="font-cairo d-inline-block" style="font-size: 1.5em; width: 30px">{{
-        modelValue[0]
-      }}</span>
+    <div class="mx-2 mt-3 levels">
+      <span>Lv. </span>
+      <span class="font-cairo levels__number">{{ modelValue[0] }}</span>
       <v-icon icon="ms:double_arrow" style="margin-bottom: 6px" />
-      <span class="font-cairo d-inline-block" style="font-size: 1.5em; width: 30px">{{ modelValue[1] }}</span>
+      <span class="font-cairo levels__number">{{ modelValue[1] }}</span>
     </div>
   </div>
 </template>
@@ -59,3 +58,14 @@ const rangeIndexes = computed({
   },
 })
 </script>
+
+<style lang="sass" scoped>
+.levels
+  &__number
+    display: inline-block
+    text-align: end
+    margin: 0 4px
+    width: 25px
+    font-size: 1.5em
+
+</style>
