@@ -26,33 +26,20 @@
     </v-btn>
 
     <v-list class="mt-4">
-      <v-list-group v-for="type in weaponTypes" :key="type">
+      <v-list-group v-for="weaponList in separatedWeapons" :key="weaponList[0].type">
         <template #activator="{props}">
-          <v-list-item :title="$t(`weaponTypes.${type}`)" v-bind="props">
+          <v-list-item :title="$t(`weaponTypes.${weaponList[0].type}`)" v-bind="props">
             <template #prepend>
-              <v-img :src="getWeaponImage(dividedWeapons[type][0].id)" aspect-ratio="1" class="mr-4" width="30" />
+              <v-img :src="getWeaponImage(weaponList[0].id)" aspect-ratio="1" class="mr-4" width="30" />
             </template>
           </v-list-item>
         </template>
 
-        <v-list-item
-          v-for="weapon in dividedWeapons[type].filter(e => rarityFilter[0] === e.rarity || rarityFilter[0] === -1)"
+        <WeaponListItem
+          v-for="weapon in weaponList.filter(e => rarityFilter[0] === e.rarity || rarityFilter[0] === -1)"
           :key="weapon.id"
-          :title="$t(`weapons.${weapon.id}`)"
-          :to="localePath(`/weapons/${weapon.id}`)"
-        >
-          <template #prepend>
-            <v-row align="center" no-gutters>
-              <v-img :src="getWeaponImage(weapon.id)" aspect-ratio="1" class="mr-2" width="30" />
-              <v-icon color="star" size="18" style="margin-right: 2px">
-                mdi-star
-              </v-icon>
-              <span :class="{'mr-2': true, 'text-red': weapon.rarity === 5, 'text-orange': weapon.rarity === 4}">{{
-                weapon.rarity
-              }}</span>
-            </v-row>
-          </template>
-        </v-list-item>
+          :weapon="weapon"
+        />
       </v-list-group>
     </v-list>
   </div>
@@ -63,23 +50,18 @@ import {ref} from "#imports"
 import {weaponTypes} from "~/types/strings"
 import {getWeaponImage} from "~/utils/image-getters"
 import weapons from "~/assets/data/weapons.yaml"
-import {Weapon} from "~/types/generated/weapons.g"
+import WeaponListItem from "~/components/weapon-list-item.vue"
 
 definePageMeta({
   title: "weapons",
 })
 
 const rarityFilterOptions = [-1, 5, 4, 3, 2, 1] as const
-const dividedWeapons = (() => {
-  const result: Record<string, Weapon[]> = {}
-
-  for (const type of weaponTypes) {
-    result[type] = weapons.filter(e => e.type === type).sort((a, b) => b.rarity - a.rarity)
-  }
-
-  return result
-})()
 
 const rarityFilter = ref<[typeof rarityFilterOptions[number]]>([-1])
+
+const separatedWeapons = computed(() => {
+  return separateAndSortWeapons(weapons)
+})
 
 </script>
