@@ -10,6 +10,8 @@ pageTitle:
   characters__characterId: Characters / {name}
   weapons: Weapons
   weapons__weaponId: Weapons / {name}
+  materials: Materials
+  materials__materialId: Materials / {name}
   about: About This App
   releaseNotes: Release Notes
   terms: Terms of Service
@@ -60,6 +62,11 @@ weaponDetailsPage:
   effects: Weapon Effects
   subStat: Sub Stat
 
+materialDetailsPage:
+  teyvatMap: Teyvat Interactive Map
+  charactersUsingThisMaterial: Character(s) Using This Material
+  weaponsUsingThisMaterial: Weapon(s) Using This Material
+
 about:
   settings:
     heading: Settings
@@ -96,6 +103,18 @@ weaponTypes:
   polearm: Polearm
   bow: Bow
   catalyst: Catalyst
+
+materialCategories:
+  exp: EXP Materials
+  common: Characters/Weapons Training Materials
+  fieldBoss: Field Boss Materials
+  elemental: Elemental Gem Materials
+  talent: Talent Level-Up Materials
+  weeklyBoss: Weekly Boss Materials
+  weapon: Weapon Ascension Materials
+  wood: Wood
+  local: Local Specialties
+  others: Others
 
 stats:
   hp: HP
