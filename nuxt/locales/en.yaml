@@ -67,10 +67,22 @@ about:
     ## Support
     
     If you like this app, please consider buying me a coffee!
+
+  supportedDevices: |
+    ## Supported OS/Browsers
+    
+    __On iOS, this depends on the OS rather than the browser.__
+    - iOS (14.0 or later)
+    - Firefox (Latest)
+    - Google Chrome (Latest)
+    - Microsoft Edge (Latest)
+    - Safari (14.0 or later)
+
   feedback: |
     ## Feedback
     
     If you have any feedback or requests, please leave a comment on [this page](https://www.chikach.net/gms-v4-alpha-feedback/) or [open an issue on GitHub](https://github.com/chika3742/genshin-material/issues).
+
   aboutDeveloper: |
     ## About the Developer
     

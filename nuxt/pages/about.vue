@@ -17,6 +17,10 @@
     </section>
 
     <section>
+      <div v-html="marked.parse($t('about.supportedDevices'))" />
+    </section>
+
+    <section>
       <div v-html="marked.parse($t('about.aboutDeveloper'))" />
       <v-row class="mt-2" no-gutters style="gap: 8px">
         <v-btn href="https://chikach.net/about" icon="mdi-web" target="_blank" />
