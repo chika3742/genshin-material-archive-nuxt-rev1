@@ -71,7 +71,7 @@ definePageMeta({
 .changelog-title
   display: flex
   flex-direction: column
-  align-items: end
+  align-items: flex-end
 
   &--mobile
     display: flex

@@ -4,6 +4,8 @@ export const useConfigStore = defineStore("config", {
   state() {
     return {
       theme: "auto" as ThemeConfig,
+      resinCount: 0,
+      resinBaseTime: new Date().getTime(),
     }
   },
   actions: {

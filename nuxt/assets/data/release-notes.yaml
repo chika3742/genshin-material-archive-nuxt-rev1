@@ -1,6 +1,15 @@
 # コピー用改行
 
 - date: 2023/04/07
+  funcVersion: 4.0.0-alpha.9
+  dataVersion: 3.5.1
+  isMajor: false
+  content: |
+    ### 追加
+
+    - 樹脂計算機を追加しました。
+
+- date: 2023/04/07
   funcVersion: 4.0.0-alpha.8
   dataVersion: 3.5.1
   isMajor: false

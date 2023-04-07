@@ -12,6 +12,7 @@ pageTitle:
   weapons__weaponId: Weapons / {name}
   materials: Materials
   materials__materialId: Materials / {name}
+  resin: Resin Replenishment Time Calculator
   about: About This App
   releaseNotes: Release Notes
   terms: Terms of Service
@@ -67,6 +68,18 @@ materialDetailsPage:
   charactersUsingThisMaterial: Character(s) Using This Material
   weaponsUsingThisMaterial: Weapon(s) Using This Material
   newTab: Open in a new tab
+
+resinPage:
+  currentResinCount: Current Resin Number
+  baseTime: Input Time
+  fullReplenishmentTime: Time to Fully Replenished
+  remainingTime: Remaining Time
+  howToUse: |
+    ## How to Use
+    
+    - Enter the current resin count. The time to fully replenished and the remaining time will be displayed based on the input time.
+    - The input time and resin count will be saved even after reloading.
+    - Please note that the input time will be updated when you change the resin count.
 
 about:
   settings:
