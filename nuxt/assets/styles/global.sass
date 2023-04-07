@@ -15,6 +15,18 @@ body
   font-family: "Material Symbols Outlined"
   font-style: normal
 
+
+// v-list sticky header
+.v-list
+  overflow: visible !important
+
+  & > .v-list-group > .v-list-item
+    position: sticky
+    top: 64px
+    z-index: 100
+    backdrop-filter: blur(4px)
+
+
 .doc-container
   line-height: 1.7em
 

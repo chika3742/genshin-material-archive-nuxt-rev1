@@ -25,7 +25,7 @@
       </client-only>
     </v-btn>
 
-    <v-list class="mt-4" open-strategy="single">
+    <v-list class="mt-4">
       <v-list-group v-for="type in weaponTypes" :key="type">
         <template #activator="{props}">
           <v-list-item :title="$t(`weaponTypes.${type}`)" v-bind="props">
