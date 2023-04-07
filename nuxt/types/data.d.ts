@@ -22,6 +22,12 @@ declare module "~/assets/data/weapon-ingredients.yaml" {
   export default weaponIngredients
 }
 
+declare module "~/assets/data/materials.yaml" {
+  import {Material} from "~/types/generated/materials.g";
+  const materials: Material[]
+  export default materials
+}
+
 declare module "~/assets/data/release-notes.yaml" {
   import {ReleaseNotes} from "~/types/generated/release-notes.g";
   const releaseNotes: ReleaseNotes

@@ -1,0 +1,63 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+
+items:
+  $ref: "#/definitions/material"
+
+definitions:
+  material:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - nameJP
+      - type
+    properties:
+      id:
+        type: string
+        description: 素材のID
+      nameJP:
+        type: string
+        description: 素材の日本語名
+      yomi:
+        type: string
+        description: 素材の日本語名の読み。すべてカタカナの場合は不要。
+      type:
+        type: string
+        description: 素材の種類
+        enum:
+          - exp
+          - common
+          - fieldBoss
+          - elemental
+          - talent
+          - weeklyBoss
+          - weapon
+          - wood
+          - local
+          - others
+      whereToGet:
+        description: 素材の入手方法。string型の場合はi18nキー。
+        oneOf:
+          - type: object
+            additionalProperties: false
+            properties:
+              teyvatMap:
+                type: string
+                description: テイワットマップにおける素材ID
+          - type: string
+
+      dayAvailable:
+        type: array
+        description: 素材の入手可能曜日
+        items:
+          type: integer
+          enum:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
