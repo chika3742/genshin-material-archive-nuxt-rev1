@@ -99,4 +99,10 @@ export default defineNuxtConfig({
       }),
     ],
   },
+
+  typescript: {
+    tsConfig: {
+      exclude: ["functions/**/*"],
+    },
+  },
 })
