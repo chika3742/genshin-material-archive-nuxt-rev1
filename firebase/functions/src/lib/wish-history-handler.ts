@@ -1,6 +1,6 @@
 import {WishHistoryParams} from "../types/shared/wish-history-params"
 import {WishHistoryResult} from "../types/shared/wish-history-result"
-import {wishHistoryTicketConverter} from "../types/wish-history-ticket.js"
+import {wishHistoryTicketConverter} from "../utils/wish-history-ticket-converter.js"
 import {GachaLogRequest} from "./gacha-log-request.js"
 import {firestoreCollections} from "./firestore-collections.js"
 

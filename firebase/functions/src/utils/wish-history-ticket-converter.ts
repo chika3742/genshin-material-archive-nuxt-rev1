@@ -1,13 +1,5 @@
 import admin from "firebase-admin"
-import {Wish} from "./shared/wish"
-
-export interface WishHistoryTicket {
-  status: "processing" | "done" | "error",
-  count: number,
-  timestamp: number,
-  result?: Wish[],
-  error?: unknown,
-}
+import {WishHistoryTicket} from "../types/shared/wish-history-ticket"
 
 export const wishHistoryTicketConverter: admin.firestore.FirestoreDataConverter<WishHistoryTicket> = {
   toFirestore(data: WishHistoryTicket): admin.firestore.DocumentData {

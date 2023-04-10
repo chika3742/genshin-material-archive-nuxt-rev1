@@ -1,5 +1,5 @@
 import admin from "firebase-admin"
-import {wishHistoryTicketConverter} from "../types/wish-history-ticket.js"
+import {wishHistoryTicketConverter} from "../utils/wish-history-ticket-converter.js"
 
 export const firestoreCollections = {
   get wishHistoryTickets() {

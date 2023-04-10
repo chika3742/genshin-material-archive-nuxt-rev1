@@ -17,7 +17,7 @@
           {{ $t("wishesPage.getWishes") }}
         </v-btn>
       </v-row>
-      <div v-if="fetching" class="mt-2" style="text-align: end">
+      <div v-show="fetching" class="mt-2" style="text-align: end">
         {{ i18n.t("wishesPage.progress", {count: fetchedCount}) }}
       </div>
     </section>
@@ -29,10 +29,12 @@
 </template>
 
 <script lang="ts" setup>
+import {doc, onSnapshot} from "@firebase/firestore"
 import {ref} from "#imports"
 import {WishHistoryApi} from "~/libs/wish-history-api"
 import {useConfigStore} from "~/store/config"
 import {useWishesStore} from "~/store/wishes"
+import {wishHistoryTicketConverter} from "~/utils/wish-history-ticket-converter"
 
 definePageMeta({
   title: "wishes",
@@ -42,7 +44,7 @@ const config = useConfigStore()
 const i18n = useI18n()
 const wishes = useWishesStore()
 const snackbar = useSnackbar()
-const {$functions} = useNuxtApp()
+const {$functions, $firestore} = useNuxtApp()
 
 const url = ref(config.wishHistoryUrl)
 const error = ref("")
@@ -77,12 +79,46 @@ const getWishes = async() => {
   api.createTicket(wishes.lastIds).then(() => {
     config.wishHistoryUrl = url.value
 
-    registerStatusInterval(api)
+    registerStatusListener(api)
     return null
   }).catch((e) => {
     console.error(e)
     error.value = i18n.t("wishesPage.invalidUrl")
     fetching.value = false
+  })
+}
+
+const registerStatusListener = (api: WishHistoryApi) => {
+  const ticketDoc = doc($firestore, "wishHistoryTickets", api.currentTicket!).withConverter(wishHistoryTicketConverter)
+
+  const unsubscribe = onSnapshot(ticketDoc, (snapshot) => {
+    const data = snapshot.data()
+
+    if (!data) {
+      return
+    }
+
+    switch (data.status) {
+      case "processing":
+        fetchedCount.value = data.count
+        break
+
+      case "done":
+        wishes.wishes.push(...data.result!)
+        fetching.value = false
+        unsubscribe()
+
+        if (data.result!.length === 0) {
+          snackbar.show(i18n.t("wishesPage.noNewWishes"))
+        }
+        break
+
+      case "error":
+        fetching.value = false
+        snackbar.show(i18n.t("wishesPage.error"), "error")
+        unsubscribe()
+        break
+    }
   })
 }
 
