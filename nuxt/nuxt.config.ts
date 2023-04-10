@@ -99,4 +99,37 @@ export default defineNuxtConfig({
       }),
     ],
   },
+
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        paths: {
+          "#shared/*": ["../firebase/functions/src/types/shared/*"],
+        },
+      },
+    },
+  },
+
+  runtimeConfig: {
+    public: {
+      isFirebaseDev: process.env.CF_PAGES_BRANCH !== "main",
+      recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
+      firebaseConfigDev: {
+        apiKey: "AIzaSyDh7jj7FTQqJ0aEhmutNhjqTtHGY2MruhI",
+        authDomain: "chikach.net",
+        projectId: "genshin-material-dev",
+        storageBucket: "genshin-material-dev.appspot.com",
+        messagingSenderId: "569046955668",
+        appId: "1:569046955668:web:7f1121ac0198d73d676681",
+      },
+      firebaseConfigProd: {
+        apiKey: "AIzaSyCFtaRMzuKo67LrZs2UBUKBUZHai2pArFQ",
+        authDomain: "chikach.net",
+        projectId: "genshin-material",
+        storageBucket: "genshin-material.appspot.com",
+        messagingSenderId: "1018400803757",
+        appId: "1:1018400803757:web:4143744be70153c7b76f24",
+      },
+    },
+  },
 })
