@@ -74,17 +74,16 @@ const getWishes = async() => {
 
   const api = new WishHistoryApi($functions, url.value)
 
-  try {
-    await api.createTicket(wishes.lastIds)
-  } catch (e) {
+  api.createTicket(wishes.lastIds).then(() => {
+    config.wishHistoryUrl = url.value
+
+    registerStatusInterval(api)
+    return null
+  }).catch((e) => {
+    console.error(e)
     error.value = i18n.t("wishesPage.invalidUrl")
     fetching.value = false
-    return
-  }
-
-  config.wishHistoryUrl = url.value
-
-  registerStatusInterval(api)
+  })
 }
 
 const registerStatusInterval = (api: WishHistoryApi) => {
@@ -107,8 +106,8 @@ const registerStatusInterval = (api: WishHistoryApi) => {
         break
 
       case "error":
-        console.error(status.error)
         fetching.value = false
+        snackbar.show(i18n.t("wishesPage.error"), "error")
         clearInterval(timer)
         break
     }

@@ -88,6 +88,7 @@ wishesPage:
   progress: "{count} wishes retrieved"
   invalidUrl: Invalid URL
   noNewWishes: No new wishes. Please try again after 1 hour if you just pulled.
+  error: An error occurred. Please try again later.
 
 about:
   settings:
