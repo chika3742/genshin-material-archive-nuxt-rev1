@@ -1,6 +1,6 @@
 import {initializeApp} from "@firebase/app"
-import {getFunctions} from "@firebase/functions"
-import {getAuth} from "@firebase/auth"
+import {connectFunctionsEmulator, getFunctions} from "@firebase/functions"
+import {connectAuthEmulator, getAuth} from "@firebase/auth"
 import {initializeAppCheck, ReCaptchaV3Provider} from "@firebase/app-check"
 
 export default defineNuxtPlugin(({$config}) => {
@@ -16,10 +16,17 @@ export default defineNuxtPlugin(({$config}) => {
     provider: new ReCaptchaV3Provider($config.public.recaptchaSiteKey),
   })
 
+  const auth = getAuth(app)
+  const functions = getFunctions(app, "asia-northeast1")
+  if (process.dev) {
+    connectAuthEmulator(auth, "http://localhost:9099")
+    connectFunctionsEmulator(functions, "localhost", 3005)
+  }
+
   return {
     provide: {
-      auth: getAuth(app),
-      functions: getFunctions(app),
+      auth,
+      functions,
     },
   }
 })
