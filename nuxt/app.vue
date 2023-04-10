@@ -34,6 +34,12 @@
 
         <v-spacer />
         <AppFooter />
+
+        <client-only>
+          <v-snackbar v-model="snackbar.ref.value.displayed" :color="snackbar.ref.value.color ?? undefined">
+            {{ snackbar.ref.value.message }}
+          </v-snackbar>
+        </client-only>
       </v-main>
 
       <v-fade-transition>
@@ -53,6 +59,7 @@ const router = useRouter()
 const i18n = useI18n()
 const theme = useTheme()
 const config = useConfigStore()
+const snackbar = useSnackbar()
 
 const isDrawerOpenOnMobile = ref(false)
 const isShowingSearchDialog = ref(false)
