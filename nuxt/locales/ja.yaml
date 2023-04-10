@@ -13,6 +13,7 @@ pageTitle:
   materials: 素材 (逆引き)
   materials__materialId: 素材 / {name}
   resin: 樹脂回復時刻計算
+  wishes: 祈願天井カウンター
   about: このアプリについて
   releaseNotes: 更新履歴
   terms: 利用規約
@@ -80,6 +81,14 @@ resinPage:
     - 樹脂の現在値を入力すると、入力した時刻を基準に、樹脂が全回復する時刻、全回復するまでの時間が表示されます。
     - 入力した時刻と樹脂数はリロードしても保持されます。
     - 数値を変更すると基準時刻が更新されるためご注意ください。
+
+wishesPage:
+  urlInput: URL入力
+  getWishes: 祈願を取得
+  clearWishes: 祈願をクリア
+  progress: "{count} 件の祈願を取得しました"
+  invalidUrl: URLが無効です
+  noNewWishes: 新しい祈願はありません。引いたばかりの場合は、最長1時間後に再度お試しください。
 
 about:
   settings:

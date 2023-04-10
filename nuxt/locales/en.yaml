@@ -81,6 +81,14 @@ resinPage:
     - The input time and resin count will be saved even after reloading.
     - Please note that the input time will be updated when you change the resin count.
 
+wishesPage:
+  urlInput: URL Input
+  getWishes: Get Wishes
+  clearWishes: Clear Wishes
+  progress: "{count} wishes retrieved"
+  invalidUrl: Invalid URL
+  noNewWishes: No new wishes. Please try again after 1 hour if you just pulled.
+
 about:
   settings:
     heading: Settings

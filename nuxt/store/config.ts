@@ -6,6 +6,7 @@ export const useConfigStore = defineStore("config", {
       theme: "auto" as ThemeConfig,
       resinCount: 0,
       resinBaseTime: new Date().getTime(),
+      wishHistoryUrl: "",
     }
   },
   actions: {
