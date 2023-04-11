@@ -2,7 +2,6 @@ import axios from "axios"
 import functions from "firebase-functions"
 import {Wish} from "../types/shared/wish"
 import {sleep} from "../utils/sleep.js"
-import {firestoreCollections} from "./firestore-collections.js"
 
 export class GachaLogRequest {
   constructor(
