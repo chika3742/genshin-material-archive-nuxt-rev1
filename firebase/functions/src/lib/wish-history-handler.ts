@@ -29,7 +29,11 @@ export class WishHistoryHandler {
       timestamp: Date.now(),
     })
 
-    new GachaLogRequest(params.authKey, params.region, doc.id).getGachaLogForAllWishTypes(params.lastIds).then((result) => {
+    new GachaLogRequest(params.authKey, params.region, doc.id, (progress) => {
+      firestoreCollections.wishHistoryTickets.doc(doc.id).update({
+        count: progress,
+      })
+    }).getGachaLogForAllWishTypes(params.lastIds).then((result) => {
       doc.update({
         status: "done",
         count: result.length,

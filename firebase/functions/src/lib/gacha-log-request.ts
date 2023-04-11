@@ -8,7 +8,7 @@ export class GachaLogRequest {
   constructor(
     private readonly authKey: string,
     private readonly region: string,
-    private readonly ticket: string,
+    private readonly onProgress: (processedCount: number) => void,
   ) {}
 
   private processedCount = 0
@@ -49,9 +49,7 @@ export class GachaLogRequest {
 
       lastIdTemp = list.splice(-1)[0].id
 
-      await firestoreCollections.wishHistoryTickets.doc(this.ticket).update({
-        count: this.processedCount,
-      })
+      this.onProgress(this.processedCount)
 
       await sleep(1000)
     }
