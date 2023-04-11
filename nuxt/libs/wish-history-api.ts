@@ -1,6 +1,5 @@
 import {Functions, httpsCallable} from "@firebase/functions"
-import {WishHistoryParams} from "#shared/wish-history-params"
-import {WishHistoryResult} from "#shared/wish-history-result"
+import {DispatchGetWishHistoryParams, DispatchGetWishHistoryResult} from "#shared/dispatch-get-wish-history"
 
 export class WishHistoryApi {
   constructor(
@@ -18,29 +17,14 @@ export class WishHistoryApi {
     }
 
     const result = await httpsCallable<
-      WishHistoryParams.CreateTicket,
-      WishHistoryResult.CreateTicket
-    >(this.functions, "wishHistory")({
-      op: "createTicket",
+      DispatchGetWishHistoryParams,
+      DispatchGetWishHistoryResult
+    >(this.functions, "dispatchGetWishHistory")({
       authKey: url.searchParams.get("authkey")!,
       region: url.searchParams.get("region")!,
       lastIds,
     })
 
     this.currentTicket = result.data.ticket
-  }
-
-  async getStatus(): Promise<WishHistoryResult.Status> {
-    if (!this.currentTicket) {
-      throw new Error("No ticket")
-    }
-
-    return (await httpsCallable<
-      WishHistoryParams.Status,
-      WishHistoryResult.Status
-    >(this.functions, "wishHistory")({
-      op: "status",
-      ticket: this.currentTicket,
-    })).data
   }
 }
