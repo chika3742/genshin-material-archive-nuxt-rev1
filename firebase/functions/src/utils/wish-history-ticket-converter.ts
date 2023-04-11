@@ -12,7 +12,7 @@ export const wishHistoryTicketConverter: admin.firestore.FirestoreDataConverter<
       count: data.count,
       timestamp: data.timestamp,
       result: data.result,
-      error: data.error,
+      errorCode: data.errorCode,
     }
   },
 }
