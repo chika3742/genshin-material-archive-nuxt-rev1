@@ -88,7 +88,11 @@ wishesPage:
   progress: "{count} wishes retrieved"
   invalidUrl: Invalid URL
   noNewWishes: No new wishes. Please try again after 1 hour if you just pulled.
-  error: An error occurred. Please try again later.
+  errors:
+    authKeyExpired: The URL has expired. Please get a new one from the game.
+    authKeyInvalid: The URL is invalid. Please get a new one from the game.
+    tooManyRequests: Too many requests. Please try again later.
+    internal: An error occurred on the server. Please try again later.
 
 about:
   settings:

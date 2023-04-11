@@ -115,7 +115,7 @@ const registerStatusListener = (api: WishHistoryApi) => {
 
       case "error":
         fetching.value = false
-        snackbar.show(i18n.t("wishesPage.error"), "error")
+        snackbar.show(i18n.t(`wishesPage.errors.${data.errorCode}`), "error")
         unsubscribe()
         break
     }

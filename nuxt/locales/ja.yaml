@@ -89,7 +89,11 @@ wishesPage:
   progress: "{count} 件の祈願を取得しました"
   invalidUrl: URLが無効です
   noNewWishes: 新しい祈願はありません。引いたばかりの場合は、最長1時間後に再度お試しください。
-  error: 祈願履歴の取得に失敗しました。しばらく待ってから再度お試しください。
+  errors:
+    authKeyExpired: URLの有効期限が切れています。再度ゲームより取得してください。
+    authKeyInvalid: URLが無効です。再度ゲームより取得してください。
+    tooManyRequests: リクエストが多すぎます。しばらく待ってから再度お試しください。
+    internal: サーバーでエラーが発生しました。しばらく待ってから再度お試しください。
 
 about:
   settings:

@@ -1,5 +1,6 @@
 import {wishHistoryTicketConverter} from "../utils/wish-history-ticket-converter.js"
 import {GetWishHistoryParams} from "../types/get-wish-history-params"
+import {GetWishHistoryError} from "../types/shared/get-wish-history-error"
 import {GachaLogRequest} from "./gacha-log-request.js"
 import {firestoreCollections} from "./firestore-collections.js"
 
@@ -21,10 +22,17 @@ export class WishHistoryHandler {
     }).catch((error) => {
       console.error(error)
 
-      return doc.update({
-        status: "error",
-        error: error.message,
-      })
+      if (error instanceof GetWishHistoryError) {
+        return doc.update({
+          status: "error",
+          errorCode: error.code,
+        })
+      } else {
+        return doc.update({
+          status: "error",
+          errorCode: "internal",
+        })
+      }
     })
   }
 }

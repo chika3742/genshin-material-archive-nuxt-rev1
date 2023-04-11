@@ -1,7 +1,7 @@
 import axios from "axios"
-import functions from "firebase-functions"
 import {Wish} from "../types/shared/wish"
 import {sleep} from "../utils/sleep.js"
+import {GetWishHistoryError} from "../types/shared/get-wish-history-error.js"
 
 export class GachaLogRequest {
   constructor(
@@ -84,22 +84,22 @@ export class GachaLogRequest {
       switch (result.data.retcode) {
         case -101:
           // 認証キータイムアウト
-          throw new functions.https.HttpsError(
-            "unauthenticated",
+          throw new GetWishHistoryError(
+            "authKeyExpired",
             "Authentication key has expired",
           )
 
         case -100:
           // 認証キー不正
-          throw new functions.https.HttpsError(
-            "unauthenticated",
+          throw new GetWishHistoryError(
+            "authKeyInvalid",
             "Authentication key is invalid",
           )
 
         case -110:
           // 頻繁なリクエスト
-          throw new functions.https.HttpsError(
-            "resource-exhausted",
+          throw new GetWishHistoryError(
+            "tooManyRequests",
             "Too many requests",
           )
 
@@ -110,7 +110,7 @@ export class GachaLogRequest {
           console.error("Error: miHoYo API returned non-zero retcode")
           console.error(result.data)
 
-          throw new functions.https.HttpsError(
+          throw new GetWishHistoryError(
             "internal",
             "Unknown error",
           )
