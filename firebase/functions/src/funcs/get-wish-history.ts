@@ -7,10 +7,22 @@ export const getWishHistory = functions.region("asia-northeast1").tasks.taskQueu
   rateLimits: {
     maxConcurrentDispatches: 5,
   },
-}).onDispatch((data: GetWishHistoryParams) => {
-  return new GachaLogRequest(data.authKey, data.region, (processedCount) => {
+}).onDispatch(async(data: GetWishHistoryParams) => {
+  await new GachaLogRequest(data.authKey, data.region, (processedCount) => {
     return firestoreCollections.wishHistoryTickets.doc(data.ticketId).update({
       count: processedCount,
     })
-  }).getGachaLogForAllWishTypes(data.lastIds).then()
+  }).getGachaLogForAllWishTypes(data.lastIds).then((result) => {
+    return firestoreCollections.wishHistoryTickets.doc(data.ticketId).update({
+      status: "done",
+      count: result.length,
+      result,
+    })
+  }).catch((error) => {
+    console.error(error)
+
+    firestoreCollections.wishHistoryTickets.doc(data.ticketId).update({
+      status: "error",
+    })
+  })
 })
