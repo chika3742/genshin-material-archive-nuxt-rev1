@@ -11,7 +11,8 @@ export const dispatchGetWishHistory = functions.region("asia-northeast1").https
       throw new functions.https.HttpsError("failed-precondition", "Invalid App Check token.")
     }
 
-    const queue = getFunctions().taskQueue<GetWishHistoryParams>("getWishHistory")
+    // https://github.com/firebase/firebase-admin-node/blob/master/src/utils/index.ts#L293
+    const queue = getFunctions().taskQueue<GetWishHistoryParams>("locations/asia-northeast1/functions/getWishHistory")
 
     const doc = firestoreCollections.wishHistoryTickets.doc()
       .withConverter(wishHistoryTicketConverter)
