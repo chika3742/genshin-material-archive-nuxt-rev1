@@ -54,7 +54,7 @@ const fetching = ref(false)
 const wishTypes: {
   id: string
   title: string
-} = [
+}[] = [
   {
     id: "301",
     title: i18n.t("wishesPage.wishType.301"),
@@ -120,33 +120,5 @@ const registerStatusListener = (api: WishHistoryApi) => {
         break
     }
   })
-}
-
-const registerStatusInterval = (api: WishHistoryApi) => {
-  const timer = setInterval(async() => {
-    const status = await api.getStatus()
-
-    switch (status.status) {
-      case "processing":
-        fetchedCount.value = status.count
-        break
-
-      case "done":
-        wishes.wishes.push(...status.result!)
-        fetching.value = false
-        clearInterval(timer)
-
-        if (status.result!.length === 0) {
-          snackbar.show(i18n.t("wishesPage.noNewWishes"))
-        }
-        break
-
-      case "error":
-        fetching.value = false
-        snackbar.show(i18n.t("wishesPage.error"), "error")
-        clearInterval(timer)
-        break
-    }
-  }, 2000)
 }
 </script>

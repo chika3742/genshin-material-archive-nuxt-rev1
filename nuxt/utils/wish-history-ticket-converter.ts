@@ -6,13 +6,6 @@ export const wishHistoryTicketConverter: FirestoreDataConverter<WishHistoryTicke
     return data
   },
   fromFirestore(snapshot: QueryDocumentSnapshot): WishHistoryTicket {
-    const data = snapshot.data()
-    return {
-      status: data.status,
-      count: data.count,
-      timestamp: data.timestamp,
-      result: data.result,
-      error: data.error,
-    }
+    return snapshot.data() as WishHistoryTicket
   },
 }
