@@ -117,6 +117,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       isFirebaseDev: process.env.CF_PAGES_BRANCH !== "main",
+      useFirebaseEmulator: process.env.USE_FIREBASE_EMULATOR === "true",
       recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
       firebaseConfigDev: {
         apiKey: "AIzaSyDh7jj7FTQqJ0aEhmutNhjqTtHGY2MruhI",

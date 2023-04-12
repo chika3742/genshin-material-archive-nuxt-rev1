@@ -21,7 +21,7 @@ export default defineNuxtPlugin(({$config}) => {
   const functions = getFunctions(app, "asia-northeast1")
   const firestore = getFirestore(app)
 
-  if (process.dev) {
+  if (process.dev && $config.public.useFirebaseEmulator) {
     connectAuthEmulator(auth, "http://localhost:9099")
     connectFunctionsEmulator(functions, "localhost", 3005)
     connectFirestoreEmulator(firestore, "localhost", 8080)
