@@ -3,6 +3,8 @@ common:
   sort: Sort
   filter: Filter
   backToHome: Back to Home
+  ok: OK
+  cancel: Cancel
 
 pageTitle:
   home: Home

@@ -3,6 +3,8 @@ common:
   sort: 並べ替え
   filter: 絞り込み
   backToHome: ホームに戻る
+  ok: OK
+  cancel: キャンセル
 
 pageTitle:
   home: ホーム

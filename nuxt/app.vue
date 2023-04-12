@@ -39,6 +39,25 @@
           <v-snackbar v-model="snackbar.ref.value.displayed" :color="snackbar.ref.value.color ?? undefined">
             {{ snackbar.ref.value.message }}
           </v-snackbar>
+
+          <v-dialog
+            v-model="dialog.ref.value.displayed"
+            :persistent="!dialog.ref.value.cancelable"
+            max-width="400px"
+            @close="dialog.ref.value.onCancel"
+          >
+            <v-card :text="dialog.ref.value.content" :title="dialog.ref.value.title">
+              <template #actions>
+                <v-spacer />
+                <v-btn @click="dialog.ref.value.onCancel">
+                  {{ $t("common.cancel") }}
+                </v-btn>
+                <v-btn @click="dialog.ref.value.onOk">
+                  {{ $t("common.ok") }}
+                </v-btn>
+              </template>
+            </v-card>
+          </v-dialog>
         </client-only>
       </v-main>
 
@@ -60,6 +79,7 @@ const i18n = useI18n()
 const theme = useTheme()
 const config = useConfigStore()
 const snackbar = useSnackbar()
+const dialog = useDialog()
 
 const isDrawerOpenOnMobile = ref(false)
 const isShowingSearchDialog = ref(false)
