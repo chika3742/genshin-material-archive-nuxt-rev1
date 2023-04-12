@@ -9,11 +9,11 @@ export class WishHistoryHandler {
     const doc = firestoreCollections.wishHistoryTickets.doc(params.ticketId)
       .withConverter(wishHistoryTicketConverter)
 
-    return new GachaLogRequest(params.authKey, params.region, async(progress) => {
+    return new GachaLogRequest(params, async(progress) => {
       await firestoreCollections.wishHistoryTickets.doc(doc.id).update({
         count: progress,
       })
-    }).getGachaLogForAllWishTypes(params.lastIds).then((result) => {
+    }).getGachaLogForAllWishTypes().then((result) => {
       return doc.update({
         status: "done",
         count: result.length,

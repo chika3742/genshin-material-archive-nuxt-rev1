@@ -2,30 +2,30 @@ import axios from "axios"
 import {Wish} from "../types/shared/wish"
 import {sleep} from "../utils/sleep.js"
 import {GetWishHistoryError} from "../types/shared/get-wish-history-error.js"
+import {GetWishHistoryParams} from "../types/get-wish-history-params"
 
 export class GachaLogRequest {
   constructor(
-    private readonly authKey: string,
-    private readonly region: string,
+    private readonly params: GetWishHistoryParams,
     private readonly onProgress: (processedCount: number) => void,
   ) {}
 
   private processedCount = 0
 
-  async getGachaLogForAllWishTypes(lastIds: Record<string, string>): Promise<Wish[]> {
+  async getGachaLogForAllWishTypes(): Promise<Wish[]> {
     const result: Wish[] = []
 
     const wishTypes = [301, 302, 200]
 
     for (const wishType of wishTypes) {
-      const lastId = lastIds[wishType]
-      result.push(...await this.getGachaLogForWishType(wishType.toString(), lastId))
+      result.push(...await this.getGachaLogForWishType(wishType.toString()))
     }
 
     return result
   }
 
-  async getGachaLogForWishType(wishType: string, lastId: string | null): Promise<Wish[]> {
+  async getGachaLogForWishType(wishType: string): Promise<Wish[]> {
+    const lastId = this.params.lastIds[wishType]
     const result: Wish[] = []
     let endLoop = false
     let lastIdTemp: string | null = null
@@ -59,8 +59,8 @@ export class GachaLogRequest {
   private async sendGachaLogRequest(wishType: string, lastId: string | null): Promise<Wish[]> {
     const url = new URL("https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=ja&game_biz=hk4e_global&size=20")
 
-    url.searchParams.set("authkey", this.authKey)
-    url.searchParams.set("region", this.region)
+    url.searchParams.set("authkey", this.params.authKey)
+    url.searchParams.set("region", this.params.region)
     url.searchParams.set("gacha_type", wishType)
     if (lastId) {
       url.searchParams.set("end_id", lastId)
