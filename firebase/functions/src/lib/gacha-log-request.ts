@@ -30,6 +30,9 @@ export class GachaLogRequest {
     let endLoop = false
     let lastIdTemp: string | null = null
 
+    let has5Star = false
+    let has4Star = false
+
     while (!endLoop) {
       const list: Wish[] = await this.sendGachaLogRequest(wishType, lastIdTemp)
 
@@ -38,7 +41,7 @@ export class GachaLogRequest {
       }
 
       for (const item of list) {
-        if (this.params.untilLatestRare && !result.every(e => e.rankType !== "5" && e.rankType !== "4")) {
+        if (this.params.untilLatestRare && has4Star && has5Star) {
           endLoop = true
           break
         }
@@ -48,6 +51,13 @@ export class GachaLogRequest {
           break
         }
         result.push(item)
+        if (item.rankType === "5") {
+          has5Star = true
+        }
+        if (item.rankType === "4") {
+          has4Star = true
+        }
+
         this.processedCount++
       }
 
