@@ -1,6 +1,6 @@
 import functions from "firebase-functions"
 import {GetWishHistoryParams} from "../types/get-wish-history-params"
-import {WishHistoryHandler} from "../lib/wish-history-handler"
+import {WishHistoryHandler} from "../lib/wish-history-handler.js"
 
 export const getWishHistory = functions.region("asia-northeast1").tasks.taskQueue({
   rateLimits: {
