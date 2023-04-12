@@ -27,6 +27,7 @@ export const dispatchGetWishHistory = functions.region("asia-northeast1").https
         region: data.region,
         lastIds: data.lastIds,
         ticketId: doc.id,
+        untilLatestRare: data.untilLatestRare,
       })
     }).then(() => ({
       ticket: doc.id,
@@ -34,6 +35,7 @@ export const dispatchGetWishHistory = functions.region("asia-northeast1").https
       console.error(error)
       await doc.update({
         status: "error",
+        errorCode: "internal",
       })
 
       return {

@@ -38,6 +38,11 @@ export class GachaLogRequest {
       }
 
       for (const item of list) {
+        if (this.params.untilLatestRare && !result.every(e => e.rankType !== "5" && e.rankType !== "4")) {
+          endLoop = true
+          break
+        }
+
         if (lastId && item.id === lastId) {
           endLoop = true
           break
