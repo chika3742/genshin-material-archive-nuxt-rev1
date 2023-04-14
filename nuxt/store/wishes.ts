@@ -3,6 +3,7 @@ import {Wish} from "#shared/wish"
 export const useWishesStore = defineStore("wishes", {
   state() {
     return {
+      untilLatestRare: true,
       wishes: [] as Wish[],
     }
   },

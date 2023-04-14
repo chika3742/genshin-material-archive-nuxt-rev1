@@ -88,8 +88,20 @@ wishesPage:
   getWishes: Get Wishes
   clearWishes: Clear Wishes
   progress: "{count} wishes retrieved"
+  preparing: Preparing for getting wishes...
   invalidUrl: Invalid URL
+  getUntilLatestRare: Get until the latest 5-star and 4-star item
+  getUntilLatestRareDesc: If unchecked, all wishes in the past 6 months will be retrieved. In order to change this setting, you need to clear the wishes.
   noNewWishes: No new wishes. Please try again after 1 hour if you just pulled.
+  clearWishesDialog: Clear all wishes?
+  clearedWishes: Wishes cleared
+  pityCount: "☆{star} Pity Count"
+  lastPulled: "☆{star} Last Pulled"
+  prob: "☆5 Prob in 10 Pulls"
+  wishTypes:
+    301: Character Event Wish
+    302: Weapon Event Wish
+    200: Standard Wish
   errors:
     authKeyExpired: The URL has expired. Please get a new one from the game.
     authKeyInvalid: The URL is invalid. Please get a new one from the game.

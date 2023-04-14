@@ -9,7 +9,7 @@ export class WishHistoryApi {
 
   currentTicket?: string
 
-  async createTicket(lastIds: Record<string, string>): Promise<void> {
+  async createTicket(lastIds: Record<string, string>, untilLatestRare: boolean): Promise<void> {
     const url = new URL(this.url)
 
     if (!url.searchParams.has("authkey") || !url.searchParams.has("region")) {
@@ -23,6 +23,7 @@ export class WishHistoryApi {
       authKey: url.searchParams.get("authkey")!,
       region: url.searchParams.get("region")!,
       lastIds,
+      untilLatestRare,
     })
 
     this.currentTicket = result.data.ticket
