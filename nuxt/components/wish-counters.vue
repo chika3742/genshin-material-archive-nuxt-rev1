@@ -10,7 +10,7 @@
     <v-card class="card" color="rank5">
       <h4>{{ i18n.t("wishesPage.lastPulled", {star: "5"}) }}</h4>
       <div class="card__content">
-        {{ pityInfo[5].lastPulled }}
+        {{ $t(pityInfo[5].lastPulled) }}
       </div>
     </v-card>
 
@@ -24,7 +24,7 @@
     <v-card class="card" color="rank4">
       <h4>{{ i18n.t("wishesPage.lastPulled", {star: "4"}) }}</h4>
       <div class="card__content">
-        {{ pityInfo[4].lastPulled }}
+        {{ $t(pityInfo[4].lastPulled) }}
       </div>
     </v-card>
 
@@ -39,6 +39,8 @@
 
 <script lang="ts" setup>
 import {Wish} from "#shared/wish"
+import characters from "~/assets/data/characters.yaml"
+import weapons from "~/assets/data/weapons.yaml"
 
 const props = defineProps<{
   wishes: Wish[]
@@ -71,12 +73,12 @@ const pityInfo = computed<Record<number, { count: number, lastPulled: string }>>
     if (pityInfo[5].count === 0 && wish.rankType === "5") {
       pityInfo[5] = {
         count: i + 1,
-        lastPulled: wish.name,
+        lastPulled: getItemNameI18nKey(wish),
       }
     } else if (pityInfo[4].count === 0 && wish.rankType === "4") {
       pityInfo[4] = {
         count: i + 1,
-        lastPulled: wish.name,
+        lastPulled: getItemNameI18nKey(wish),
       }
     }
 
@@ -87,6 +89,15 @@ const pityInfo = computed<Record<number, { count: number, lastPulled: string }>>
 
   return pityInfo
 })
+
+const getItemNameI18nKey = (wish: Wish) => {
+  switch (wish.itemType) {
+    case "キャラクター":
+      return `characters.${characters.find(e => e.nameJP === wish.name)?.id}`
+    case "武器":
+      return `weapons.${weapons.find(e => e.nameJP === wish.name)?.id}`
+  }
+}
 
 const rank5Prob = computed(() => {
   if (probTrial <= props.pseudoPityBorder) {
