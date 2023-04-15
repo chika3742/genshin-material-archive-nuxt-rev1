@@ -1,38 +1,57 @@
 <template>
   <v-row class="cards" no-gutters style="gap: 16px">
-    <v-card class="card" color="rank5">
-      <h4>{{ i18n.t("wishesPage.pityCount", {star: "5"}) }}</h4>
-      <div class="card__content">
-        <span>{{ pityInfo[5].count }}</span> / {{ star5Pity }}
+    <v-card>
+      <div class="card">
+        <h4>{{ i18n.t("wishesPage.pityCount", {star: "5"}) }}</h4>
+        <div class="card__content">
+          <span
+            :class="pityInfo[5].count > pseudoPityBorder
+              ? 'text-red' : pityInfo[5].count > pseudoPityBorder - 10
+                ? 'text-orange-darken-2' : ''"
+          >{{ pityInfo[5].count }}</span> / {{ star5Pity }}
+        </div>
       </div>
+      <div class="card__bar card__bar--rank5" />
     </v-card>
 
-    <v-card class="card" color="rank5">
-      <h4>{{ i18n.t("wishesPage.lastPulled", {star: "5"}) }}</h4>
-      <div class="card__content">
-        {{ $t(pityInfo[5].lastPulled) }}
+    <v-card>
+      <div class="card">
+        <h4>{{ i18n.t("wishesPage.lastPulled", {star: "5"}) }}</h4>
+        <div class="card__content">
+          {{ $t(pityInfo[5].lastPulled) }}
+        </div>
       </div>
+      <div class="card__bar card__bar--rank5" />
     </v-card>
 
-    <v-card class="card" color="rank4">
-      <h4>{{ i18n.t("wishesPage.pityCount", {star: "4"}) }}</h4>
-      <div class="card__content">
-        <span>{{ pityInfo[4].count }}</span> / {{ star4Pity }}
+    <v-card>
+      <div class="card">
+        <h4>{{ i18n.t("wishesPage.pityCount", {star: "4"}) }}</h4>
+        <div class="card__content">
+          <span>{{ pityInfo[4].count }}</span> / {{ star4Pity }}
+        </div>
       </div>
+      <div class="card__bar card__bar--rank4" />
     </v-card>
 
-    <v-card class="card" color="rank4">
-      <h4>{{ i18n.t("wishesPage.lastPulled", {star: "4"}) }}</h4>
-      <div class="card__content">
-        {{ $t(pityInfo[4].lastPulled) }}
+    <v-card>
+      <div class="card">
+        <h4>{{ i18n.t("wishesPage.lastPulled", {star: "4"}) }}</h4>
+        <div class="card__content">
+          {{ $t(pityInfo[4].lastPulled) }}
+        </div>
       </div>
+      <div class="card__bar card__bar--rank4" />
     </v-card>
 
-    <v-card class="card" color="rank5">
-      <h4>{{ i18n.t("wishesPage.prob") }}</h4>
-      <div class="card__content">
-        <span>{{ (rank5Prob * 100).toFixed(2) }}</span>%
+    <v-card>
+      <div class="card">
+        <h4>{{ i18n.t("wishesPage.prob") }}</h4>
+        <div class="card__content">
+          <span>{{ (rank5Prob * 100).toFixed(2) }}</span>%
+        </div>
       </div>
+      <div class="card__bar card__bar--rank5" />
     </v-card>
   </v-row>
 </template>
@@ -132,4 +151,16 @@ const rank5Prob = computed(() => {
         font-size: 1.8rem
         margin-right: 4px
         font-family: "Cairo", "M PLUS 2", sans-serif
+
+    &__bar
+      height: 4px
+      width: 100%
+      position: absolute
+      bottom: 0
+
+      &--rank5
+        background-color: rgb(var(--v-theme-rank5))
+
+      &--rank4
+        background-color: rgb(var(--v-theme-rank4))
 </style>
