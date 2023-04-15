@@ -53,8 +53,6 @@ const i18n = useI18n()
 
 const star4Pity = 10
 
-const probTrial = 10
-
 const pityInfo = computed<Record<number, { count: number, lastPulled: string }>>(() => {
   const pityInfo: Record<number, { count: number, lastPulled: string }> = {
     5: {
@@ -100,11 +98,13 @@ const getItemNameI18nKey = (wish: Wish) => {
 }
 
 const rank5Prob = computed(() => {
-  if (probTrial <= props.pseudoPityBorder) {
-    return 1 - Math.pow(1 - props.singleProb, probTrial)
+  const trial = pityInfo.value[5].count + 10
+
+  if (trial <= props.pseudoPityBorder) {
+    return 1 - Math.pow(1 - props.singleProb, trial)
   } else {
     let prob = Math.pow(1 - props.singleProb, props.pseudoPityBorder)
-    for (let i = 1; i <= probTrial - props.pseudoPityBorder; i++) {
+    for (let i = 1; i <= trial - props.pseudoPityBorder; i++) {
       prob *= 1 - (0.06 * i)
     }
     return 1 - prob
