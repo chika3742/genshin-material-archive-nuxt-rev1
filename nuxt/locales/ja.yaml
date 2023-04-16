@@ -96,7 +96,12 @@ wishesPage:
   noNewWishes: 新しい祈願はありません。引いたばかりの場合は、最長1時間後に再度お試しください。
   clearWishesDialog: 祈願履歴をすべて削除しますか？
   clearedWishes: 祈願をクリアしました
-  pityCount: "☆{star} 天井カウント"
+  pityCountWithStar: "☆{star} 天井カウント"
+  pityCount: 天井カウント
+  dateTime: 日時
+  rarity: レアリティ
+  itemName: アイテム名
+  details: 詳細
   lastPulled: 最後に引いた ☆{star}
   prob: 次の10連で☆5が出る確率
   wishTypes:
@@ -126,6 +131,7 @@ wishesPage:
     - <span class="text-red">現在、Android端末単体でURLを取得する方法が存在しません。</span>
     - URLは端末内にのみ保存され、リロードしても保持されます。
     - macOS(PlayCover)の場合はmitmproxyなどのツールを使用してURLを取得できます。詳しくはご自身で調べてください。
+
   howToGetUrl:
     windows:
       h: URL取得方法 (Windows)

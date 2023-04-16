@@ -96,7 +96,12 @@ wishesPage:
   noNewWishes: No new wishes. Please try again after 1 hour if you just pulled.
   clearWishesDialog: Clear all wishes?
   clearedWishes: Wishes cleared
-  pityCount: "☆{star} Pity Count"
+  pityCountWithStar: "☆{star} Pity Count"
+  pityCount: Pity Count
+  dateTime: Date/Time
+  rarity: Rarity
+  itemName: Item Name
+  details: Details
   lastPulled: "☆{star} Last Pulled"
   prob: "☆5 Prob in 10 Pulls"
   wishTypes:
