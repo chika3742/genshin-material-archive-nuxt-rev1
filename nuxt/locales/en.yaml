@@ -15,6 +15,7 @@ pageTitle:
   materials: Materials
   materials__materialId: Materials / {name}
   resin: Resin Replenishment Time Calculator
+  wishes: Wish Pity Counter
   about: About This App
   releaseNotes: Release Notes
   terms: Terms of Service
@@ -107,6 +108,48 @@ wishesPage:
     authKeyInvalid: The URL is invalid. Please get a new one from the game.
     tooManyRequests: Too many requests. Please try again later.
     internal: An error occurred on the server. Please try again later.
+
+  aboutTitle: About
+  about: |
+    ## About This Feature
+    
+    This feature automatically fetches your wish history from the game and displays the ceiling count. To use this feature, you need a URL obtained in the following way.
+    
+    ## Safety
+    
+    The URL used in this feature has an access key that is only allowed to obtain your wish history. Therefore, you cannot access your email address, username, or log in to the game using this access key.
+    
+    In addition, this access key is only processed in the memory of the server and is discarded after processing. It is not recorded in the log or sent to a server other than miHoYo's API.
+    
+    ## Caution
+    
+    - <span class="text-red">This URL expires in 24 hours. After it expires, you will need to get a new one in the same way.</span>
+    - <span class="text-red">Currently, there is no way to obtain a URL for a single Android device.</span>
+    - The URL is only saved on the device and is retained even after reloading the page.
+    - For macOS (PlayCover), you can get the URL using a tool such as mitmproxy. Please search for it yourself for details.
+
+  howToGetUrl:
+    windows:
+      h: How to get URL (Windows)
+      s1: Press the Windows key and R key at the same time.
+      s2: When the "Run" dialog appears, paste the following string and press Enter.
+      s3: The URL will be automatically copied, so paste it on this page.
+
+    ios:
+      h: How to get URL (iOS/iPadOS)
+      contents: |
+        1. Install the [Stream](https://apps.apple.com/app/stream/id1312141691) app from the App Store.
+        2. Launch the Stream app and tap "Sniff Now". A dialog will appear asking you to "Allow "Stream" to add a VPN configuration". Tap "Allow".
+        3. Return to the Stream app and a dialog will appear saying "You must install CA". Tap "Install CA" and then tap "Install CA Certificate".
+        4. A dialog will appear saying "This website is requesting to install a configuration profile". Tap "Allow".
+        5. Open the device settings, tap General > VPN and Device Management > Stream Generated CA 〜 > the top right "Install" > enter the passcode > the top right "Install" > Install.
+        6. Return to the app and a dialog may appear saying "For iOS 10.3+ and iOS 11...". Tap the blue "I've trusted".
+        7. <span class="text-red">[After the second time, you only need to follow these steps]</span> Launch Genshin Impact and open wish page.
+        8. Open the Stream app and tap "Sniff Now".
+        9. Return to Genshin Impact and tap "Prayer History".
+        10. Return to the Stream app and tap "Stop Sniffing" and then tap the right "Sniff History".
+        11. Tap the one with the latest time at the top. Tap the one that starts with "GET https://hk4e-api-os.hoyoverse.com".
+        12. Tap "Request" at the top and tap the part below "REQUEST LINE" and tap "Copy Url" to copy the URL.
 
 about:
   settings:

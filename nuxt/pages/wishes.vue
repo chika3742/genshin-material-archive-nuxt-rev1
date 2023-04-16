@@ -1,5 +1,40 @@
 <template>
   <div class="doc-container">
+    <v-expansion-panels>
+      <v-expansion-panel>
+        <v-expansion-panel-title>{{ $t("wishesPage.aboutTitle") }}</v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div v-html="marked.parse($t('wishesPage.about'))" />
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-title>{{ $t("wishesPage.howToGetUrl.windows.h") }}</v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <ol>
+            <li>{{ $t("wishesPage.howToGetUrl.windows.s1") }}</li>
+            <li>
+              <span>{{ $t("wishesPage.howToGetUrl.windows.s2") }}</span>
+              <div class="d-flex flex-nowrap align-center">
+                <pre>
+                  <code ref="windowsCommandCode">powershell -Command "iex ""&{$(irm https://gist.githubusercontent.com/MadeBaruna/1d75c1d37d19eca71591ec8a31178235/raw/702e34117b07294e6959928963b76cfdafdd94f3/getlink.ps1)} global"""</code>
+                </pre>
+                <v-btn class="ml-2" flat icon="ms:content_copy" @click="copyWindowsCommand" />
+              </div>
+            </li>
+            <li>{{ $t("wishesPage.howToGetUrl.windows.s3") }}</li>
+          </ol>
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-title>{{ $t("wishesPage.howToGetUrl.ios.h") }}</v-expansion-panel-title>
+        <v-expansion-panel-text>
+          <div v-html="marked.parse($t('wishesPage.howToGetUrl.ios.contents'))" />
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+    </v-expansion-panels>
+
     <client-only>
       <section>
         <h2>{{ $t("wishesPage.urlInput") }}</h2>
@@ -41,26 +76,33 @@
       </section>
     </client-only>
 
-    <section v-for="wishType in wishTypes" :key="wishType.type">
-      <h2>{{ wishType.title }}</h2>
-      <WishCounters
-        :pseudo-pity-border="wishType.pseudoPityBorder"
-        :single-prob="wishType.singleProb"
-        :star5-pity="wishType.star5Pity"
-        :wishes="wishes.wishes.filter(e => wishType.type === e.gachaType)"
-        class="my-2"
-      />
-    </section>
+    <client-only>
+      <section v-for="wishType in wishTypes" :key="wishType.type">
+        <h2>{{ wishType.title }}</h2>
+        <WishCounters
+          :pseudo-pity-border="wishType.pseudoPityBorder"
+          :single-prob="wishType.singleProb"
+          :star5-pity="wishType.star5Pity"
+          :wishes="wishes.wishes.filter(e => wishType.type === e.gachaType)"
+          class="my-2"
+        />
+      </section>
+    </client-only>
   </div>
 </template>
 
 <script lang="ts" setup>
 import {doc, onSnapshot} from "@firebase/firestore"
+import {marked} from "marked"
 import {ref} from "#imports"
 import {WishHistoryApi} from "~/libs/wish-history-api"
 import {useConfigStore} from "~/store/config"
 import {useWishesStore} from "~/store/wishes"
 import {wishHistoryTicketConverter} from "~/utils/wish-history-ticket-converter"
+
+marked.options({
+  gfm: false,
+})
 
 definePageMeta({
   title: "wishes",
@@ -77,6 +119,7 @@ const url = ref(config.wishHistoryUrl)
 const error = ref("")
 const fetchedCount = ref<number | null>(null)
 const fetching = ref(false)
+const windowsCommandCode = ref<HTMLElement>()
 
 const wishTypes: {
   type: string
@@ -166,5 +209,10 @@ const registerStatusListener = (api: WishHistoryApi) => {
         break
     }
   })
+}
+
+const copyWindowsCommand = () => {
+  window.navigator.clipboard.writeText(windowsCommandCode.value!.innerText)
+  snackbar.show("コピーしました")
 }
 </script>
