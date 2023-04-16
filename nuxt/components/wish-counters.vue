@@ -178,10 +178,10 @@ const pityCountList = computed(() => {
 
     if (wish.rankType === "4" || wish.rankType === "5") {
       result.push({
-        name: wish.name,
+        name: i18n.t(getItemNameI18nKey(wish)),
         type: wish.itemType,
         count: pityCount[wish.rankType],
-        dateTime: moment(wish.time),
+        dateTime: moment(wish.time, undefined, i18n.locale.value),
         rank: wish.rankType,
       })
       pityCount[wish.rankType] = 0
