@@ -1,6 +1,15 @@
 # コピー用改行
 
 - date: 2023/04/16
+  funcVersion: 4.0.0-alpha.33
+  dataVersion: 3.5.1
+  isMajor: false
+  content: |
+    ### 修正
+
+    - 祈願天井カウンターに英語で表示されない部分がある問題を修正しました。
+
+- date: 2023/04/16
   funcVersion: 4.0.0-alpha.32
   dataVersion: 3.5.1
   isMajor: false
