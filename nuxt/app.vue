@@ -98,6 +98,11 @@ const title = computed(() => {
   }
 })
 
+useHead({
+  title,
+  titleTemplate: `%s - ${i18n.t("common.appName")}`,
+})
+
 router.beforeEach(() => {
   loadingPage.value = true
 })
