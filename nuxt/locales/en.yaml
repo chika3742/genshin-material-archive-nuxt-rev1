@@ -151,7 +151,7 @@ wishesPage:
         6. Return to the app and a dialog may appear saying "For iOS 10.3+ and iOS 11...". Tap the blue "I've trusted".
         7. <span class="text-red">[After the second time, you only need to follow these steps]</span> Launch Genshin Impact and open wish page.
         8. Open the Stream app and tap "Sniff Now".
-        9. Return to Genshin Impact and tap "Prayer History".
+        9. Return to Genshin Impact and tap "Wish History".
         10. Return to the Stream app and tap "Stop Sniffing" and then tap the right "Sniff History".
         11. Tap the one with the latest time at the top. Tap the one that starts with "GET https://hk4e-api-os.hoyoverse.com".
         12. Tap "Request" at the top and tap the part below "REQUEST LINE" and tap "Copy Url" to copy the URL.
