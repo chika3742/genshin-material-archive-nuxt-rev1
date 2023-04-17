@@ -1,0 +1,32 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+
+items:
+  $ref: "#/definitions/furniture"
+
+definitions:
+  furniture:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - nameJP
+    properties:
+      id:
+        type: string
+        description: 調度品のID
+      type:
+        type: string
+        description: 調度品の種類
+        enum:
+          - ornament
+      nameJP:
+        type: string
+        description: 調度品の日本語名
+      yomi:
+        type: string
+        description: 調度品の日本語名の読み。すべてカタカナの場合は不要。
+      whereToGet:
+        type: string
+        description: 調度品の入手方法のi18nキー

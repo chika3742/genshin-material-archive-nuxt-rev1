@@ -33,3 +33,15 @@ declare module "~/assets/data/release-notes.yaml" {
   const releaseNotes: ReleaseNotes
   export default releaseNotes
 }
+
+declare module "~/assets/data/furnishing-sets.yaml" {
+  import {FurnishingSet} from "~/types/generated/furnishing-sets.g";
+  const furnishingSets: FurnishingSet[]
+  export default furnishingSets
+}
+
+declare module "~/assets/data/furniture-list.yaml" {
+  import {Furniture} from "~/types/generated/furniture-list.g";
+  const furnitureList: Furniture[]
+  export default furnitureList
+}

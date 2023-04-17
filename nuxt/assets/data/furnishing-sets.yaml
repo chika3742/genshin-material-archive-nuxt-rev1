@@ -1,0 +1,1627 @@
+- id: '10'
+  nameJP: 万巻の書斎
+  type: indoorSet
+  consistsOf:
+    - id: '1100203'
+      quantity: 1
+    - id: '1100213'
+      quantity: 1
+    - id: '300206'
+      quantity: 1
+    - id: '300207'
+      quantity: 1
+    - id: '300208'
+      quantity: 1
+    - id: '300308'
+      quantity: 1
+    - id: '400105'
+      quantity: 1
+    - id: '400404'
+      quantity: 1
+
+- id: '11'
+  nameJP: 家具が備えられたモンドの寝室
+  type: indoorSet
+  consistsOf:
+    - id: '1100102'
+      quantity: 1
+    - id: '1100208'
+      quantity: 1
+    - id: '1100214'
+      quantity: 1
+    - id: '300105'
+      quantity: 1
+    - id: '300311'
+      quantity: 1
+    - id: '300601'
+      quantity: 1
+    - id: '400204'
+      quantity: 1
+    - id: '400404'
+      quantity: 1
+
+- id: '12'
+  nameJP: 「6人のキーマン」会議室
+  type: indoorSet
+  consistsOf:
+    - id: '1100102'
+      quantity: 1
+    - id: '1100214'
+      quantity: 1
+    - id: '300303'
+      quantity: 1
+    - id: '400102'
+      quantity: 6
+    - id: '400404'
+      quantity: 1
+
+- id: '13'
+  nameJP: パーティーと痛飲の時
+  type: indoorSet
+  consistsOf:
+    - id: '1100214'
+      quantity: 1
+    - id: '300306'
+      quantity: 1
+    - id: '400104'
+      quantity: 4
+
+- id: '14'
+  nameJP: 店員たちのランチタイム
+  type: indoorSet
+  consistsOf:
+    - id: '300102'
+      quantity: 1
+    - id: '300103'
+      quantity: 1
+    - id: '300305'
+      quantity: 1
+
+- id: '15'
+  nameJP: ゲストルームの暖かさ
+  type: indoorSet
+  consistsOf:
+    - id: '1100102'
+      quantity: 1
+    - id: '400101'
+      quantity: 2
+    - id: '400106'
+      quantity: 1
+    - id: '400201'
+      quantity: 1
+    - id: '400401'
+      quantity: 1
+
+- id: '16'
+  nameJP: 完備した書斎
+  type: indoorSet
+  consistsOf:
+    - id: '1100206'
+      quantity: 1
+    - id: '1100208'
+      quantity: 1
+    - id: '300203'
+      quantity: 1
+    - id: '300205'
+      quantity: 1
+    - id: '300302'
+      quantity: 1
+    - id: '400102'
+      quantity: 1
+    - id: '400106'
+      quantity: 1
+    - id: '400404'
+      quantity: 1
+
+- id: '4'
+  nameJP: 簡素な璃月の寝室
+  type: indoorSet
+  consistsOf:
+    - id: '1100305'
+      quantity: 1
+    - id: '300106'
+      quantity: 1
+    - id: '300602'
+      quantity: 1
+    - id: '400205'
+      quantity: 1
+    - id: '400403'
+      quantity: 1
+
+- id: '5'
+  nameJP: 茶室の片隅
+  type: indoorSet
+  consistsOf:
+    - id: '300310'
+      quantity: 1
+    - id: '400106'
+      quantity: 4
+    - id: '400202'
+      quantity: 1
+    - id: '400403'
+      quantity: 1
+
+- id: '7'
+  nameJP: 万能の机と椅子
+  type: indoorSet
+  consistsOf:
+    - id: '1100305'
+      quantity: 1
+    - id: '300301'
+      quantity: 1
+    - id: '400106'
+      quantity: 3
+
+- id: '8'
+  nameJP: 忙しい厨房
+  type: indoorSet
+  consistsOf:
+    - id: '1000401'
+      quantity: 1
+    - id: '300304'
+      quantity: 1
+    - id: '300305'
+      quantity: 1
+    - id: '400104'
+      quantity: 1
+
+- id: '9'
+  nameJP: 休憩時の茶話
+  type: indoorSet
+  consistsOf:
+    - id: '1100203'
+      quantity: 1
+    - id: '1100209'
+      quantity: 1
+    - id: '300309'
+      quantity: 1
+    - id: '400105'
+      quantity: 2
+    - id: '400202'
+      quantity: 1
+    - id: '400403'
+      quantity: 1
+
+- id: '33'
+  nameJP: 詩と思索の間
+  type: indoorGiftSet
+  favoredBy:
+    - Eula
+    - Jean
+    - Lisa
+    - Fischl
+    - Mona
+  consistsOf:
+    - id: '1100102'
+      quantity: 1
+    - id: '1100207'
+      quantity: 1
+    - id: '1100214'
+      quantity: 1
+    - id: '300201'
+      quantity: 1
+    - id: '300202'
+      quantity: 2
+    - id: '300203'
+      quantity: 1
+    - id: '300205'
+      quantity: 1
+    - id: '300302'
+      quantity: 1
+    - id: '400101'
+      quantity: 1
+    - id: '400102'
+      quantity: 1
+    - id: '400106'
+      quantity: 1
+    - id: '400401'
+      quantity: 1
+
+- id: '34'
+  nameJP: 囁く風の間
+  type: indoorGiftSet
+  favoredBy:
+    - Eula
+    - Barbara
+    - Noelle
+  consistsOf:
+    - id: '1100102'
+      quantity: 2
+    - id: '1100208'
+      quantity: 1
+    - id: '1100209'
+      quantity: 1
+    - id: '1100214'
+      quantity: 1
+    - id: '1100305'
+      quantity: 1
+    - id: '300105'
+      quantity: 1
+    - id: '300301'
+      quantity: 1
+    - id: '300302'
+      quantity: 1
+    - id: '300311'
+      quantity: 1
+    - id: '300601'
+      quantity: 1
+    - id: '400102'
+      quantity: 1
+    - id: '400106'
+      quantity: 1
+    - id: '400204'
+      quantity: 1
+    - id: '400401'
+      quantity: 1
+
+- id: '35'
+  nameJP: 緋雲文斎
+  type: indoorGiftSet
+  favoredBy:
+    - Xingqiu
+    - Ningguang
+    - Zhongli
+    - YunJin
+  consistsOf:
+    - id: '1100102'
+      quantity: 2
+    - id: '1100103'
+      quantity: 1
+    - id: '1100203'
+      quantity: 1
+    - id: '1100213'
+      quantity: 1
+    - id: '300206'
+      quantity: 1
+    - id: '300207'
+      quantity: 1
+    - id: '300208'
+      quantity: 1
+    - id: '300308'
+      quantity: 1
+    - id: '400105'
+      quantity: 2
+    - id: '400106'
+      quantity: 1
+    - id: '400202'
+      quantity: 1
+    - id: '400404'
+      quantity: 1
+
+- id: '36'
+  nameJP: 煙霞の梦閣
+  type: indoorGiftSet
+  favoredBy:
+    - Yanfei
+    - Chongyun
+    - Ganyu
+    - Keqing
+    - HuTao
+  consistsOf:
+    - id: '1100102'
+      quantity: 1
+    - id: '1100203'
+      quantity: 1
+    - id: '1100215'
+      quantity: 1
+    - id: '1100305'
+      quantity: 1
+    - id: '300106'
+      quantity: 1
+    - id: '300207'
+      quantity: 1
+    - id: '300309'
+      quantity: 1
+    - id: '300602'
+      quantity: 1
+    - id: '400105'
+      quantity: 2
+    - id: '400202'
+      quantity: 1
+    - id: '400205'
+      quantity: 1
+    - id: '400404'
+      quantity: 1
+
+- id: '37'
+  nameJP: 秘術研究所
+  type: indoorGiftSet
+  favoredBy:
+    - Lisa
+    - Klee
+    - Albedo
+    - Sucrose
+  consistsOf:
+    - id: '1100102'
+      quantity: 1
+    - id: '1100205'
+      quantity: 1
+    - id: '1100206'
+      quantity: 1
+    - id: '1100208'
+      quantity: 1
+    - id: '1100211'
+      quantity: 1
+    - id: '1100212'
+      quantity: 1
+    - id: '300105'
+      quantity: 1
+    - id: '300205'
+      quantity: 1
+    - id: '300301'
+      quantity: 1
+    - id: '300302'
+      quantity: 1
+    - id: '400102'
+      quantity: 2
+    - id: '400103'
+      quantity: 1
+    - id: '400401'
+      quantity: 1
+
+- id: '38'
+  nameJP: 薪と煙の厨房
+  type: indoorGiftSet
+  favoredBy:
+    - Razor
+    - Xiangling
+    - Xiao
+    - Tartaglia
+    - Mona
+    - Mika
+  consistsOf:
+    - id: '1100202'
+      quantity: 2
+    - id: '300102'
+      quantity: 1
+    - id: '300103'
+      quantity: 1
+    - id: '300305'
+      quantity: 1
+    - id: '300306'
+      quantity: 1
+    - id: '300311'
+      quantity: 2
+    - id: '400104'
+      quantity: 3
+
+- id: '56'
+  nameJP: 夢の常しえ
+  type: indoorGiftSet
+  favoredBy:
+    - Sayu
+    - SangonomiyaKokomi
+    - ShikanoinHeizou
+  consistsOf:
+    - id: '361314'
+      quantity: 1
+    - id: '361403'
+      quantity: 1
+    - id: '362210'
+      quantity: 4
+    - id: '362216'
+      quantity: 1
+    - id: '363206'
+      quantity: 1
+    - id: '363316'
+      quantity: 1
+    - id: '370114'
+      quantity: 1
+    - id: '370115'
+      quantity: 1
+    - id: '373325'
+      quantity: 1
+
+- id: '57'
+  nameJP: 千振り道場
+  type: indoorGiftSet
+  favoredBy:
+    - KamisatoAyaka
+    - RaidenShogun
+  consistsOf:
+    - id: '360410'
+      quantity: 1
+    - id: '362210'
+      quantity: 2
+    - id: '362211'
+      quantity: 1
+    - id: '362213'
+      quantity: 4
+    - id: '362214'
+      quantity: 2
+    - id: '362215'
+      quantity: 1
+    - id: '363315'
+      quantity: 1
+
+- id: '58'
+  nameJP: 明窓浄机
+  type: indoorGiftSet
+  favoredBy:
+    - SangonomiyaKokomi
+    - KukiShinobu
+  consistsOf:
+    - id: '360407'
+      quantity: 1
+    - id: '360410'
+      quantity: 1
+    - id: '361209'
+      quantity: 2
+    - id: '361210'
+      quantity: 1
+    - id: '361316'
+      quantity: 1
+    - id: '362210'
+      quantity: 1
+    - id: '362213'
+      quantity: 2
+    - id: '363206'
+      quantity: 1
+    - id: '363314'
+      quantity: 1
+    - id: '373325'
+      quantity: 1
+
+- id: '59'
+  nameJP: 楓香る茶室
+  type: indoorGiftSet
+  favoredBy:
+    - KaedeharaKazuha
+    - Thoma
+  consistsOf:
+    - id: '361315'
+      quantity: 1
+    - id: '361502'
+      quantity: 1
+    - id: '362108'
+      quantity: 3
+    - id: '363207'
+      quantity: 1
+    - id: '363312'
+      quantity: 1
+    - id: '363313'
+      quantity: 1
+    - id: '363316'
+      quantity: 1
+    - id: '370111'
+      quantity: 1
+    - id: '370112'
+      quantity: 1
+    - id: '370113'
+      quantity: 1
+
+- id: '1'
+  nameJP: 冒険者の臨時拠点
+  type: outdoorSet
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '1000405'
+      quantity: 2
+    - id: '600603'
+      quantity: 1
+    - id: '600604'
+      quantity: 1
+    - id: '700119'
+      quantity: 1
+    - id: '700602'
+      quantity: 6
+
+- id: '17'
+  nameJP: 山の中の一軒家
+  type: outdoorSet
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '600110'
+      quantity: 1
+    - id: '700601'
+      quantity: 6
+    - id: '700803'
+      quantity: 1
+
+- id: '18'
+  nameJP: 町の民家
+  type: outdoorSet
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '1000405'
+      quantity: 3
+    - id: '600106'
+      quantity: 1
+    - id: '700602'
+      quantity: 6
+    - id: '700802'
+      quantity: 1
+
+- id: '19'
+  nameJP: 収穫期の露店
+  type: outdoorSet
+  consistsOf:
+    - id: '600501'
+      quantity: 1
+    - id: '700107'
+      quantity: 2
+    - id: '700504'
+      quantity: 2
+
+- id: '2'
+  nameJP: 前哨地での生活
+  type: outdoorSet
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '1000405'
+      quantity: 2
+    - id: '600107'
+      quantity: 1
+    - id: '700602'
+      quantity: 3
+
+- id: '20'
+  nameJP: なんでも売ってる青果市場
+  type: outdoorSet
+  consistsOf:
+    - id: '600503'
+      quantity: 1
+    - id: '600505'
+      quantity: 1
+    - id: '600510'
+      quantity: 1
+    - id: '700114'
+      quantity: 1
+
+- id: '21'
+  nameJP: 練兵場の片隅
+  type: outdoorSet
+  consistsOf:
+    - id: '700501'
+      quantity: 1
+    - id: '700502'
+      quantity: 2
+    - id: '700503'
+      quantity: 1
+
+- id: '22'
+  nameJP: 整備された武器工房
+  type: outdoorSet
+  consistsOf:
+    - id: '600504'
+      quantity: 1
+    - id: '700501'
+      quantity: 1
+    - id: '700502'
+      quantity: 2
+    - id: '700503'
+      quantity: 1
+
+- id: '23'
+  nameJP: 輸送の中継地
+  type: outdoorSet
+  consistsOf:
+    - id: '700104'
+      quantity: 1
+    - id: '700105'
+      quantity: 1
+    - id: '700116'
+      quantity: 2
+    - id: '700402'
+      quantity: 1
+
+- id: '24'
+  nameJP: 祭日の市場
+  type: outdoorSet
+  consistsOf:
+    - id: '700110'
+      quantity: 1
+    - id: '700111'
+      quantity: 1
+    - id: '700116'
+      quantity: 1
+    - id: '700207'
+      quantity: 1
+
+- id: '25'
+  nameJP: 大通りの入り口-「妖魔退散」
+  type: outdoorSet
+  consistsOf:
+    - id: '600201'
+      quantity: 1
+    - id: '700509'
+      quantity: 1
+    - id: '700510'
+      quantity: 1
+
+- id: '26'
+  nameJP: 大人気の飲食店
+  type: outdoorSet
+  consistsOf:
+    - id: '600115'
+      quantity: 2
+    - id: '600601'
+      quantity: 1
+    - id: '700209'
+      quantity: 3
+
+- id: '27'
+  nameJP: 田舎の井戸
+  type: outdoorSet
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '1000405'
+      quantity: 2
+    - id: '700508'
+      quantity: 1
+
+- id: '28'
+  nameJP: 慎重な孤独の冒険者
+  type: outdoorSet
+  consistsOf:
+    - id: '600604'
+      quantity: 1
+    - id: '700119'
+      quantity: 1
+    - id: '700120'
+      quantity: 1
+
+- id: '29'
+  nameJP: 気候が交わる地
+  type: outdoorSet
+  consistsOf:
+    - id: '1000201'
+      quantity: 1
+    - id: '1000202'
+      quantity: 1
+    - id: '1000306'
+      quantity: 1
+    - id: '1000404'
+      quantity: 1
+    - id: '1000409'
+      quantity: 3
+
+- id: '3'
+  nameJP: 自在な岩石と植物
+  type: outdoorSet
+  consistsOf:
+    - id: '1000201'
+      quantity: 1
+    - id: '1000301'
+      quantity: 1
+    - id: '1000405'
+      quantity: 2
+
+- id: '30'
+  nameJP: 朽木と盤石の会話
+  type: outdoorSet
+  consistsOf:
+    - id: '1000201'
+      quantity: 1
+    - id: '1000305'
+      quantity: 1
+    - id: '1000405'
+      quantity: 1
+
+- id: '6'
+  nameJP: 郊外の灯影
+  type: outdoorSet
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '1000405'
+      quantity: 2
+    - id: '700601'
+      quantity: 2
+    - id: '700803'
+      quantity: 1
+
+- id: '39'
+  nameJP: 武器の鍛冶屋
+  type: outdoorGiftSet
+  favoredBy:
+    - Diluc
+    - Bennett
+    - Noelle
+    - Diona
+  consistsOf:
+    - id: '372211'
+      quantity: 1
+    - id: '372307'
+      quantity: 1
+    - id: '372410'
+      quantity: 1
+    - id: '600504'
+      quantity: 1
+    - id: '700203'
+      quantity: 1
+    - id: '700204'
+      quantity: 1
+    - id: '700501'
+      quantity: 1
+    - id: '700502'
+      quantity: 3
+    - id: '700503'
+      quantity: 2
+    - id: '700507'
+      quantity: 1
+
+- id: '40'
+  nameJP: 牧歌の町
+  type: outdoorGiftSet
+  favoredBy:
+    - Razor
+    - Amber
+    - Diona
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '372211'
+      quantity: 1
+    - id: '600105'
+      quantity: 1
+    - id: '600106'
+      quantity: 1
+    - id: '600107'
+      quantity: 1
+    - id: '700104'
+      quantity: 1
+    - id: '700105'
+      quantity: 1
+    - id: '700107'
+      quantity: 1
+    - id: '700204'
+      quantity: 1
+    - id: '700504'
+      quantity: 1
+    - id: '700508'
+      quantity: 1
+    - id: '700701'
+      quantity: 2
+    - id: '700802'
+      quantity: 2
+
+- id: '41'
+  nameJP: 花鳥の公園
+  type: outdoorGiftSet
+  favoredBy:
+    - Jean
+    - Barbara
+    - Kaeya
+    - Venti
+    - Rosaria
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '1000402'
+      quantity: 4
+    - id: '372307'
+      quantity: 1
+    - id: '372410'
+      quantity: 2
+    - id: '600301'
+      quantity: 1
+    - id: '700125'
+      quantity: 1
+    - id: '700701'
+      quantity: 3
+    - id: '700702'
+      quantity: 2
+    - id: '700801'
+      quantity: 1
+
+- id: '42'
+  nameJP: 美食の集結
+  type: outdoorGiftSet
+  favoredBy:
+    - Xiangling
+    - Beidou
+    - Tartaglia
+    - Ganyu
+    - Xinyan
+    - Yelan
+  consistsOf:
+    - id: '1000401'
+      quantity: 1
+    - id: '372307'
+      quantity: 1
+    - id: '372431'
+      quantity: 1
+    - id: '600506'
+      quantity: 1
+    - id: '600509'
+      quantity: 1
+    - id: '600510'
+      quantity: 1
+    - id: '700109'
+      quantity: 2
+    - id: '700113'
+      quantity: 2
+    - id: '700114'
+      quantity: 1
+    - id: '700207'
+      quantity: 1
+    - id: '700208'
+      quantity: 1
+    - id: '700209'
+      quantity: 3
+    - id: '700401'
+      quantity: 1
+    - id: '700507'
+      quantity: 1
+    - id: '700803'
+      quantity: 1
+
+- id: '43'
+  nameJP: 百里琳琅街
+  type: outdoorGiftSet
+  favoredBy:
+    - Yanfei
+    - Xingqiu
+    - Ningguang
+    - Zhongli
+    - Keqing
+    - Shenhe
+    - YunJin
+  consistsOf:
+    - id: '400104'
+      quantity: 1
+    - id: '600506'
+      quantity: 1
+    - id: '600508'
+      quantity: 1
+    - id: '600601'
+      quantity: 1
+    - id: '700109'
+      quantity: 1
+    - id: '700110'
+      quantity: 1
+    - id: '700111'
+      quantity: 1
+    - id: '700113'
+      quantity: 1
+    - id: '700114'
+      quantity: 1
+    - id: '700207'
+      quantity: 1
+    - id: '700208'
+      quantity: 1
+    - id: '700401'
+      quantity: 1
+    - id: '700402'
+      quantity: 1
+    - id: '700803'
+      quantity: 1
+
+- id: '44'
+  nameJP: 軽策暇雲居
+  type: outdoorGiftSet
+  favoredBy:
+    - Xiao
+    - Qiqi
+    - Xinyan
+    - HuTao
+    - Shenhe
+    - Yelan
+  consistsOf:
+    - id: '1000301'
+      quantity: 1
+    - id: '372211'
+      quantity: 2
+    - id: '372410'
+      quantity: 1
+    - id: '372423'
+      quantity: 1
+    - id: '600115'
+      quantity: 1
+    - id: '600116'
+      quantity: 1
+    - id: '600201'
+      quantity: 1
+    - id: '600602'
+      quantity: 1
+    - id: '700205'
+      quantity: 1
+    - id: '700208'
+      quantity: 2
+    - id: '700209'
+      quantity: 1
+    - id: '700402'
+      quantity: 1
+    - id: '700505'
+      quantity: 1
+    - id: '700602'
+      quantity: 4
+    - id: '700803'
+      quantity: 1
+    - id: '700805'
+      quantity: 1
+
+- id: '45'
+  nameJP: 狩りと歌舞の拠点
+  type: outdoorGiftSet
+  favoredBy:
+    - Amber
+    - Beidou
+    - Klee
+    - Sucrose
+    - Aloy
+  consistsOf:
+    - id: '1000201'
+      quantity: 1
+    - id: '1000301'
+      quantity: 1
+    - id: '372211'
+      quantity: 1
+    - id: '372307'
+      quantity: 1
+    - id: '372410'
+      quantity: 1
+    - id: '372411'
+      quantity: 1
+    - id: '600117'
+      quantity: 1
+    - id: '600118'
+      quantity: 1
+    - id: '600303'
+      quantity: 1
+    - id: '600304'
+      quantity: 1
+    - id: '700117'
+      quantity: 1
+    - id: '700118'
+      quantity: 1
+    - id: '700201'
+      quantity: 1
+    - id: '700501'
+      quantity: 1
+    - id: '700502'
+      quantity: 1
+    - id: '700503'
+      quantity: 1
+    - id: '700603'
+      quantity: 2
+    - id: '700604'
+      quantity: 2
+
+- id: '46'
+  nameJP: 星と深淵の旅
+  type: outdoorGiftSet
+  favoredBy:
+    - Fischl
+    - Bennett
+    - Qiqi
+    - Chongyun
+    - Albedo
+    - Aloy
+    - Mika
+  consistsOf:
+    - id: '1000304'
+      quantity: 1
+    - id: '1000409'
+      quantity: 1
+    - id: '1100206'
+      quantity: 1
+    - id: '372211'
+      quantity: 2
+    - id: '372411'
+      quantity: 2
+    - id: '600603'
+      quantity: 1
+    - id: '600604'
+      quantity: 1
+    - id: '700119'
+      quantity: 1
+    - id: '700120'
+      quantity: 1
+    - id: '700512'
+      quantity: 1
+
+- id: '47'
+  nameJP: アカツキ果樹園
+  type: outdoorGiftSet
+  favoredBy:
+    - Kaeya
+    - Diluc
+    - Venti
+    - Rosaria
+  consistsOf:
+    - id: '371106'
+      quantity: 1
+    - id: '700105'
+      quantity: 1
+    - id: '700121'
+      quantity: 1
+    - id: '700122'
+      quantity: 2
+    - id: '700303'
+      quantity: 1
+    - id: '700504'
+      quantity: 1
+    - id: '700605'
+      quantity: 8
+    - id: '700607'
+      quantity: 2
+    - id: '700608'
+      quantity: 2
+    - id: '700802'
+      quantity: 1
+
+- id: '48'
+  nameJP: 正統派庭園
+  type: outdoorGiftSet
+  favoredBy:
+    - KujouSara
+    - KamisatoAyato
+  consistsOf:
+    - id: '370616'
+      quantity: 1
+    - id: '370617'
+      quantity: 2
+    - id: '371213'
+      quantity: 1
+    - id: '371214'
+      quantity: 4
+    - id: '371215'
+      quantity: 3
+    - id: '372328'
+      quantity: 1
+    - id: '372330'
+      quantity: 2
+    - id: '373126'
+      quantity: 1
+    - id: '373127'
+      quantity: 2
+
+- id: '49'
+  nameJP: 気晴れの湯
+  type: outdoorGiftSet
+  favoredBy:
+    - Yoimiya
+    - Gorou
+    - YaeMiko
+    - ShikanoinHeizou
+  consistsOf:
+    - id: '371116'
+      quantity: 1
+    - id: '371227'
+      quantity: 2
+    - id: '371228'
+      quantity: 6
+    - id: '371229'
+      quantity: 1
+    - id: '371230'
+      quantity: 1
+    - id: '372225'
+      quantity: 1
+    - id: '372226'
+      quantity: 1
+    - id: '372227'
+      quantity: 1
+    - id: '372325'
+      quantity: 1
+    - id: '372327'
+      quantity: 1
+    - id: '372439'
+      quantity: 2
+
+- id: '50'
+  nameJP: 村に隠れし影
+  type: outdoorGiftSet
+  favoredBy:
+    - Sayu
+    - Gorou
+  consistsOf:
+    - id: '370609'
+      quantity: 1
+    - id: '370610'
+      quantity: 1
+    - id: '371216'
+      quantity: 1
+    - id: '371217'
+      quantity: 10
+    - id: '372329'
+      quantity: 1
+    - id: '373130'
+      quantity: 1
+    - id: '373131'
+      quantity: 1
+    - id: '373322'
+      quantity: 1
+    - id: '374109'
+      quantity: 6
+
+- id: '51'
+  nameJP: 追懐の神社
+  type: outdoorGiftSet
+  favoredBy:
+    - RaidenShogun
+    - YaeMiko
+  consistsOf:
+    - id: '370602'
+      quantity: 1
+    - id: '370623'
+      quantity: 1
+    - id: '372224'
+      quantity: 1
+    - id: '372328'
+      quantity: 2
+    - id: '372330'
+      quantity: 1
+    - id: '372433'
+      quantity: 1
+    - id: '373315'
+      quantity: 1
+    - id: '373321'
+      quantity: 2
+    - id: '373329'
+      quantity: 1
+    - id: '373411'
+      quantity: 2
+    - id: '373413'
+      quantity: 3
+    - id: '374501'
+      quantity: 1
+    - id: '374502'
+      quantity: 2
+    - id: '374503'
+      quantity: 2
+
+- id: '52'
+  nameJP: 軍事演習場
+  type: outdoorGiftSet
+  favoredBy:
+    - KujouSara
+  consistsOf:
+    - id: '370618'
+      quantity: 1
+    - id: '370619'
+      quantity: 1
+    - id: '370620'
+      quantity: 1
+    - id: '370621'
+      quantity: 1
+    - id: '371218'
+      quantity: 5
+    - id: '371219'
+      quantity: 2
+    - id: '371220'
+      quantity: 5
+    - id: '372329'
+      quantity: 1
+    - id: '372330'
+      quantity: 1
+    - id: '373132'
+      quantity: 1
+    - id: '373316'
+      quantity: 2
+    - id: '373318'
+      quantity: 2
+    - id: '373333'
+      quantity: 1
+
+- id: '53'
+  nameJP: 花びら散る野原
+  type: outdoorGiftSet
+  favoredBy:
+    - KaedeharaKazuha
+    - AratakiItto
+  consistsOf:
+    - id: '370601'
+      quantity: 1
+    - id: '372224'
+      quantity: 1
+    - id: '372225'
+      quantity: 2
+    - id: '372226'
+      quantity: 1
+    - id: '372328'
+      quantity: 1
+    - id: '372330'
+      quantity: 1
+    - id: '372434'
+      quantity: 7
+    - id: '372435'
+      quantity: 2
+    - id: '373413'
+      quantity: 2
+    - id: '373414'
+      quantity: 2
+
+- id: '54'
+  nameJP: 夏夜の追憶
+  type: outdoorGiftSet
+  favoredBy:
+    - KamisatoAyaka
+    - KamisatoAyato
+    - AratakiItto
+  consistsOf:
+    - id: '370505'
+      quantity: 1
+    - id: '370510'
+      quantity: 1
+    - id: '370511'
+      quantity: 1
+    - id: '370606'
+      quantity: 1
+    - id: '372325'
+      quantity: 1
+    - id: '372327'
+      quantity: 1
+    - id: '373133'
+      quantity: 1
+    - id: '373333'
+      quantity: 1
+    - id: '373410'
+      quantity: 1
+    - id: '374205'
+      quantity: 4
+    - id: '374313'
+      quantity: 2
+    - id: '374501'
+      quantity: 4
+
+- id: '55'
+  nameJP: 櫻染の通り
+  type: outdoorGiftSet
+  favoredBy:
+    - Yoimiya
+    - Thoma
+    - KukiShinobu
+  consistsOf:
+    - id: '370310'
+      quantity: 1
+    - id: '370508'
+      quantity: 1
+    - id: '370509'
+      quantity: 2
+    - id: '370512'
+      quantity: 1
+    - id: '370604'
+      quantity: 1
+    - id: '370605'
+      quantity: 1
+    - id: '372328'
+      quantity: 1
+    - id: '372330'
+      quantity: 1
+    - id: '373133'
+      quantity: 1
+    - id: '373333'
+      quantity: 1
+    - id: '373410'
+      quantity: 1
+    - id: '373415'
+      quantity: 2
+    - id: '374501'
+      quantity: 5
+
+- id: '66'
+  nameJP: 賑やか市場
+  type: outdoorGiftSet
+  favoredBy:
+    - Dori
+    - Faruzan
+  consistsOf:
+    - id: '1000001'
+      quantity: 1
+    - id: '1000002'
+      quantity: 1
+    - id: '1000003'
+      quantity: 1
+    - id: '1000004'
+      quantity: 1
+    - id: '1000005'
+      quantity: 1
+    - id: '1000006'
+      quantity: 1
+    - id: '1000007'
+      quantity: 2
+    - id: '1000008'
+      quantity: 1
+    - id: '1000009'
+      quantity: 1
+    - id: '1000010'
+      quantity: 1
+    - id: '1000011'
+      quantity: 1
+
+- id: '67'
+  nameJP: 清らかな深い森の住まい
+  type: outdoorGiftSet
+  favoredBy:
+    - Collei
+    - Cyno
+  consistsOf:
+    - id: '1000012'
+      quantity: 3
+    - id: '1000013'
+      quantity: 1
+    - id: '1000014'
+      quantity: 1
+    - id: '1000015'
+      quantity: 1
+    - id: '1000016'
+      quantity: 29
+    - id: '1000017'
+      quantity: 1
+    - id: '1000018'
+      quantity: 1
+    - id: '1000019'
+      quantity: 6
+
+- id: '68'
+  nameJP: 気ままに踊る姿
+  type: outdoorGiftSet
+  favoredBy:
+    - Nilou
+  consistsOf:
+    - id: '1000020'
+      quantity: 2
+    - id: '1000021'
+      quantity: 6
+    - id: '1000022'
+      quantity: 1
+    - id: '1000023'
+      quantity: 20
+    - id: '1000024'
+      quantity: 1
+
+- id: '69'
+  nameJP: 畔の静かなひと時
+  type: outdoorGiftSet
+  favoredBy:
+    - Wanderer
+  consistsOf:
+    - id: '1000019'
+      quantity: 4
+    - id: '1000025'
+      quantity: 1
+    - id: '1000026'
+      quantity: 1
+    - id: '1000027'
+      quantity: 1
+    - id: '1000028'
+      quantity: 1
+    - id: '1000029'
+      quantity: 2
+    - id: '1000030'
+      quantity: 1
+    - id: '1000016'
+      quantity: 20
+    - id: '1000031'
+      quantity: 2
+    - id: '1000012'
+      quantity: 2
+
+- id: '70'
+  nameJP: 風食を阻む集落
+  type: outdoorGiftSet
+  favoredBy:
+    - Candace
+    - Layla
+  consistsOf:
+    - id: '1000003'
+      quantity: 1
+    - id: '1000010'
+      quantity: 1
+    - id: '1000009'
+      quantity: 1
+    - id: '1000032'
+      quantity: 1
+    - id: '1000033'
+      quantity: 1
+    - id: '1000034'
+      quantity: 3
+    - id: '1000035'
+      quantity: 1
+    - id: '1000004'
+      quantity: 1
+    - id: '1000036'
+      quantity: 1
+    - id: '1000037'
+      quantity: 5
+    - id: '1000038'
+      quantity: 1
+    - id: '1000039'
+      quantity: 1
+
+- id: '71'
+  nameJP: 旅団陣形の雄姿
+  type: outdoorGiftSet
+  favoredBy:
+    - Dehya
+  consistsOf:
+    - id: '1000037'
+      quantity: 5
+    - id: '1000040'
+      quantity: 3
+    - id: '1000013'
+      quantity: 1
+    - id: '1000003'
+      quantity: 1
+    - id: '1000041'
+      quantity: 2
+    - id: '1000042'
+      quantity: 1
+    - id: '1000043'
+      quantity: 1
+    - id: '1000044'
+      quantity: 7
+
+- id: '72'
+  nameJP: 香りと閑静の中
+  type: outdoorGiftSet
+  favoredBy:
+    - Nahida
+  consistsOf:
+    - id: '1000021'
+      quantity: 2
+    - id: '1000023'
+      quantity: 22
+    - id: '1000024'
+      quantity: 1
+    - id: '1000045'
+      quantity: 1
+    - id: '1000046'
+      quantity: 5
+    - id: '1000013'
+      quantity: 1
+    - id: '1000006'
+      quantity: 1
+    - id: '1000047'
+      quantity: 6
+
+- id: '73'
+  nameJP: 森と砂漠の合奏
+  type: outdoorGiftSet
+  favoredBy:
+    - Tighnari
+    - Wanderer
+  consistsOf:
+    - id: '1000047'
+      quantity: 3
+    - id: '1000048'
+      quantity: 1
+    - id: '1000049'
+      quantity: 3
+    - id: '1000037'
+      quantity: 4
+
+- id: '74'
+  nameJP: レンジャーの日常エピソード
+  type: indoorGiftSet
+  favoredBy:
+    - Tighnari
+    - Collei
+  consistsOf:
+    - id: '1000050'
+      quantity: 5
+    - id: '1000051'
+      quantity: 1
+    - id: '1000052'
+      quantity: 1
+    - id: '1000053'
+      quantity: 1
+    - id: '1000054'
+      quantity: 1
+
+- id: '75'
+  nameJP: 静止した豪華絢爛
+  type: indoorGiftSet
+  favoredBy:
+    - Dori
+    - Nilou
+  consistsOf:
+    - id: '1000055'
+      quantity: 2
+    - id: '1000056'
+      quantity: 2
+    - id: '1000057'
+      quantity: 3
+    - id: '1000058'
+      quantity: 2
+    - id: '1000059'
+      quantity: 2
+    - id: '1000060'
+      quantity: 2
+    - id: '1000061'
+      quantity: 1
+    - id: '1000062'
+      quantity: 1
+    - id: '1000063'
+      quantity: 1
+
+- id: '76'
+  nameJP: 最高の芳醇
+  type: indoorGiftSet
+  favoredBy:
+    - Alhaitham
+    - Dehya
+  consistsOf:
+    - id: '1000064'
+      quantity: 2
+    - id: '1000057'
+      quantity: 1
+    - id: '1000065'
+      quantity: 1
+    - id: '1000066'
+      quantity: 1
+    - id: '1000067'
+      quantity: 1
+    - id: '1000068'
+      quantity: 1
+    - id: '1000069'
+      quantity: 2
+    - id: '1000070'
+      quantity: 1
+    - id: '1000052'
+      quantity: 1
+    - id: '1000071'
+      quantity: 1
+
+- id: '77'
+  nameJP: 知見が沈着する場所
+  type: indoorGiftSet
+  favoredBy:
+    - Cyno
+    - Faruzan
+    - Alhaitham
+  consistsOf:
+    - id: '1000072'
+      quantity: 1
+    - id: '1000073'
+      quantity: 3
+    - id: '1000050'
+      quantity: 6
+    - id: '1000052'
+      quantity: 1
+    - id: '1000074'
+      quantity: 2
+
+- id: '78'
+  nameJP: 喧騒と煩悩から離れて
+  type: indoorGiftSet
+  favoredBy:
+    - Nahida
+    - Layla
+  consistsOf:
+    - id: '1000075'
+      quantity: 1
+    - id: '1000076'
+      quantity: 1
+    - id: '1000074'
+      quantity: 2
+    - id: '1000077'
+      quantity: 2
+    - id: '1000078'
+      quantity: 3
+    - id: '1000079'
+      quantity: 1
+    - id: '1000052'
+      quantity: 1
+    - id: '1000071'
+      quantity: 1
+    - id: '1000069'
+      quantity: 2
+
+- id: '79'
+  nameJP: 砂塵の境地に身を置いて
+  type: indoorGiftSet
+  favoredBy:
+    - Candace
+  consistsOf:
+    - id: '1000075'
+      quantity: 1
+    - id: '1000081'
+      quantity: 1
+    - id: '1000082'
+      quantity: 2
+    - id: '1000083'
+      quantity: 1
+    - id: '1000084'
+      quantity: 1
+    - id: '1000061'
+      quantity: 1
+    - id: '1000062'
+      quantity: 1
