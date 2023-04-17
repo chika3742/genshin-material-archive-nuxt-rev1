@@ -1,28 +1,15 @@
 export default defineNuxtRouteMiddleware((to) => {
-  // /character/** -> /characters/**
-  {
-    const match = to.path.match(/^\/character(?:\/.*)?$/)
-
-    if (match) {
-      return navigateTo(`/characters${match[1] || ""}`, {redirectCode: 308})
-    }
+  const pathsToRedirect: Record<string, string> = {
+    character: "characters",
+    weapon: "weapons",
+    material: "materials",
+    "furnishing-set": "fs",
   }
 
-  // /weapon/** -> /weapons/**
-  {
-    const match = to.path.match(/^\/weapon(?:\/.*)?$/)
-
-    if (match) {
-      return navigateTo(`/weapons${match[1] || ""}`, {redirectCode: 308})
-    }
-  }
-
-  // /material/** -> /materials/**
-  {
-    const match = to.path.match(/^\/material(?:\/.*)?$/)
-
-    if (match) {
-      return navigateTo(`/materials${match[1] || ""}`, {redirectCode: 308})
-    }
+  const path = to.path.replace(/^\/+/, "")
+  const [first, ...rest] = path.split("/")
+  const newPath = pathsToRedirect[first]
+  if (newPath) {
+    return navigateTo(`/${newPath}/${rest.join("/")}`, {redirectCode: 308})
   }
 })
