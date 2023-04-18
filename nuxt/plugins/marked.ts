@@ -20,10 +20,6 @@ export default defineNuxtPlugin(() => {
           }
         }
 
-        renderer.list = (body) => {
-          return `<ul class="pl-4">${body}</ul>`
-        }
-
         marked.options({
           gfm,
           renderer,

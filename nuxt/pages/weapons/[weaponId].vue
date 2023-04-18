@@ -34,7 +34,11 @@
               <span>{{ $t("weaponDetailsPage.subStat") }}: </span>
               {{ $t(weapon.subStat === "none" ? "weaponDetailsPage.none" : `stats.${weapon.subStat}`) }}
             </h3>
-            <p v-if="weapon.hasDescription" v-html="marked.parse($t(`weaponDescriptions.${weapon.id}`))" />
+            <div
+              v-if="weapon.hasDescription"
+              class="doc-container"
+              v-html="marked.parse($t(`weaponDescriptions.${weapon.id}`))"
+            />
           </div>
         </v-expansion-panel-text>
       </v-expansion-panel>
