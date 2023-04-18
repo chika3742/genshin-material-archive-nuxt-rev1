@@ -4,7 +4,7 @@
       <h2>{{ $t("about.settings.heading") }}</h2>
     </section>
 
-    <section v-html="marked.parse($t('about.feedback'))" />
+    <section v-html="marked.parse(i18n.t('about.feedback', {feedbackUrl, githubIssueUrl}))" />
 
     <section>
       <div v-html="marked.parse($t('about.buyMeCoffee'))" />
@@ -46,4 +46,9 @@ marked.setOptions({
 definePageMeta({
   title: "about",
 })
+
+const feedbackUrl = "https://www.chikach.net/gms-v4-alpha-feedback/"
+const githubIssueUrl = "https://github.com/chika3742/genshin-material/issues"
+
+const i18n = useI18n()
 </script>

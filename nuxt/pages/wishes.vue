@@ -30,7 +30,7 @@
       <v-expansion-panel>
         <v-expansion-panel-title>{{ $t("wishesPage.howToGetUrl.ios.h") }}</v-expansion-panel-title>
         <v-expansion-panel-text>
-          <div v-html="marked.parse($t('wishesPage.howToGetUrl.ios.contents'))" />
+          <div v-html="marked.parse(i18n.t('wishesPage.howToGetUrl.ios.contents', {streamUrl}))" />
         </v-expansion-panel-text>
       </v-expansion-panel>
     </v-expansion-panels>
@@ -107,6 +107,8 @@ marked.options({
 definePageMeta({
   title: "wishes",
 })
+
+const streamUrl = "https://apps.apple.com/app/stream/id1312141691"
 
 const config = useConfigStore()
 const i18n = useI18n()

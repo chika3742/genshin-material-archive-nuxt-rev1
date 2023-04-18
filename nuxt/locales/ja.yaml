@@ -142,7 +142,7 @@ wishesPage:
     ios:
       h: URL取得方法 (iOS/iPadOS)
       contents: |
-        1. App Storeより[Stream](https://apps.apple.com/app/stream/id1312141691)アプリをインストールします。 
+        1. App Storeより[Stream]({streamUrl})アプリをインストールします。 
         2. Streamアプリを起動し、「Sniff Now」をタップして「"Stream"がVPN構成の追加を求めています」というダイアログが表示されたら「許可」をタップします。(パスコードの入力が要求されるので、入力します。) 
         3. Streamアプリに戻ると「You must install CA」という内容のダイアログが表示されるので、「Install CA」をタップし、「Install CA Certificate」をタップします。 
         4. 「このWebサイトは構成プロファイルを・・・」と表示されるので、「許可」をタップします。
@@ -176,7 +176,7 @@ about:
   feedback: |
     ## フィードバックについて
     
-    このアプリについてのフィードバック(誤植などの報告)や要望は、[こちらのページ](https://www.chikach.net/gms-v4-alpha-feedback/)のコメント欄にコメントを書くか、[GitHub](https://github.com/chika3742/genshin-material/issues)でIssueを立てていただきますようお願いします。
+    このアプリについてのフィードバック(誤植などの報告)や要望は、[こちらのページ]({feedbackUrl})のコメント欄にコメントを書くか、[GitHub]({githubIssueUrl})でIssueを立てていただきますようお願いします。
 
   aboutDeveloper: |
     ## 開発者について

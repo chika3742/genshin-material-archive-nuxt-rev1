@@ -143,7 +143,7 @@ wishesPage:
     ios:
       h: How to get URL (iOS/iPadOS)
       contents: |
-        1. Install the [Stream](https://apps.apple.com/app/stream/id1312141691) app from the App Store.
+        1. Install the [Stream]({streamUrl}) app from the App Store.
         2. Launch the Stream app and tap "Sniff Now". A dialog will appear asking you to "Allow "Stream" to add a VPN configuration". Tap "Allow".
         3. Return to the Stream app and a dialog will appear saying "You must install CA". Tap "Install CA" and then tap "Install CA Certificate".
         4. A dialog will appear saying "This website is requesting to install a configuration profile". Tap "Allow".
@@ -177,7 +177,7 @@ about:
   feedback: |
     ## Feedback
     
-    If you have any feedback or requests, please leave a comment on [this page](https://www.chikach.net/gms-v4-alpha-feedback/) or [open an issue on GitHub](https://github.com/chika3742/genshin-material/issues).
+    If you have any feedback or requests, please leave a comment on [this page]({feedbackUrl}) or [open an issue on GitHub]({githubIssueUrl}).
 
   aboutDeveloper: |
     ## About the Developer
