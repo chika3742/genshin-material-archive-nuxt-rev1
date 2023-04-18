@@ -55,16 +55,15 @@
 </template>
 
 <script lang="ts" setup>
-import {marked} from "marked"
 import releaseNotes from "~/assets/data/release-notes.yaml"
-
-marked.options({
-  headerIds: false,
-})
 
 definePageMeta({
   title: "releaseNotes",
 })
+
+const {$marked} = useNuxtApp()
+
+const marked = $marked({})
 </script>
 
 <style lang="sass">

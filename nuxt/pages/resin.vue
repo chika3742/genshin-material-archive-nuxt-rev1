@@ -36,7 +36,6 @@
 
 <script lang="ts" setup>
 import moment from "moment"
-import {marked} from "marked"
 import {useConfigStore} from "~/store/config"
 import {ref} from "#imports"
 
@@ -45,6 +44,9 @@ definePageMeta({
 })
 
 const config = useConfigStore()
+const {$marked} = useNuxtApp()
+
+const marked = $marked({})
 
 const error = ref("")
 

@@ -32,17 +32,6 @@
 </template>
 
 <script lang="ts" setup>
-import {marked} from "marked"
-
-const renderer = new marked.Renderer()
-renderer.link = (href, _, text) => {
-  return `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`
-}
-
-marked.setOptions({
-  renderer,
-})
-
 definePageMeta({
   title: "about",
 })
@@ -51,4 +40,7 @@ const feedbackUrl = "https://www.chikach.net/gms-v4-alpha-feedback/"
 const githubIssueUrl = "https://github.com/chika3742/genshin-material/issues"
 
 const i18n = useI18n()
+const {$marked} = useNuxtApp()
+
+const marked = $marked({})
 </script>

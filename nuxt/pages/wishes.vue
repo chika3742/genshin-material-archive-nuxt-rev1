@@ -93,16 +93,11 @@
 
 <script lang="ts" setup>
 import {doc, onSnapshot} from "@firebase/firestore"
-import {marked} from "marked"
 import {ref} from "#imports"
 import {WishHistoryApi} from "~/libs/wish-history-api"
 import {useConfigStore} from "~/store/config"
 import {useWishesStore} from "~/store/wishes"
 import {wishHistoryTicketConverter} from "~/utils/wish-history-ticket-converter"
-
-marked.options({
-  gfm: false,
-})
 
 definePageMeta({
   title: "wishes",
@@ -115,7 +110,9 @@ const i18n = useI18n()
 const wishes = useWishesStore()
 const snackbar = useSnackbar()
 const dialog = useDialog()
-const {$functions, $firestore} = useNuxtApp()
+const {$functions, $firestore, $marked} = useNuxtApp()
+
+const marked = $marked({gfm: false})
 
 const url = ref(config.wishHistoryUrl)
 const error = ref("")

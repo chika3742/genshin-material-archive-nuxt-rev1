@@ -43,28 +43,16 @@
 </template>
 
 <script lang="ts" setup>
-import {marked} from "marked"
 import weapons from "~/assets/data/weapons.yaml"
-
-const renderer = new marked.Renderer()
-
-renderer.strong = (text) => {
-  return `<span class="text-light-blue font-weight-bold">${text}</span>`
-}
-
-renderer.list = (body) => {
-  return `<ul class="pl-4">${body}</ul>`
-}
-
-marked.options({
-  renderer,
-})
 
 definePageMeta({
   title: "weapons__weaponId",
 })
 
 const route = useRoute()
+const {$marked} = useNuxtApp()
+
+const marked = $marked({strongColored: true})
 
 if (weapons.every(e => e.id !== route.params.weaponId)) {
   throw createError({statusCode: 404, message: "weapon not found"})
