@@ -38,6 +38,9 @@ definitions:
         items:
           type: object
           additionalProperties: false
+          required:
+            - id
+            - quantity
           properties:
             id:
               type: string

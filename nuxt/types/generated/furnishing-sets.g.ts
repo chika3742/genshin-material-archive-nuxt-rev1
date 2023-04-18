@@ -26,11 +26,11 @@ export interface FurnishingSet {
     /**
      * 調度品のID
      */
-    id?: string;
+    id: string;
     /**
      * 調度品の個数
      */
-    quantity?: number;
+    quantity: number;
   }[];
   /**
    * この調度品セットを好むキャラクター
