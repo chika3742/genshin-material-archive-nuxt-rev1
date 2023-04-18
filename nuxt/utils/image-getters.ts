@@ -19,3 +19,11 @@ export const getWeaponImage = (weaponId: string) => {
 export const getMaterialImage = (materialId: string) => {
   return new URL(`../assets/img/materials/${materialId}.webp`, import.meta.url).toString()
 }
+
+export const getFurnishingSetImage = (furnishingSetId: string) => {
+  return new URL(`../assets/img/furnishing-sets/${furnishingSetId}.webp`, import.meta.url).toString()
+}
+
+export const getFurnitureImage = (furnitureId: string) => {
+  return new URL(`../assets/img/furniture/${furnitureId}.webp`, import.meta.url).toString()
+}
