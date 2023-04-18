@@ -65,6 +65,7 @@ weaponDetailsPage:
     title: Weapon Lv Up / Ascension Materials
   effects: Weapon Effects
   subStat: Sub Stat
+  none: None
 
 materialDetailsPage:
   teyvatMap: Teyvat Interactive Map

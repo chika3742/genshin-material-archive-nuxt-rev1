@@ -26,7 +26,16 @@ export interface Weapon {
   /**
    * 武器のサブステータス
    */
-  subStat?: "atkPercent" | "hpPercent" | "defPercent" | "recharge" | "critRate" | "critDmg" | "em" | "physicalDmgBonus";
+  subStat?:
+    | "none"
+    | "atkPercent"
+    | "hpPercent"
+    | "defPercent"
+    | "recharge"
+    | "critRate"
+    | "critDmg"
+    | "em"
+    | "physicalDmgBonus";
   /**
    * 武器の説明文があるかどうか
    */

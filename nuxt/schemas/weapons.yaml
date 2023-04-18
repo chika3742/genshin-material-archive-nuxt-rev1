@@ -43,6 +43,7 @@ definitions:
         description: 武器のサブステータス
         type: string
         enum:
+          - none
           - atkPercent
           - hpPercent
           - defPercent

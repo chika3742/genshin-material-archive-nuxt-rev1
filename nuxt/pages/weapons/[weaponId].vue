@@ -31,7 +31,8 @@
         <v-expansion-panel-text>
           <div class="d-flex flex-column" style="gap: 16px">
             <h3 v-if="weapon.subStat">
-              <span>{{ $t("weaponDetailsPage.subStat") }}: </span>{{ $t(`stats.${weapon.subStat}`) }}
+              <span>{{ $t("weaponDetailsPage.subStat") }}: </span>
+              {{ $t(weapon.subStat === "none" ? "weaponDetailsPage.none" : `stats.${weapon.subStat}`) }}
             </h3>
             <p v-if="weapon.hasDescription" v-html="marked.parse($t(`weaponDescriptions.${weapon.id}`))" />
           </div>

@@ -65,6 +65,7 @@ weaponDetailsPage:
     title: 武器Lvアップ/突破素材
   effects: 武器効果
   subStat: サブステータス
+  none: なし
 
 materialDetailsPage:
   teyvatMap: テイワットマップ
