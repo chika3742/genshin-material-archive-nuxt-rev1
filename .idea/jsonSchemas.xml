@@ -3,6 +3,28 @@
   <component name="JsonSchemaMappingsProjectConfiguration">
     <state>
       <map>
+        <entry key="GitHub issue forms">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="GitHub issue forms" />
+              <option name="relativePathToSchema" value="https://json.schemastore.org/github-issue-forms.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value=".github/ISSUE_TEMPLATE/bug-report.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value=".github/ISSUE_TEMPLATE/feature-request.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value=".github/ISSUE_TEMPLATE/typo-report.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
         <entry key="JSON Schema version 7">
           <value>
             <SchemaInfo>
