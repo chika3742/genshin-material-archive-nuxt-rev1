@@ -113,9 +113,9 @@ export default defineNuxtConfig({
     },
   },
 
-  experimental: {
-    payloadExtraction: false,
-  },
+  // experimental: {
+  //   payloadExtraction: false,
+  // },
 
   runtimeConfig: {
     public: {

@@ -33,7 +33,6 @@
                   <v-list v-model:selected="filter.element">
                     <v-list-item v-for="item in elements" :key="item" :value="item" class="justify-center">
                       <v-img
-                        :src="getElementImage(item)"
                         :style="`filter: brightness(${$vuetify.theme.global.name === 'light' ? '0' : '1'})`"
                         height="30px"
                         width="30px"
@@ -84,10 +83,9 @@
 
 <script lang="ts" setup>
 import {getInteractionTypeText} from "~/utils/is-touch-device"
-import {computed, ref} from "#imports"
+import {computed, ref, useAsyncData} from "#imports"
 import {elements, GenshinElement, WeaponType, weaponTypes} from "~/types/strings"
-import {getElementImage} from "~/utils/image-getters"
-import originalCharacterList from "~/assets/data/characters.yaml"
+import {ExtractedCharacter} from "~/types/extracted-character"
 
 definePageMeta({
   title: "characters",
@@ -109,8 +107,28 @@ const filter = ref<{
   rarity: [undefined],
 })
 
-const characters = computed(() => {
-  let result = [...originalCharacterList]
+const {data: rawCharacters} = useAsyncData<ExtractedCharacter[]>("characters", async() => {
+  const characters = (await import("~/assets/data/characters.yaml")).default
+
+  return await Promise.all(characters.map<Promise<ExtractedCharacter>>(async character => ({
+    id: character.id,
+    yomi: character.yomi,
+    path: `/characters/${character.id}`,
+    name: i18n.t(`characters.${character.id}`),
+    elementImageUrl: (await import((`../../assets/img/elements/${character.element}.webp`))).default,
+    imageUrl: (await import((`../../assets/img/characters/${character.id}.webp`))).default,
+    element: character.element,
+    weaponType: character.weaponType,
+    rarity: character.rarity,
+  })))
+})
+
+const characters = computed<ExtractedCharacter[]>(() => {
+  if (rawCharacters.value === null) {
+    return []
+  }
+
+  let result = [...rawCharacters.value]
 
   if (filter.value.element[0]) {
     result = result.filter(e => e.element === filter.value.element[0])
