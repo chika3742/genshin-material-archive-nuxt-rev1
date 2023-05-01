@@ -76,7 +76,6 @@
     </v-row>
 
     <v-row class="mt-4" no-gutters style="gap: 16px" justify="space-evenly">
-      <v-progress-circular v-if="pending" indeterminate />
       <CharacterCard v-for="character in characters" :key="character.id" :character="character" />
     </v-row>
   </div>
@@ -108,12 +107,7 @@ const filter = ref<{
   rarity: [undefined],
 })
 
-const {data: rawCharacters, pending} = useAsyncData<ExtractedCharacter[]>("characters", async() => {
-  const payload = (await loadPayload("/characters"))?.data.characters
-  if (payload) {
-    return payload
-  }
-
+const {data: rawCharacters} = useAsyncData<ExtractedCharacter[]>("characters", async() => {
   const characters = (await import("~/assets/data/characters.yaml")).default
 
   return await Promise.all(characters.map<Promise<ExtractedCharacter>>(async character => ({
