@@ -1,19 +1,20 @@
 <template>
-  <v-card :to="localePath(character.path)" :v-slot:loader="false" class="character-card">
-    <v-img :src="character.elementImageUrl" class="character-card__element" />
+  <v-card :to="localePath(`/characters/${character.id}`)" :v-slot:loader="false" class="character-card">
+    <v-img :src="getElementImage(character.element)" class="character-card__element" />
     <v-img
-      :src="character.imageUrl"
+      :src="getCharacterImage(character.id, 'full')"
       :style="`filter: brightness(${$vuetify.theme.name === 'dark' ? '0.8' : '1'})`"
     />
-    <span class="font-kaisei-opti">{{ character.name }}</span>
+    <span class="font-kaisei-opti">{{ $t(`characters.${character.id}`) }}</span>
   </v-card>
 </template>
 
 <script lang="ts" setup>
-import {ExtractedCharacter} from "~/types/extracted-character"
+import {getCharacterImage, getElementImage} from "~/utils/image-getters"
+import {Character as _Character} from "~/types/generated/characters.g"
 
 defineProps<{
-  character: ExtractedCharacter
+  character: _Character
 }>()
 
 </script>
