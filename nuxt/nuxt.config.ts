@@ -93,6 +93,9 @@ export default defineNuxtConfig({
   },
 
   vite: {
+    build: {
+      assetsInlineLimit: 0,
+    },
     plugins: [
       yaml({
         exclude: "locales/**",
