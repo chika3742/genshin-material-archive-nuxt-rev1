@@ -2,6 +2,10 @@
 
 原神プレイヤーのための便利ツール群
 
+## ⚠️重要なお知らせ
+
+本リポジトリは[chika3742/genshin-material-next](https://github.com/chika3742/genshin-material-next)に移行しました。
+
 ## このリポジトリについて
 
 このリポジトリは、v4のアルファ版です。現行バージョン原神素材ヘルパーは[こちら](https://gms.chikach.net)で公開しています。
