@@ -4,7 +4,7 @@
 
 ## ⚠️重要なお知らせ
 
-本リポジトリは[chika3742/genshin-material-next](https://github.com/chika3742/genshin-material-next)に移行しました。
+本リポジトリは[chika3742/genshin-material](https://github.com/chika3742/genshin-material)に移行しました。
 
 ## このリポジトリについて
 
